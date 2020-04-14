@@ -1,0 +1,8 @@
+This directory contains tables with annotation of null phenotypes from the following organisms:
+	
+	- Drosophila melanogaster (ftp://ftp.flybase.net/releases/FB2019_01/precomputed_files/alleles/allele_phenotypic_data_fb_2019_01.tsv.gz)
+	- Mus musculus (http://www.informatics.jax.org/downloads/reports/MGI_PhenoGenoMP.rpt)
+	- Saccharomyces cerevisiae (https://downloads.yeastgenome.org/curation/literature/phenotype_data.tab)
+	- Caenorhabditis elegans (table filtered from Wormbase. The c_elegans_filtered.csv" table has only the essential genes).
+
+For datasets selection and pre-processing details, see Supplementary Material. 

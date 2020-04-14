@@ -1,0 +1,17 @@
+categories	description	mp_id
+Late lethality	neonatal lethality	MP:0002058
+Late lethality	postnatal lethality	MP:0002082
+Early lethality	embryonic lethality before implantation	MP:0006204
+Mild lethality	embryonic lethality	MP:0008762
+Late lethality	lethality at weaning, complete penetrance	MP:0011083
+Late lethality	postnatal lethality, complete penetrance	MP:0011085
+Late lethality	neonatal lethality, complete penetrance	MP:0011087
+Mild lethality	embryonic lethality, complete penetrance	MP:0011092
+Early lethality	embryonic lethality at implantation, complete penetrance	MP:0011093
+Early lethality	embryonic lethality before implantation, complete penetrance	MP:0011094
+Mild lethality	embryonic lethality between implantation and placentation, complete penetrance	MP:0011095
+Mild lethality	embryonic lethality between implantation and somite formation, complete penetrance	MP:0011096
+Mild lethality	embryonic lethality between somite formation and embryo turning, complete penetrance	MP:0011097
+Mild lethality	embryonic lethality during organogenesis, complete penetrance	MP:0011098
+Mild lethality	lethality throughout fetal growth and development, complete penetrance	MP:0011099
+Late lethality	preweaning lethality, complete penetrance	MP:0011100

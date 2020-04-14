@@ -1,0 +1,11 @@
+GO_enrichment directory has scripts used in functional enrichment analysis with Gene Ontology.
+Genes were first mapped to their corresponding ENTREZ IDS, with each organism annotation package (ann.db) from Bioconductor 3.8. 
+Functional enrichment analysis was performed with 'enrichGO()' function from clusterProfile package (http://bioconductor.org/packages/release/bioc/html/clusterProfiler.html). 
+
+- enrich_tables.R: script for functional enrichment analysis considering:
+	- multicellular and yeast exclusive essential orthologs;
+	- mouse categories;
+	- 30th and 70th percentiles of essential genes;
+	- essential genes orthologs exclusive to each organism.
+
+- enrich_tree_and_leaf.R: dendrogram calculation and tree and leaf ploting. 

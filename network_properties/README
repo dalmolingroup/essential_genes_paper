@@ -1,0 +1,6 @@
+network_properties directory holds files for network topology analysis. It has:
+
+- PPI tables: *_int.csv corresponds to the PPI information retrieved from STRING database version 11 for each organism. Interaction information was inferred from "databases" and "experiments" sources. We filtered interactions with combined score >= 0.4. 
+- np.R: script for network properties analysis using igraph() package. 
+- mouse (directory): contains network analysis for mouse categories.  
+
