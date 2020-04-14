@@ -21,3 +21,5 @@ M. musculus information was retrieved from Mouse Genome Database (www.informatic
   - Early lethality: genes that cause lethality from fertilization to embryo implantation
   - Mild lethality: genes that cause lethality from embryo implantation to birth;
   - Late lethality: genes that cause lethality right after birth (a few weeks after pup birth).
+  
+  Mouse categories table can be found at `scripts_geneplast/mouse/ontologies_lethal_categories_final.csv`
