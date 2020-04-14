@@ -31,7 +31,7 @@ M. musculus information was retrieved from Mouse Genome Database (www.informatic
   - `GO_enrichment`: performs enrichment analysis using Gene Ontology;
   - `network_properties`: holds script for node degree and betweenness analysis of PPI networks;
   - `plot`: holds the code for the figures in the paper; 
-  - `datasets`: stores the files acquires in the *Datasets selection* section. 
+  - `datasets`: stores the files acquired in *Datasets selection* section. 
   
   
   
