@@ -6,4 +6,4 @@ geneplast_objects directory holds:
 		- ssp: a dataframe with metadata for all 334 eukaryotes.
 - tree_time_tree.nwk: a phylogenetic tree in newick format.
 
-The geneplastData.RData can be reutilized to run other geneplast analysis (considering eukaryotes only). 
+The geneplastData.RData can be reutilized to run other geneplast analyses (considering eukaryotes only). 
