@@ -15,8 +15,8 @@ D. melanogaster data was retrieved from Flybase (flybase.org, FB2018_06 Dmel rel
  
 - Caenorhabditis elegans  
 
-C. elegans data was retrieved from Wormbase (wormbase.org, release WS270). Steps for retrieving genes classified as lethal are the following:
-	- On the WormBase site, go to “search directory” and change the search for “Phenotype”. Then we searched for “lethal”.
+C. elegans data was retrieved from Wormbase (wormbase.org, release WS270). Steps for retrieving genes classified as lethal are the following:  
+	- On the WormBase site, go to “search directory” and change the search for “Phenotype”. Then we searched for “lethal”.  
 	- We selected the genes related to “embryonic lethal”, “larval lethal”, and “adult lethal”. This list of genes includes knock-out (marked as “Variants”)  and knock-down genes (marked as “RNAi”) and is saved as “c_elegans_filtered.csv”. 
   
 - Mus musculus  
