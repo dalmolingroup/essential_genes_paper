@@ -34,6 +34,9 @@ idx <- grep('incomplete penetrance', ontologies_lethal_categories$description)
 ontologies_lethal_categories <- ontologies_lethal_categories[-idx, ]
 idx <- grep(',', ontologies_lethal_categories$categories)
 ontologies_lethal_categories <- ontologies_lethal_categories[-idx, ]
+write.csv(ontologies_lethal_categories, 
+          file = "scripts_geneplast/mouse/ontologies_lethal_categories_final.csv", 
+          quote = F, row.names = F)
 
 # merge tables of lethal genes and ontologies
 lethal_genes_table <- inner_join(table_merged_lethal, ontologies_lethal_categories,
