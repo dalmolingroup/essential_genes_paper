@@ -1,6 +1,7 @@
 geneplast_objects directory holds:
-	- geneplastData.RData: geneplast object containing:
+
+- geneplastData.RData: contains data required for geneplast analysis. It holds three objects:
 		- cogdata: a dataframe with COGs annotation for the 334 eukaryotes annotated in STRING database version 11;
 		- phyloTree: a phylo objects build from STRING eukaryote tree and curated with TimeTree database (334 eukaryotes). 
-		- ssp: a dataframe with metadade for all 334 eukaryotes.
-	- tree_time_tree.nwk: a phylogenetic tree in newick format.
+		- ssp: a dataframe with metadata for all 334 eukaryotes.
+- tree_time_tree.nwk: a phylogenetic tree in newick format.
