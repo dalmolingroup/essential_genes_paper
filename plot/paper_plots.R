@@ -166,3 +166,17 @@ ggsave(plot4, filename = "plot/plot_mouse2.png",
 ggsave(plot4, filename = "plot/plot_mouse2.svg",
        width = 5, height = 5)
 
+
+# Proportion of essential genes in each organism --------------------------
+
+table %>%
+  select(ensembl_peptide_id, lethal_nonlethal, organism) %>%
+  group_by(organism) %>% 
+  summarise(
+    lethal_cogs_num = n_distinct(ensembl_peptide_id[lethal_nonlethal == "lethal"]),
+    total_cogs_num = n_distinct(ensembl_peptide_id),
+    proportion = round(n_distinct(ensembl_peptide_id[lethal_nonlethal == "lethal"]) / n_distinct(ensembl_peptide_id), 2)
+  ) %>% 
+  write.csv(file = "essential_genes_proportion.csv", row.names = F, quote = F)
+
+

@@ -145,3 +145,64 @@ save(res.plast.mouse, res.root.mouse,ogp.mouse, ogr, root_genes_mouse,
 
 groot.plot(ogr,plot.lcas = TRUE, fname = "scripts_geneplast/mouse/categories/tree_mouse_categories.pdf")
 
+
+# Compare proportion of essential genes in the three categories -----------
+
+# Load mouse data 
+load("mouse/geneplast_results.RData")
+load("table_plot_mouse.RData")
+
+# Get roots for each category
+root <- unique(table_plot_mouse[, c(2,3)])
+
+# Get 90th root percentile 
+old_root <- quantile(root$Root, probs = 0.9)
+
+# Select the roots greater or equal than the 90th percentile
+res <- root_genes_mouse %>% 
+  group_by(categories) %>% 
+  mutate(prop = ifelse(Root >= old_root, 1, 0))
+
+# Count the number of older COGs and the total number of COGs by category
+case <- tapply(res$prop[res$prop == 1], res$categories[res$prop == 1], sum)
+total <- tapply(res$prop, res$categories, length)
+
+# Perform proportion test
+test <- prop.test(case, total)
+prop <- as.vector(test$estimate)
+names(prop) <- c("early", "late", "mild")
+prop.trend.test(case, total)
+
+dt <- data.frame(categories = c("Early", "Late", "Mild"), 
+                 prop = prop, stringsAsFactors = F)
+dt$categories <- factor(dt$categories, levels = c("Early", "Mild", "Late"))
+
+# Plot
+library(ggplot2)
+library(ggpubr)
+plot1 <- ggplot(dt, aes(x = categories, y = prop)) +
+  geom_bar(stat = "identity") +
+  theme_classic() +
+  labs(title = "", x = "", y = "Proportion") + 
+  theme(axis.text = element_text(face = "plain", size = 12, vjust = 0.5),
+        axis.ticks.x = element_blank(),
+        axis.line.x.top = element_blank(),
+        panel.grid = element_blank(),
+        axis.line.y.right = element_blank(),
+        
+        plot.title = element_text(face = "plain", hjust = 0.5)) 
+
+plot1
+
+
+
+
+
+
+
+
+
+
+
+
+

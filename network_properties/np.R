@@ -1,7 +1,6 @@
 library(igraph)
 library(dplyr)
 library(tidyr)
-library(plotly)
 library(ggridges)
 library(ggplot2)
 library(purrr)
@@ -103,7 +102,7 @@ btw <- inner_join(btw, table[, c("ensembl_peptide_id", "Root", "lethal_nonlethal
                   by = c("protein" = "ensembl_peptide_id"))
 
 btw <- btw %>% 
-  group_by(organism, category) %>% 
+  group_by(organism, lethal_nonlethal) %>% 
   filter(btw < mean(btw) * 5)
 
 density_plot_btw <- ggplot(btw, aes(x = btw,  y = organism, fill = lethal_nonlethal)) +
@@ -290,34 +289,7 @@ ggsave(filename = "mouse_btw.png", width = 10, height = 7)
 
 # Network properties by percentiles ---------------------------------------
 
-species <- c("Caenorhabditis \nelegans", "Drosophila \nmelanogaster", 
-             "Mus \nmusculus", "Saccharomyces \ncerevisiae")
-
-# Get the upper 30 pencentile
-percent_30 <- sapply(split(table$Root, table$organism), function (i) {
-  quantile(i, probs = 0.3)
-})
-names(percent_30) <- species
-
-percent_70 <- sapply(split(table$Root, table$organism), function (i) {
-  quantile(i, probs = 0.7)
-})
-names(percent_70) <- species
-
-dg$percent <- ""
-lapply(species, function (i) {
-  dg$percent[dg$organism == i] <<- ifelse(dg$Root[dg$organism == i] <= percent_30[i], "percent_30", 
-                                          ifelse(dg$Root[dg$organism == i] >= percent_70[i], "percent_70", NA))
-})
-dg_percent <- na.omit(dg)
-
-btw$percent <- ""
-lapply(species, function (i) {
-  btw$percent[btw$organism == i] <<- ifelse(btw$Root[btw$organism == i] <= percent_30[i], "percent_30", 
-                                            ifelse(btw$Root[btw$organism == i] >= percent_70[i], "percent_70", NA))
-})
-btw_percent <- na.omit(btw)
-
+# BY PERCENT COMPARISON ----
 # degree - percent 30
 dg_percent30 <- ggplot(dg_percent[dg_percent$percent == "percent_30",], aes(x = organism, y = degree, fill = factor(lethal_nonlethal)) ) +
   geom_bar(stat = "summary", fun.y = "mean", position = pos.d) +
@@ -325,15 +297,15 @@ dg_percent30 <- ggplot(dg_percent[dg_percent$percent == "percent_30",], aes(x = 
                lwd = 0.6, position = pos.d, width = 0.2) +
   scale_fill_manual(values = c(lethal = "#ff4a4aff", nonlethal = "#3939c0ff"), 
                     labels = c("Essential", "Others"), guide = guide_legend("")) +
-  labs(x = "", y = "<k>", title = "Newer roots") +
+  labs(x = "", y = "<k>") +
   theme_classic() + 
-  theme(axis.text.x = element_text(face = "italic", size = 11), 
+  theme(axis.text.x = element_text(face = "italic", size = 8), 
         axis.text.y = element_text(size = 12),
         axis.title = element_text(size = 13),
         axis.line.x = element_blank(),
         axis.ticks.x = element_blank(),
         plot.title = element_text(face = "plain", hjust = 0.5)) +
-  stat_compare_means(method = "wilcox.test", label = "p.signif", label.x = 1.5, label.y = 160)
+  stat_compare_means(method = "wilcox.test", label = "p.signif", label.x = 1.5, label.y = 200)
 
 # degree - percent 70
 dg_percent70 <- ggplot(dg_percent[dg_percent$percent == "percent_70",], aes(x = organism, y = degree, fill = factor(lethal_nonlethal)) ) +
@@ -342,15 +314,15 @@ dg_percent70 <- ggplot(dg_percent[dg_percent$percent == "percent_70",], aes(x = 
                lwd = 0.6, position = pos.d, width = 0.2) +
   scale_fill_manual(values = c(lethal = "#ff4a4aff", nonlethal = "#3939c0ff"), 
                     labels = c("Essential", "Others"), guide = guide_legend("")) +
-  labs(x = "", y = "<k>", title = "Older roots") +
+  labs(x = "", y = "<k>") +
   theme_classic() + 
-  theme(axis.text.x = element_text(face = "italic", size = 11), 
+  theme(axis.text.x = element_text(face = "italic", size = 8), 
         axis.text.y = element_text(size = 12),
         axis.title = element_text(size = 13),
         axis.line.x = element_blank(),
         axis.ticks.x = element_blank(),
         plot.title = element_text(face = "plain", hjust = 0.5)) +
-  stat_compare_means(method = "wilcox.test", label = "p.signif", label.x = 1.5, label.y = 160)
+  stat_compare_means(method = "wilcox.test", label = "p.signif", label.x = 1.5, label.y = 200)
 
 # betweenness - percent 30
 btw_percent30 <- ggplot(btw_percent[btw_percent$percent == "percent_30",], aes(x = organism, y = btw, fill = factor(lethal_nonlethal)) ) +
@@ -359,15 +331,16 @@ btw_percent30 <- ggplot(btw_percent[btw_percent$percent == "percent_30",], aes(x
                lwd = 0.6, position = pos.d, width = 0.2) +
   scale_fill_manual(values = c(lethal = "#ff4a4aff", nonlethal = "#3939c0ff"), 
                     labels = c("Essential", "Others"), guide = guide_legend("")) +
-  labs(x = "", y = "Betweenness", title = "Newer roots") +
+  scale_y_continuous(labels = comma) +
+  labs(x = "", y = "Betweenness") +
   theme_classic() + 
-  theme(axis.text.x = element_text(face = "italic", size = 11), 
+  theme(axis.text.x = element_text(face = "italic", size = 8), 
         axis.text.y = element_text(size = 12),
         axis.title = element_text(size = 13),
         axis.line.x = element_blank(),
         axis.ticks.x = element_blank(),
         plot.title = element_text(face = "plain", hjust = 0.5)) +
-  stat_compare_means(method = "wilcox.test", label = "p.signif", label.x = 1.5, label.y = 2e-3)
+  stat_compare_means(method = "wilcox.test", label = "p.signif", label.x = 1.5, label.y = 1.2e-3)
 
 # betweenness - percent 70
 btw_percent70 <- ggplot(btw_percent[btw_percent$percent == "percent_70",], aes(x = organism, y = btw, fill = factor(lethal_nonlethal)) ) +
@@ -376,33 +349,95 @@ btw_percent70 <- ggplot(btw_percent[btw_percent$percent == "percent_70",], aes(x
                lwd = 0.6, position = pos.d, width = 0.2) +
   scale_fill_manual(values = c(lethal = "#ff4a4aff", nonlethal = "#3939c0ff"), 
                     labels = c("Essential", "Others"), guide = guide_legend("")) +
-  labs(x = "", y = "Betweenness", title = "Older roots") +
+  scale_y_continuous(labels = comma) + 
+  labs(x = "", y = "Betweenness") +
   theme_classic() + 
-  theme(axis.text.x = element_text(face = "italic", size = 11), 
+  theme(axis.text.x = element_text(face = "italic", size = 8), 
         axis.text.y = element_text(size = 12),
         axis.title = element_text(size = 13),
         axis.line.x = element_blank(),
         axis.ticks.x = element_blank(),
         plot.title = element_text(face = "plain", hjust = 0.5)) +
-  stat_compare_means(method = "wilcox.test", label = "p.signif", label.x = 1.5, label.y = 2e-3)
+  stat_compare_means(method = "wilcox.test", label = "p.signif", label.x = 1.5, label.y = 1.2e-3)
 
 
-ggarrange(dg_percent30, dg_percent70, btw_percent30, btw_percent70, ncol = 2, nrow = 2, common.legend = T)
-ggsave("percentiles_np.pdf", width = 11, height = 7)
-ggsave("plot/percentiles_np.pdf", width = 11, height = 7)
+ggarrange(dg_percent30, dg_percent70, btw_percent30, btw_percent70, ncol = 2, nrow = 2, common.legend = T, legend = "right")
+ggsave("percentiles_percent_np.pdf", width = 10, height = 5)
+ggsave("percentiles_percent_np.svg", width = 10, height = 5)
 
+# BY ESSENTIALITY COMPARISON ----
 
+# degree - essential
+dg_percent_essential <- ggplot(dg_percent[dg_percent$lethal_nonlethal == "lethal",], aes(x = organism, y = degree, fill = factor(percent)) ) +
+  geom_bar(stat = "summary", fun.y = "mean", position = pos.d) +
+  stat_summary(fun.data = mean_se, fun.args = list(mult = 1), geom = "errorbar", 
+               lwd = 0.6, position = pos.d, width = 0.2) +
+  scale_fill_manual(values = c(percent_30 = "#BFA454", percent_70 = "#D93D1A"), 
+                    labels = c("Young", "Old"), guide = guide_legend("")) +
+  labs(x = "", y = "<k>") +
+  theme_classic() + 
+  theme(axis.text.x = element_text(face = "italic", size = 8), 
+        axis.text.y = element_text(size = 12),
+        axis.title = element_text(size = 13),
+        axis.line.x = element_blank(),
+        axis.ticks.x = element_blank(),
+        plot.title = element_text(face = "plain", hjust = 0.5)) +
+  stat_compare_means(method = "wilcox.test", label = "p.signif", label.x = 1.5, label.y = 200)
 
+# degree - nonessential
+dg_percent_nonessential <- ggplot(dg_percent[dg_percent$lethal_nonlethal == "nonlethal",], aes(x = organism, y = degree, fill = factor(percent)) ) +
+  geom_bar(stat = "summary", fun.y = "mean", position = pos.d) +
+  stat_summary(fun.data = mean_se, fun.args = list(mult = 1), geom = "errorbar", 
+               lwd = 0.6, position = pos.d, width = 0.2) +
+  scale_fill_manual(values = c(percent_30 = "#BFA454", percent_70 = "#D93D1A"), 
+                    labels = c("Young", "Old"), guide = guide_legend("")) +
+  labs(x = "", y = "<k>") +
+  theme_classic() + 
+  theme(axis.text.x = element_text(face = "italic", size = 8), 
+        axis.text.y = element_text(size = 12),
+        axis.title = element_text(size = 13),
+        axis.line.x = element_blank(),
+        axis.ticks.x = element_blank(),
+        plot.title = element_text(face = "plain", hjust = 0.5)) +
+  stat_compare_means(method = "wilcox.test", label = "p.signif", label.x = 1.5, label.y = 200)
 
+# betweenness - essential
+btw_percent_essential <- ggplot(btw_percent[btw_percent$lethal_nonlethal == "lethal",], aes(x = organism, y = btw, fill = factor(percent)) ) +
+  geom_bar(stat = "summary", fun.y = "mean", position = pos.d) +
+  stat_summary(fun.data = mean_se, fun.args = list(mult = 1), geom = "errorbar", 
+               lwd = 0.6, position = pos.d, width = 0.2) +
+  scale_fill_manual(values = c(percent_30 = "#BFA454", percent_70 = "#D93D1A"), 
+                    labels = c("Young", "Old"), guide = guide_legend("")) +
+  scale_y_continuous(labels = comma) +
+  labs(x = "", y = "Betweenness") +
+  theme_classic() + 
+  theme(axis.text.x = element_text(face = "italic", size = 8), 
+        axis.text.y = element_text(size = 12),
+        axis.title = element_text(size = 13),
+        axis.line.x = element_blank(),
+        axis.ticks.x = element_blank(),
+        plot.title = element_text(face = "plain", hjust = 0.5)) +
+  stat_compare_means(method = "wilcox.test", label = "p.signif", label.x = 1.3, label.y = 1.2e-3)
 
+# betweenness - nonessential
+btw_percent_nonessential <- ggplot(btw_percent[btw_percent$lethal_nonlethal == "nonlethal",], aes(x = organism, y = btw, fill = factor(percent)) ) +
+  geom_bar(stat = "summary", fun.y = "mean", position = pos.d) +
+  stat_summary(fun.data = mean_se, fun.args = list(mult = 1), geom = "errorbar", 
+               lwd = 0.6, position = pos.d, width = 0.2) +
+  scale_fill_manual(values = c(percent_30 = "#BFA454", percent_70 = "#D93D1A"), 
+                    labels = c("Young", "Old"), guide = guide_legend("")) +
+  scale_y_continuous(labels = comma) +
+  labs(x = "", y = "Betweenness") +
+  theme_classic() + 
+  theme(axis.text.x = element_text(face = "italic", size = 8), 
+        axis.text.y = element_text(size = 12),
+        axis.title = element_text(size = 13),
+        axis.line.x = element_blank(),
+        axis.ticks.x = element_blank(),
+        plot.title = element_text(face = "plain", hjust = 0.5)) +
+  stat_compare_means(method = "wilcox.test", label = "p.signif", label.x = 1.5, label.y = 1.2e-3)
 
-
-
-
-
-
-
-
-
-
+ggarrange(dg_percent_essential, dg_percent_nonessential, btw_percent_essential, btw_percent_nonessential, ncol = 2, nrow = 2, common.legend = T, legend = "right")
+ggsave("percentiles_essential_np.pdf", width = 10, height = 5)
+ggsave("percentiles_essential_np.svg", width = 10, height = 5)
 
