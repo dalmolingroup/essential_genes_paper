@@ -7,5 +7,3 @@ Functional enrichment analysis was performed with 'enrichGO()' function from clu
 	- mouse categories;
 	- 30th and 70th percentiles of essential genes;
 	- essential genes orthologs exclusive to each organism.
-
-- enrich_tree_and_leaf.R: dendrogram calculation and tree and leaf ploting. 
