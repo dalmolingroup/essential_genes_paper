@@ -27,16 +27,16 @@ Essential genes datasets selection for each organism were conducted as follows (
 - Early lethality: genes that cause lethality from fertilization to embryo implantation
 - Mild lethality: genes that cause lethality from embryo implantation to birth;
 - Late lethality: genes that cause lethality right after birth (a few weeks after pup birth).
+
+Mouse categories table can be found at `scripts_geneplast/mouse/ontologies_lethal_categories_final.csv`
   
-  Mouse categories table can be found at `scripts_geneplast/mouse/ontologies_lethal_categories_final.csv`
-  
-  ## Directories in this repository
-  This repository is organized in the following directories:
-  - `scripts_geneplast`: holds geneplast scripts for all the considered organisms;
-  - `GO_enrichment`: performs enrichment analysis using Gene Ontology;
-  - `network_properties`: holds script for node degree and betweenness analysis of PPI networks;
-  - `plot`: holds the code for the figures in the paper; 
-  - `datasets`: stores the files acquired in *Datasets selection* section. 
+## Directories in this repository
+This repository is organized in the following directories:  
+- `scripts_geneplast`: holds geneplast scripts for all the considered organisms;
+- `GO_enrichment`: performs enrichment analysis using Gene Ontology;
+- `network_properties`: holds script for node degree and betweenness analysis of PPI networks;
+- `plot`: holds the code for the figures in the paper; 
+- `datasets`: stores the files acquired in *Datasets selection* section. 
   
   
   
