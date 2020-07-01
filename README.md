@@ -1,6 +1,6 @@
 # Evolutionary analysis of essential genes in eukaryote model organisms
 
-This repository has the scripts used in the evolutionary analysis of essential genes in *Saccharomyces cerevisiae*, *Drosophila melanogaster*, *Mus musculus* e *Caenorhabditis elegans* using the R/Bioconductor package **geneplast** (https://bioconductor.org/packages/release/bioc/html/geneplast.html).
+This repository has the scripts used in the evolutionary analysis of essential genes in *Saccharomyces cerevisiae*, *Drosophila melanogaster*, *Mus musculus* e *Caenorhabditis elegans* using the [**geneplast**](https://bioconductor.org/packages/release/bioc/html/geneplast.html) R/Bioconductor package.
 
 ## Datasets selection
 Essential genes datasets selection for each organism were conducted as follows (also depicted in Supplementary Methods):
