@@ -12,7 +12,7 @@ species <- c("celegans", "drosophila", "mouse", "yeast")
 # Load interaction tables
 invisible(lapply(species, function(i) {
   tryCatch( 
-    assign(i, read.csv(paste0(i, "_int400.csv"), stringsAsFactors = F, header = T), 
+    assign(i, read.csv(paste0("network_properties/", i, "_int.csv"), stringsAsFactors = F, header = T), 
            envir = .GlobalEnv),
     error = function(e) NULL
   )
