@@ -87,7 +87,7 @@ stopCluster(getOption("cluster"))
 res_root_drosp <- groot.get(ogr_drosp, what = "results")
 
 # Phylotree
-groot.plot(ogr_celegans, plot.lcas = T, fname = "tree_drosophila.pdf")
+groot.plot(ogr_drosp, plot.lcas = T, fname = "scripts_geneplast/drosophila/tree_drosophila.pdf", height = 20, width = 10)
 
 # MERGE TABLES OF ROOT INFERENCE AND GENES
 res_root_drosp$cog_id <- rownames(res_root_drosp)

@@ -1,0 +1,228 @@
+ID;Description
+GO:0005789;endoplasmic reticulum membrane
+GO:0003824;catalytic activity
+GO:0008152;metabolic process
+GO:0055114;oxidation-reduction process
+GO:0008652;cellular amino acid biosynthetic process
+GO:0016491;oxidoreductase activity
+GO:0015031;protein transport
+GO:0005743;mitochondrial inner membrane
+GO:0016798;hydrolase activity, acting on glycosyl bonds
+GO:0045292;mRNA cis splicing, via spliceosome
+GO:0005794;Golgi apparatus
+GO:0008270;zinc ion binding
+GO:0008380;RNA splicing
+GO:0005887;integral component of plasma membrane
+GO:0005886;plasma membrane
+GO:0006397;mRNA processing
+GO:0016829;lyase activity
+GO:0030176;integral component of endoplasmic reticulum membrane
+GO:0006355;regulation of transcription, DNA-templated
+GO:0070647;protein modification by small protein conjugation or removal
+GO:0003677;DNA binding
+GO:0006357;regulation of transcription by RNA polymerase II
+GO:0006629;lipid metabolic process
+GO:0016757;transferase activity, transferring glycosyl groups
+GO:0003779;actin binding
+GO:0005643;nuclear pore
+GO:0006487;protein N-linked glycosylation
+GO:0055085;transmembrane transport
+GO:0051301;cell division
+GO:0006508;proteolysis
+GO:0031965;nuclear membrane
+GO:0000398;mRNA splicing, via spliceosome
+GO:0000978;RNA polymerase II cis-regulatory region sequence-specific DNA binding
+GO:0030134;COPII-coated ER to Golgi transport vesicle
+GO:0008233;peptidase activity
+GO:0000981;DNA-binding transcription factor activity, RNA polymerase II-specific
+GO:0000139;Golgi membrane
+GO:0051015;actin filament binding
+GO:0006855;drug transmembrane transport
+GO:0051455;monopolar spindle attachment to meiosis I kinetochore
+GO:0051028;mRNA transport
+GO:0030479;actin cortical patch
+GO:0003676;nucleic acid binding
+GO:0005681;spliceosomal complex
+GO:0008289;lipid binding
+GO:0016251;RNA polymerase II general transcription initiation factor activity
+GO:0007049;cell cycle
+GO:0090305;nucleic acid phosphodiester bond hydrolysis
+GO:0032153;cell division site
+GO:0032541;cortical endoplasmic reticulum
+GO:0003690;double-stranded DNA binding
+GO:0042910;xenobiotic transmembrane transporter activity
+GO:0006886;intracellular protein transport
+GO:0006367;transcription initiation from RNA polymerase II promoter
+GO:0000329;fungal-type vacuole membrane
+GO:0071555;cell wall organization
+GO:0005669;transcription factor TFIID complex
+GO:0006869;lipid transport
+GO:0005635;nuclear envelope
+GO:0003713;transcription coactivator activity
+GO:0042908;xenobiotic transport
+GO:0009277;fungal-type cell wall
+GO:0042147;retrograde transport, endosome to Golgi
+GO:0006281;DNA repair
+GO:0000030;mannosyltransferase activity
+GO:0060261;positive regulation of transcription initiation from RNA polymerase II promoter
+GO:0006606;protein import into nucleus
+GO:1903475;mitotic actomyosin contractile ring assembly
+GO:0006406;mRNA export from nucleus
+GO:0016973;poly(A)+ mRNA export from nucleus
+GO:0005576;extracellular region
+GO:0006897;endocytosis
+GO:0000324;fungal-type vacuole
+GO:0051287;NAD binding
+GO:0008234;cysteine-type peptidase activity
+GO:0000032;cell wall mannoprotein biosynthetic process
+GO:0009060;aerobic respiration
+GO:0030427;site of polarized growth
+GO:0051666;actin cortical patch localization
+GO:0000105;histidine biosynthetic process
+GO:0051017;actin filament bundle assembly
+GO:0006486;protein glycosylation
+GO:0042025;host cell nucleus
+GO:0003712;transcription coregulator activity
+GO:0009272;fungal-type cell wall biogenesis
+GO:0005975;carbohydrate metabolic process
+GO:0061630;ubiquitin protein ligase activity
+GO:0005506;iron ion binding
+GO:0032266;phosphatidylinositol-3-phosphate binding
+GO:0003700;DNA-binding transcription factor activity
+GO:0031097;medial cortex
+GO:0030170;pyridoxal phosphate binding
+GO:0006631;fatty acid metabolic process
+GO:0002098;tRNA wobble uridine modification
+GO:0004190;aspartic-type endopeptidase activity
+GO:0006807;nitrogen compound metabolic process
+GO:0006974;cellular response to DNA damage stimulus
+GO:0110085;mitotic actomyosin contractile ring
+GO:0051286;cell tip
+GO:0015074;DNA integration
+GO:0005509;calcium ion binding
+GO:0003729;mRNA binding
+GO:0006278;RNA-dependent DNA biosynthetic process
+GO:0006491;N-glycan processing
+GO:0006493;protein O-linked glycosylation
+GO:0031902;late endosome membrane
+GO:0044396;actin cortical patch organization
+GO:0005770;late endosome
+GO:0016592;mediator complex
+GO:0017056;structural constituent of nuclear pore
+GO:0009055;electron transfer activity
+GO:0034399;nuclear periphery
+GO:0006914;autophagy
+GO:0000777;condensed chromosome kinetochore
+GO:0043547;positive regulation of GTPase activity
+GO:0004519;endonuclease activity
+GO:0022857;transmembrane transporter activity
+GO:0008202;steroid metabolic process
+GO:0009073;aromatic amino acid family biosynthetic process
+GO:0030428;cell septum
+GO:0003723;RNA binding
+GO:0006633;fatty acid biosynthetic process
+GO:0006913;nucleocytoplasmic transport
+GO:0010008;endosome membrane
+GO:0005777;peroxisome
+GO:0006368;transcription elongation from RNA polymerase II promoter
+GO:0031362;anchored component of external side of plasma membrane
+GO:0097502;mannosylation
+GO:0016567;protein ubiquitination
+GO:0000779;condensed chromosome, centromeric region
+GO:0003964;RNA-directed DNA polymerase activity
+GO:0030476;ascospore wall assembly
+GO:0005684;U2-type spliceosomal complex
+GO:0006694;steroid biosynthetic process
+GO:0004553;hydrolase activity, hydrolyzing O-glycosyl compounds
+GO:0006541;glutamine metabolic process
+GO:0003887;DNA-directed DNA polymerase activity
+GO:0009086;methionine biosynthetic process
+GO:0004620;phospholipase activity
+GO:0006122;mitochondrial electron transport, ubiquinol to cytochrome c
+GO:0006779;porphyrin-containing compound biosynthetic process
+GO:0006783;heme biosynthetic process
+GO:0019430;removal of superoxide radicals
+GO:0042729;DASH complex
+GO:0000070;mitotic sister chromatid segregation
+GO:0031305;integral component of mitochondrial inner membrane
+GO:0043332;mating projection tip
+GO:0008237;metallopeptidase activity
+GO:0031491;nucleosome binding
+GO:1990819;actin fusion focus
+GO:0071013;catalytic step 2 spliceosome
+GO:0035091;phosphatidylinositol binding
+GO:0005856;cytoskeleton
+GO:0000790;nuclear chromatin
+GO:0033617;mitochondrial cytochrome c oxidase assembly
+GO:0006099;tricarboxylic acid cycle
+GO:0005546;phosphatidylinositol-4,5-bisphosphate binding
+GO:0006284;base-excision repair
+GO:0006895;Golgi to endosome transport
+GO:0007030;Golgi organization
+GO:0016197;endosomal transport
+GO:0016282;eukaryotic 43S preinitiation complex
+GO:0045324;late endosome to vacuole transport
+GO:0000287;magnesium ion binding
+GO:0005768;endosome
+GO:0045944;positive regulation of transcription by RNA polymerase II
+GO:0034599;cellular response to oxidative stress
+GO:0005618;cell wall
+GO:0005347;ATP transmembrane transporter activity
+GO:0009082;branched-chain amino acid biosynthetic process
+GO:0017196;N-terminal peptidyl-methionine acetylation
+GO:0019878;lysine biosynthetic process via aminoadipic acid
+GO:0000776;kinetochore
+GO:0009058;biosynthetic process
+GO:0000778;condensed nuclear chromosome kinetochore
+GO:0000422;autophagy of mitochondrion
+GO:0042802;identical protein binding
+GO:0005759;mitochondrial matrix
+GO:0008483;transaminase activity
+GO:0016126;sterol biosynthetic process
+GO:0000002;mitochondrial genome maintenance
+GO:0001732;formation of cytoplasmic translation initiation complex
+GO:0006893;Golgi to plasma membrane transport
+GO:0120104;actomyosin contractile ring, proximal layer
+GO:0000917;division septum assembly
+GO:0000935;division septum
+GO:0005628;prospore membrane
+GO:0006164;purine nucleotide biosynthetic process
+GO:0030686;90S preribosome
+GO:0031201;SNARE complex
+GO:0005096;GTPase activator activity
+GO:0004197;cysteine-type endopeptidase activity
+GO:0005852;eukaryotic translation initiation factor 3 complex
+GO:0030246;carbohydrate binding
+GO:0048278;vesicle docking
+GO:0070469;respirasome
+GO:0007005;mitochondrion organization
+GO:0016616;oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
+GO:0005773;vacuole
+GO:0006888;endoplasmic reticulum to Golgi vesicle-mediated transport
+GO:0000724;double-strand break repair via homologous recombination
+GO:0016236;macroautophagy
+GO:0046982;protein heterodimerization activity
+GO:0005507;copper ion binding
+GO:0016831;carboxy-lyase activity
+GO:1990758;mitotic sister chromatid biorientation
+GO:0001228;DNA-binding transcription activator activity, RNA polymerase II-specific
+GO:0000775;chromosome, centromeric region
+GO:0000245;spliceosomal complex assembly
+GO:0000262;mitochondrial chromosome
+GO:0000338;protein deneddylation
+GO:0004556;alpha-amylase activity
+GO:0006995;cellular response to nitrogen starvation
+GO:0019784;NEDD8-specific protease activity
+GO:0030154;cell differentiation
+GO:0031080;nuclear pore outer ring
+GO:0035064;methylated histone binding
+GO:0055072;iron ion homeostasis
+GO:0097038;perinuclear endoplasmic reticulum
+GO:0140278;mitotic division septum assembly
+GO:0043328;protein transport to vacuole involved in ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway
+GO:0043565;sequence-specific DNA binding
+GO:0030173;integral component of Golgi membrane
+GO:1990904;ribonucleoprotein complex
+GO:0006696;ergosterol biosynthetic process
+GO:0004843;thiol-dependent ubiquitin-specific protease activity
+GO:0006887;exocytosis

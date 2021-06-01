@@ -10,8 +10,9 @@ library(VennDiagram)
 load("scripts_geneplast/table_all_org.RData")
 
 # Ancestry plot ----
-table$organism <- factor(table$organism, levels = c("yeast", "drosophila", "celegans", "mouse"),
-                         labels =  c("S. cerevisiae", "D. melanogaster", "C. elegans", "M. musculus"))
+table$organism <- factor(table$organism, levels = c("yeast", "spombe", "drosophila", "celegans", "mouse"), 
+                         labels =  c("S. cerevisiae", "S. pombe", "D. melanogaster", "C. elegans", "M. musculus") )
+
 # Violin plot
 pos.d <- position_dodge(width = 0.9)
 plot2 <- ggplot(table, aes(x = organism, y = ancestry, fill = factor(lethal_nonlethal))) +
@@ -33,55 +34,60 @@ plot2 <- plot2 +
 plot2
 
 ggsave(plot = plot2, filename = "plot/ancestry_plot_violin.pdf",
-       width = 7, height = 5)
+       width = 7, height = 5, dpi = 300)
 ggsave(plot = plot2, filename = "plot/ancestry_plot_violin.png",
-       width = 7, height = 5)
+       width = 7, height = 5, dpi = 300)
 ggsave(plot = plot2, filename = "plot/ancestry_plot_violin.svg",
-       width = 7, height = 5)
+       width = 7, height = 5, dpi = 300)
 
 # Ancestry for exclusive orthologs ----
 load("scripts_geneplast/table_all_org.RData")
 
-organisms <- c("celegans", "drosophila", "mouse", "yeast")
+# Get all organism cogs
+organisms <- c("celegans", "spombe", "drosophila", "mouse", "yeast")
 filter_cogs <- function(table, lethality) {
   table <- table[table$lethal_nonlethal == lethality,]
   cogs <- lapply(split(table$cog_id, table$organism), unique)
   cogs
 }
 cogs_list <- filter_cogs(table, "lethal")
-names(cogs_list) <- organisms
+
+# Get all exclusive cogs
 essential_exclusive <- lapply(organisms, function (i) {
   unique(setdiff(cogs_list[[i]], unique(unlist(unname(cogs_list[ !grepl(i, names(cogs_list)) ] )))))
 })
 names(essential_exclusive) <- organisms
 table$exclusive <- NA
 
+# Filter only letahl cogs from the table
 table <- table[table$lethal_nonlethal == "lethal",]
 combined_cogs <- reduce(cogs_list, intersect)
 
+# Compare exclusive and shared cogs
 invisible(lapply(organisms, function (i) {
   table$exclusive[table$organism == i] <<- ifelse(table$cog_id[table$organism == i & table$lethal_nonlethal == "lethal"] %in% essential_exclusive[[i]], "E", NA )
 }))
 table$exclusive[table$cog_id %in% combined_cogs] <- "C"
-table <- na.omit(table)
+table <- table[!is.na(table$exclusive),]
 
 n_distinct(table$cog_id[table$exclusive == "C"]) == length(combined_cogs)
 
-table$organism <- factor(table$organism, levels = c("yeast", "drosophila", "celegans", "mouse"), 
-                         labels =  c("S. cerevisiae", "D. melanogaster", "C. elegans", "M. musculus") )
+table$organism <- factor(table$organism, levels = c("yeast", "spombe",  "drosophila", "celegans", "mouse"), 
+                         labels =  c("S. cerevisiae",  "S. pombe", "D. melanogaster", "C. elegans", "M. musculus") )
 
+# Plot
 pos.d <- position_dodge(width = 0.5)
 plot1 <- ggplot(table, aes(x = organism, y = ancestry, col = factor(exclusive))) +
   stat_summary(aes(x = organism, y = ancestry, col = factor(exclusive)),
                fun.data = mean_se, fun.args = list(mult = 1), geom = "errorbar", 
-               lwd = 1.5, position = pos.d, width = 0.2) +
+               lwd = 1.5, position = pos.d, width = 0.5) +
   stat_summary(aes(x = organism, y = ancestry, group = factor(exclusive)),
                fun.y = mean, geom = "point", position = pos.d, cex = 1.2, color = "black") + 
   scale_color_manual(values = c(E = "#ec3663ff", C = "#18df00ff"),
                      labels = c(E = "Exclusive", C = "Shared"), guide = guide_legend("Exclusivity")) +
   guides(colour = guide_legend(override.aes = list(alpha=1, size = 5))) +
   theme_classic() + 
-  stat_compare_means(method = "wilcox.test", label = "p.signif", label.x = 1.5, label.y = 1.1) +
+  #stat_compare_means(method = "wilcox.test", label = "p.signif", label.x = 1.5, label.y = 1.1) +
   labs("", x = "", y = "Ancestry", color = "Exclusivity") +
   theme(axis.text.x = element_text(face = "italic", size = 7),
         axis.title.y = element_text(size = 8),
@@ -102,7 +108,7 @@ ggsave(plot = plot1, filename = "plot/ancestry_exclusive_combined_meanerror.svg"
 load("scripts_geneplast/table_all_org.RData")
 
 # Get only the lethal genes
-organisms <- c("celegans", "drosophila", "mouse", "yeast")
+organisms <- c("celegans", "drosophila", "mouse", "yeast", "spombe")
 table_lethal <- unique(table[table$lethal_nonlethal == "lethal" &
                                table$organism %in% organisms,])
 # Get all unique cogs
@@ -121,7 +127,7 @@ venn.diagram(x = organism_cogs, filename = "plot/intersect_cogs.pdf")
 upset_list <- fromList(organism_cogs)
 
 pdf("plot/plot_intersect_all.pdf", width = 10, height = 5)
-upset(upset_list, order.by = "freq", nsets = 6, point.size = 3.5,
+upset(upset_list, sets = c("yeast", "spombe", "drosophila", "celegans", "mouse"), nsets = 6, point.size = 3.5, keep.order = T,
       line.size = 2, text.scale = c(1.3, 1.3, 1, 1, 2, 1.2))
 dev.off()
 
@@ -178,5 +184,9 @@ table %>%
     proportion = round(n_distinct(ensembl_peptide_id[lethal_nonlethal == "lethal"]) / n_distinct(ensembl_peptide_id), 2)
   ) %>% 
   write.csv(file = "essential_genes_proportion.csv", row.names = F, quote = F)
+
+
+
+
 
 

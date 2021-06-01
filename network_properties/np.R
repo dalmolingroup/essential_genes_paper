@@ -5,9 +5,10 @@ library(ggridges)
 library(ggplot2)
 library(purrr)
 library(ggpubr)
+library(scales)
 
 # Species comprised in our study
-species <- c("celegans", "drosophila", "mouse", "yeast")
+species <- c("celegans", "drosophila", "mouse", "yeast", "spombe")
 
 # Load interaction tables
 invisible(lapply(species, function(i) {
@@ -134,9 +135,10 @@ walk(c("density_plot_btw", "scatter_btw", "boxplot_btw"), function (x) {
 
 # Dynamites ---------------------------------------------------------------
 pos.d <- position_dodge(width = 0.9)
-dg$organism <- factor(dg$organism, levels = c("celegans", "drosophila", "mouse", "yeast"),
-                      labels = c("Caenorhabditis \nelegans", "Drosophila \nmelanogaster", 
-                                 "Mus \nmusculus", "Saccharomyces \ncerevisiae"))
+# dg$organism <- factor(dg$organism, levels = c("celegans", "drosophila", "mouse", "yeast", "spombe"),
+#                       labels = c("Caenorhabditis \nelegans", "Drosophila \nmelanogaster", 
+#                                  "Mus \nmusculus", "Saccharomyces \ncerevisiae", 
+#                                  "Schizosaccharomyces \npombe"))
 ggplot(dg, aes(x = organism, y = degree, fill = factor(lethal_nonlethal)) ) +
   geom_bar(stat = "summary", fun.y = "mean", position = pos.d) +
   stat_summary(fun.data = mean_se, fun.args = list(mult = 1), geom = "errorbar", 
@@ -156,9 +158,9 @@ ggsave("dyn_degree.pdf", width = 7, height = 4)
 ggsave("dyn_degree.png", width = 7, height = 4)
 
 pos.d <- position_dodge(width = 0.9)
-btw$organism <- factor(btw$organism, levels = c("celegans", "drosophila", "mouse", "yeast"),
-                       labels = c("Caenorhabditis \nelegans", "Drosophila \nmelanogaster", 
-                                  "Mus \nmusculus", "Saccharomyces \ncerevisiae"))
+# btw$organism <- factor(btw$organism, levels = c("celegans", "drosophila", "mouse", "yeast", "spombe"),
+#                        labels = c("Caenorhabditis \nelegans", "Drosophila \nmelanogaster", 
+#                                   "Mus \nmusculus", "Saccharomyces \ncerevisiae", "Schizosaccharomyces \npombe"))
 ggplot(btw, aes(x = organism, y = btw, fill = factor(lethal_nonlethal)) ) +
   geom_bar(stat = "summary", fun.y = "mean", position = pos.d) +
   stat_summary(fun.data = mean_se, fun.args = list(mult = 1), geom = "errorbar", 
@@ -174,8 +176,8 @@ ggplot(btw, aes(x = organism, y = btw, fill = factor(lethal_nonlethal)) ) +
         axis.ticks.x = element_blank(),
         plot.title = element_text(face = "plain", hjust = 0.5)) +
   stat_compare_means(method = "wilcox.test", label = "p.signif", label.x = 1.5, label.y = 0.001)
-ggsave("corrected/dyn_btw.pdf", width = 7, height = 4)
-ggsave("corrected/dyn_btw.png", width = 7, height = 4)
+ggsave("network_properties/dyn_btw.pdf", width = 7, height = 4)
+ggsave("network_properties/dyn_btw.png", width = 7, height = 4)
 
 # plot grid ----
 ggarrange(density_plot_degree, 
@@ -187,8 +189,8 @@ ggsave(filename = "comb_degree.png", width = 10, height = 7)
 ggarrange(density_plot_btw, 
           ggarrange(boxplot_btw, scatter_btw, ncol = 2, labels = c("B", "C")),
           nrow = 2, labels = "A")
-ggsave(filename = "comb_btw.pdf", width = 10, height = 7)
-ggsave(filename = "comb_btw.png", width = 10, height = 7)
+ggsave(filename = "network_properties/comb_btw.pdf", width = 10, height = 7)
+ggsave(filename = "network_properties/comb_btw.png", width = 10, height = 7)
 
 # Mouse -------------------------------------------------------------------
 load("scripts_geneplast/mouse/categories/working_lethal_mouse.RData")
@@ -289,6 +291,39 @@ ggsave(filename = "mouse_btw.png", width = 10, height = 7)
 
 # Network properties by percentiles ---------------------------------------
 
+species <- c("celegans", "drosophila", "mouse", "spombe", "yeast")
+
+# Get the upper 30 pencentile
+percent_30 <- sapply(split(table$Root, table$organism), function (i) {
+  quantile(i, probs = 0.3)
+})
+names(percent_30) <- species
+
+percent_70 <- sapply(split(table$Root, table$organism), function (i) {
+  quantile(i, probs = 0.7)
+})
+names(percent_70) <- species
+
+dg$percent <- ""
+lapply(species, function (i) {
+  dg$percent[dg$organism == i] <<- ifelse(dg$Root[dg$organism == i] <= percent_30[i], "percent_30", 
+                                          ifelse(dg$Root[dg$organism == i] >= percent_70[i], "percent_70", NA))
+})
+dg_percent <- na.omit(dg)
+
+btw$percent <- ""
+lapply(species, function (i) {
+  btw$percent[btw$organism == i] <<- ifelse(btw$Root[btw$organism == i] <= percent_30[i], "percent_30", 
+                                            ifelse(btw$Root[btw$organism == i] >= percent_70[i], "percent_70", NA))
+})
+btw_percent <- na.omit(btw)
+
+dg_percent$organism <- factor(dg_percent$organism, levels = c("yeast","spombe", "drosophila", "celegans", "mouse"),
+                              labels =  c("S. cerevisiae", "S. pombe", "D. melanogaster", "C. elegans", "M. musculus") )
+
+btw_percent$organism <- factor(btw_percent$organism, levels = c("yeast", "spombe", "drosophila", "celegans", "mouse"),
+                               labels =  c("S. cerevisiae", "S. pombe", "D. melanogaster", "C. elegans", "M. musculus") )
+
 # BY PERCENT COMPARISON ----
 # degree - percent 30
 dg_percent30 <- ggplot(dg_percent[dg_percent$percent == "percent_30",], aes(x = organism, y = degree, fill = factor(lethal_nonlethal)) ) +
@@ -297,7 +332,7 @@ dg_percent30 <- ggplot(dg_percent[dg_percent$percent == "percent_30",], aes(x = 
                lwd = 0.6, position = pos.d, width = 0.2) +
   scale_fill_manual(values = c(lethal = "#ff4a4aff", nonlethal = "#3939c0ff"), 
                     labels = c("Essential", "Others"), guide = guide_legend("")) +
-  labs(x = "", y = "<k>") +
+  labs(title = "degree - young", x = "", y = "<k>") +
   theme_classic() + 
   theme(axis.text.x = element_text(face = "italic", size = 8), 
         axis.text.y = element_text(size = 12),
@@ -314,7 +349,7 @@ dg_percent70 <- ggplot(dg_percent[dg_percent$percent == "percent_70",], aes(x = 
                lwd = 0.6, position = pos.d, width = 0.2) +
   scale_fill_manual(values = c(lethal = "#ff4a4aff", nonlethal = "#3939c0ff"), 
                     labels = c("Essential", "Others"), guide = guide_legend("")) +
-  labs(x = "", y = "<k>") +
+  labs(title = "degree - old", x = "", y = "<k>") +
   theme_classic() + 
   theme(axis.text.x = element_text(face = "italic", size = 8), 
         axis.text.y = element_text(size = 12),
@@ -332,7 +367,7 @@ btw_percent30 <- ggplot(btw_percent[btw_percent$percent == "percent_30",], aes(x
   scale_fill_manual(values = c(lethal = "#ff4a4aff", nonlethal = "#3939c0ff"), 
                     labels = c("Essential", "Others"), guide = guide_legend("")) +
   scale_y_continuous(labels = comma) +
-  labs(x = "", y = "Betweenness") +
+  labs(title = "btw - young", x = "", y = "Betweenness") +
   theme_classic() + 
   theme(axis.text.x = element_text(face = "italic", size = 8), 
         axis.text.y = element_text(size = 12),
@@ -350,7 +385,7 @@ btw_percent70 <- ggplot(btw_percent[btw_percent$percent == "percent_70",], aes(x
   scale_fill_manual(values = c(lethal = "#ff4a4aff", nonlethal = "#3939c0ff"), 
                     labels = c("Essential", "Others"), guide = guide_legend("")) +
   scale_y_continuous(labels = comma) + 
-  labs(x = "", y = "Betweenness") +
+  labs(title = "btw - old", x = "", y = "Betweenness") +
   theme_classic() + 
   theme(axis.text.x = element_text(face = "italic", size = 8), 
         axis.text.y = element_text(size = 12),
@@ -362,8 +397,8 @@ btw_percent70 <- ggplot(btw_percent[btw_percent$percent == "percent_70",], aes(x
 
 
 ggarrange(dg_percent30, dg_percent70, btw_percent30, btw_percent70, ncol = 2, nrow = 2, common.legend = T, legend = "right")
-ggsave("percentiles_percent_np.pdf", width = 10, height = 5)
-ggsave("percentiles_percent_np.svg", width = 10, height = 5)
+ggsave("network_properties/percentiles_percent_np.pdf", width = 10, height = 5)
+ggsave("network_properties/percentiles_percent_np.svg", width = 10, height = 5)
 
 # BY ESSENTIALITY COMPARISON ----
 
@@ -374,7 +409,7 @@ dg_percent_essential <- ggplot(dg_percent[dg_percent$lethal_nonlethal == "lethal
                lwd = 0.6, position = pos.d, width = 0.2) +
   scale_fill_manual(values = c(percent_30 = "#BFA454", percent_70 = "#D93D1A"), 
                     labels = c("Young", "Old"), guide = guide_legend("")) +
-  labs(x = "", y = "<k>") +
+  labs(title = "degree - essential",x = "", y = "<k>") +
   theme_classic() + 
   theme(axis.text.x = element_text(face = "italic", size = 8), 
         axis.text.y = element_text(size = 12),
@@ -391,7 +426,7 @@ dg_percent_nonessential <- ggplot(dg_percent[dg_percent$lethal_nonlethal == "non
                lwd = 0.6, position = pos.d, width = 0.2) +
   scale_fill_manual(values = c(percent_30 = "#BFA454", percent_70 = "#D93D1A"), 
                     labels = c("Young", "Old"), guide = guide_legend("")) +
-  labs(x = "", y = "<k>") +
+  labs(title = "degree - others", x = "", y = "<k>") +
   theme_classic() + 
   theme(axis.text.x = element_text(face = "italic", size = 8), 
         axis.text.y = element_text(size = 12),
@@ -409,7 +444,7 @@ btw_percent_essential <- ggplot(btw_percent[btw_percent$lethal_nonlethal == "let
   scale_fill_manual(values = c(percent_30 = "#BFA454", percent_70 = "#D93D1A"), 
                     labels = c("Young", "Old"), guide = guide_legend("")) +
   scale_y_continuous(labels = comma) +
-  labs(x = "", y = "Betweenness") +
+  labs(title = "btw - essential", x = "", y = "Betweenness") +
   theme_classic() + 
   theme(axis.text.x = element_text(face = "italic", size = 8), 
         axis.text.y = element_text(size = 12),
@@ -427,7 +462,7 @@ btw_percent_nonessential <- ggplot(btw_percent[btw_percent$lethal_nonlethal == "
   scale_fill_manual(values = c(percent_30 = "#BFA454", percent_70 = "#D93D1A"), 
                     labels = c("Young", "Old"), guide = guide_legend("")) +
   scale_y_continuous(labels = comma) +
-  labs(x = "", y = "Betweenness") +
+  labs(title = "btw - others", x = "", y = "Betweenness") +
   theme_classic() + 
   theme(axis.text.x = element_text(face = "italic", size = 8), 
         axis.text.y = element_text(size = 12),
@@ -438,6 +473,6 @@ btw_percent_nonessential <- ggplot(btw_percent[btw_percent$lethal_nonlethal == "
   stat_compare_means(method = "wilcox.test", label = "p.signif", label.x = 1.5, label.y = 1.2e-3)
 
 ggarrange(dg_percent_essential, dg_percent_nonessential, btw_percent_essential, btw_percent_nonessential, ncol = 2, nrow = 2, common.legend = T, legend = "right")
-ggsave("percentiles_essential_np.pdf", width = 10, height = 5)
-ggsave("percentiles_essential_np.svg", width = 10, height = 5)
+ggsave("network_properties/percentiles_essential_np.pdf", width = 12, height = 7)
+ggsave("network_properties/percentiles_essential_np.svg", width = 12, height = 7)
 

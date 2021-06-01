@@ -1,0 +1,119 @@
+ID;Description
+GO:0016072;rRNA metabolic process
+GO:0006364;rRNA processing
+GO:0042254;ribosome biogenesis
+GO:0034470;ncRNA processing
+GO:0000466;maturation of 5.8S rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)
+GO:0000460;maturation of 5.8S rRNA
+GO:0010501;RNA secondary structure unwinding
+GO:0043624;cellular protein complex disassembly
+GO:0006271;DNA strand elongation involved in DNA replication
+GO:0070651;nonfunctional rRNA decay
+GO:0071826;ribonucleoprotein complex subunit organization
+GO:0007051;spindle organization
+GO:0022616;DNA strand elongation
+GO:0006399;tRNA metabolic process
+GO:0043632;modification-dependent macromolecule catabolic process
+GO:0034655;nucleobase-containing compound catabolic process
+GO:0000469;cleavage involved in rRNA processing
+GO:0006260;DNA replication
+GO:0046939;nucleotide phosphorylation
+GO:0022618;ribonucleoprotein complex assembly
+GO:0010638;positive regulation of organelle organization
+GO:0006261;DNA-dependent DNA replication
+GO:0016071;mRNA metabolic process
+GO:0019439;aromatic compound catabolic process
+GO:0044270;cellular nitrogen compound catabolic process
+GO:0046700;heterocycle catabolic process
+GO:0016075;rRNA catabolic process
+GO:0006888;ER to Golgi vesicle-mediated transport
+GO:0044265;cellular macromolecule catabolic process
+GO:0031123;RNA 3'-end processing
+GO:1901137;carbohydrate derivative biosynthetic process
+GO:0051130;positive regulation of cellular component organization
+GO:1901361;organic cyclic compound catabolic process
+GO:0009057;macromolecule catabolic process
+GO:0034661;ncRNA catabolic process
+GO:0016310;phosphorylation
+GO:0000462;maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)
+GO:0031125;rRNA 3'-end processing
+GO:0006415;translational termination
+GO:0033260;nuclear DNA replication
+GO:0061025;membrane fusion
+GO:0043628;ncRNA 3'-end processing
+GO:0044786;cell cycle DNA replication
+GO:0046031;ADP metabolic process
+GO:0032984;protein-containing complex disassembly
+GO:0051301;cell division
+GO:0009135;purine nucleoside diphosphate metabolic process
+GO:0009179;purine ribonucleoside diphosphate metabolic process
+GO:0009185;ribonucleoside diphosphate metabolic process
+GO:0070925;organelle assembly
+GO:0043144;snoRNA processing
+GO:0030490;maturation of SSU-rRNA
+GO:0043161;proteasome-mediated ubiquitin-dependent protein catabolic process
+GO:0051336;regulation of hydrolase activity
+GO:0042273;ribosomal large subunit biogenesis
+GO:0009132;nucleoside diphosphate metabolic process
+GO:0006511;ubiquitin-dependent protein catabolic process
+GO:0019941;modification-dependent protein catabolic process
+GO:0000278;mitotic cell cycle
+GO:0006401;RNA catabolic process
+GO:0051345;positive regulation of hydrolase activity
+GO:0031126;snoRNA 3'-end processing
+GO:0009165;nucleotide biosynthetic process
+GO:0006891;intra-Golgi vesicle-mediated transport
+GO:0000819;sister chromatid segregation
+GO:0010498;proteasomal protein catabolic process
+GO:1901293;nucleoside phosphate biosynthetic process
+GO:0090501;RNA phosphodiester bond hydrolysis
+GO:0008608;attachment of spindle microtubules to kinetochore
+GO:0000226;microtubule cytoskeleton organization
+GO:0030433;ubiquitin-dependent ERAD pathway
+GO:0016073;snRNA metabolic process
+GO:0048193;Golgi vesicle transport
+GO:0006281;DNA repair
+GO:0000470;maturation of LSU-rRNA
+GO:0000245;spliceosomal complex assembly
+GO:0090174;organelle membrane fusion
+GO:0022411;cellular component disassembly
+GO:0006096;glycolytic process
+GO:0006757;ATP generation from ADP
+GO:0042866;pyruvate biosynthetic process
+GO:0009260;ribonucleotide biosynthetic process
+GO:0000288;nuclear-transcribed mRNA catabolic process, deadenylation-dependent decay
+GO:1901135;carbohydrate derivative metabolic process
+GO:0051603;proteolysis involved in cellular protein catabolic process
+GO:0090305;nucleic acid phosphodiester bond hydrolysis
+GO:0006974;cellular response to DNA damage stimulus
+GO:0016074;snoRNA metabolic process
+GO:0006165;nucleoside diphosphate phosphorylation
+GO:0033043;regulation of organelle organization
+GO:0140014;mitotic nuclear division
+GO:1903047;mitotic cell cycle process
+GO:0070085;glycosylation
+GO:0043085;positive regulation of catalytic activity
+GO:0031023;microtubule organizing center organization
+GO:0042274;ribosomal small subunit biogenesis
+GO:0009100;glycoprotein metabolic process
+GO:0046390;ribose phosphate biosynthetic process
+GO:0036503;ERAD pathway
+GO:0007017;microtubule-based process
+GO:0010243;response to organonitrogen compound
+GO:0061919;process utilizing autophagic mechanism
+GO:0034472;snRNA 3'-end processing
+GO:0043634;polyadenylation-dependent ncRNA catabolic process
+GO:0071029;nuclear ncRNA surveillance
+GO:0071046;nuclear polyadenylation-dependent ncRNA catabolic process
+GO:1901698;response to nitrogen compound
+GO:0090407;organophosphate biosynthetic process
+GO:0016180;snRNA processing
+GO:0009166;nucleotide catabolic process
+GO:0098813;nuclear chromosome segregation
+GO:0044093;positive regulation of molecular function
+GO:0044257;cellular protein catabolic process
+GO:1901292;nucleoside phosphate catabolic process
+GO:0072330;monocarboxylic acid biosynthetic process
+GO:0043633;polyadenylation-dependent RNA catabolic process
+GO:0070481;nuclear-transcribed mRNA catabolic process, non-stop decay
+GO:0009152;purine ribonucleotide biosynthetic process

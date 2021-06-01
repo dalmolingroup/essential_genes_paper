@@ -9,6 +9,10 @@ Essential genes datasets selection for each organism were conducted as follows (
 
 *S. cerevisiae* information was retrieved from Saccharomyces Genome Database (www.yeastgenome.org/, genome version R64-2-1). Phenotype-genotype information can be found at Downloads > curation > literature > phenotype_data.tab (https://downloads.yeastgenome.org/curation/literature/phenotype_data.tab). We selected the genes reported as producing the “inviable” phenotype. 
 
+## *Schizosaccharomyces pombe*
+
+*S. pombe* information was retrieved from Pombase Database (pombase.org, Harris et al 2013, Lock et al 2018). Phenotype-genotype is available at Downloads > Datasets > Viability summary (https://www.pombase.org/data/annotations/Phenotype_annotations/FYPOviability.tsv). Essential genes were chosen the ones represented as “inviable” in this table. 
+
 ### *Drosophila melanogaster*  
 
 *D. melanogaster* data was retrieved from Flybase (flybase.org, FB2018_06 Dmel release 6.25). Phenotype-genotype information can be found at Downloads > releases > precomputed_files > alleles > allele_phenotypic_data_fb_2019_01.tsv.gz (ftp://ftp.flybase.net/releases/FB2019_01/precomputed_files/alleles/allele_phenotypic_data_fb_2019_01.tsv.gz). We selected only genes reported as producing the “lethal” phenotype. 

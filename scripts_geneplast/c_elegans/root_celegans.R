@@ -21,7 +21,7 @@ lethal_genes <- semi_join(all_genes, table_lethal, by = c("wormbase_gene" = "wb_
 nonlethal_genes <- anti_join(all_genes, table_lethal, by = c("wormbase_gene" = "wb_gene_id"))
 
 # Retrieve COG ids
-load("scripts_geneplast/geneplast_objects/geneplast_objects/geneplastData.RData")
+load("scripts_geneplast/geneplast_objects/geneplastData.RData")
 cog_celegans <- unique(cogdata[cogdata$ssp_id == 6239, c("protein_id", "cog_id")])
 colnames(cog_celegans)[1] <- "ensembl_peptide_id"
 
@@ -63,7 +63,7 @@ stopCluster(getOption("cluster"))
 res_root_celegans <- groot.get(ogr_celegans, what = "results")
 
 # Phylotree
-groot.plot(ogr_celegans, plot.lcas = T, fname = "tree_celegans.pdf")
+groot.plot(ogr_celegans, plot.lcas = T, fname = "scripts_geneplast/c_elegans/tree_celegans.pdf", width = 10, height = 20)
 
 # MERGE TABLES OF ROOT INFERENCE AND GENES
 res_root_celegans$cog_id <- rownames(res_root_celegans)

@@ -1,0 +1,609 @@
+ID;Description
+GO:0009790;embryo development
+GO:0043043;peptide biosynthetic process
+GO:0006412;translation
+GO:0009792;embryo development ending in birth or egg hatching
+GO:0043604;amide biosynthetic process
+GO:0006518;peptide metabolic process
+GO:0043603;cellular amide metabolic process
+GO:0006396;RNA processing
+GO:0022613;ribonucleoprotein complex biogenesis
+GO:0000278;mitotic cell cycle
+GO:0051301;cell division
+GO:0022402;cell cycle process
+GO:0006397;mRNA processing
+GO:0016071;mRNA metabolic process
+GO:0034622;cellular protein-containing complex assembly
+GO:0008380;RNA splicing
+GO:0007276;gamete generation
+GO:0045184;establishment of protein localization
+GO:0044703;multi-organism reproductive process
+GO:0015031;protein transport
+GO:0006886;intracellular protein transport
+GO:1903047;mitotic cell cycle process
+GO:0019953;sexual reproduction
+GO:0051276;chromosome organization
+GO:0000377;RNA splicing, via transesterification reactions with bulged adenosine as nucleophile
+GO:0000398;mRNA splicing, via spliceosome
+GO:0000375;RNA splicing, via transesterification reactions
+GO:0015833;peptide transport
+GO:0042886;amide transport
+GO:0034613;cellular protein localization
+GO:0070727;cellular macromolecule localization
+GO:0022412;cellular process involved in reproduction in multicellular organism
+GO:0051321;meiotic cell cycle
+GO:0051726;regulation of cell cycle
+GO:0042254;ribosome biogenesis
+GO:0007281;germ cell development
+GO:0007292;female gamete generation
+GO:0046907;intracellular transport
+GO:0065003;protein-containing complex assembly
+GO:0048285;organelle fission
+GO:0010564;regulation of cell cycle process
+GO:0000280;nuclear division
+GO:0048609;multicellular organismal reproductive process
+GO:0006259;DNA metabolic process
+GO:0048477;oogenesis
+GO:0003006;developmental process involved in reproduction
+GO:0032504;multicellular organism reproduction
+GO:0034660;ncRNA metabolic process
+GO:0071826;ribonucleoprotein complex subunit organization
+GO:0022618;ribonucleoprotein complex assembly
+GO:0007346;regulation of mitotic cell cycle
+GO:0033365;protein localization to organelle
+GO:1903046;meiotic cell cycle process
+GO:0033043;regulation of organelle organization
+GO:0072594;establishment of protein localization to organelle
+GO:0006418;tRNA aminoacylation for protein translation
+GO:0002119;nematode larval development
+GO:0140014;mitotic nuclear division
+GO:0002164;larval development
+GO:0017038;protein import
+GO:0051128;regulation of cellular component organization
+GO:0043039;tRNA aminoacylation
+GO:0009791;post-embryonic development
+GO:0051783;regulation of nuclear division
+GO:0006974;cellular response to DNA damage stimulus
+GO:0006260;DNA replication
+GO:0043038;amino acid activation
+GO:0000910;cytokinesis
+GO:0044265;cellular macromolecule catabolic process
+GO:0071103;DNA conformation change
+GO:0007010;cytoskeleton organization
+GO:0000226;microtubule cytoskeleton organization
+GO:0007017;microtubule-based process
+GO:0006364;rRNA processing
+GO:0006281;DNA repair
+GO:0051640;organelle localization
+GO:0019941;modification-dependent protein catabolic process
+GO:0006913;nucleocytoplasmic transport
+GO:0051169;nuclear transport
+GO:0006413;translational initiation
+GO:0043632;modification-dependent macromolecule catabolic process
+GO:0007059;chromosome segregation
+GO:0006325;chromatin organization
+GO:0006261;DNA-dependent DNA replication
+GO:0016072;rRNA metabolic process
+GO:0045787;positive regulation of cell cycle
+GO:0061640;cytoskeleton-dependent cytokinesis
+GO:0033554;cellular response to stress
+GO:0009057;macromolecule catabolic process
+GO:0098813;nuclear chromosome segregation
+GO:0000819;sister chromatid segregation
+GO:0034470;ncRNA processing
+GO:0042273;ribosomal large subunit biogenesis
+GO:0007088;regulation of mitotic nuclear division
+GO:0006323;DNA packaging
+GO:0006606;protein import into nucleus
+GO:0006511;ubiquitin-dependent protein catabolic process
+GO:0007051;spindle organization
+GO:0140013;meiotic nuclear division
+GO:0006997;nucleus organization
+GO:0051656;establishment of organelle localization
+GO:0051603;proteolysis involved in cellular protein catabolic process
+GO:0044257;cellular protein catabolic process
+GO:0051170;import into nucleus
+GO:0010629;negative regulation of gene expression
+GO:0006417;regulation of translation
+GO:0034248;regulation of cellular amide metabolic process
+GO:0009141;nucleoside triphosphate metabolic process
+GO:0048468;cell development
+GO:1902850;microtubule cytoskeleton organization involved in mitosis
+GO:0032268;regulation of cellular protein metabolic process
+GO:0051246;regulation of protein metabolic process
+GO:0042274;ribosomal small subunit biogenesis
+GO:0009199;ribonucleoside triphosphate metabolic process
+GO:0071824;protein-DNA complex subunit organization
+GO:0000070;mitotic sister chromatid segregation
+GO:0010498;proteasomal protein catabolic process
+GO:0034504;protein localization to nucleus
+GO:0033206;meiotic cytokinesis
+GO:0046034;ATP metabolic process
+GO:0009948;anterior/posterior axis specification
+GO:0006091;generation of precursor metabolites and energy
+GO:0009205;purine ribonucleoside triphosphate metabolic process
+GO:0051302;regulation of cell division
+GO:0099132;ATP hydrolysis coupled cation transmembrane transport
+GO:0009144;purine nucleoside triphosphate metabolic process
+GO:0009123;nucleoside monophosphate metabolic process
+GO:0008340;determination of adult lifespan
+GO:0010259;multicellular organism aging
+GO:0016192;vesicle-mediated transport
+GO:0010608;posttranscriptional regulation of gene expression
+GO:0044770;cell cycle phase transition
+GO:0009126;purine nucleoside monophosphate metabolic process
+GO:0009167;purine ribonucleoside monophosphate metabolic process
+GO:0065004;protein-DNA complex assembly
+GO:0000462;maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)
+GO:0009161;ribonucleoside monophosphate metabolic process
+GO:0030490;maturation of SSU-rRNA
+GO:0006366;transcription by RNA polymerase II
+GO:0010948;negative regulation of cell cycle process
+GO:0007568;aging
+GO:0000079;regulation of cyclin-dependent protein serine/threonine kinase activity
+GO:1904029;regulation of cyclin-dependent protein kinase activity
+GO:0015980;energy derivation by oxidation of organic compounds
+GO:0015988;energy coupled proton transmembrane transport, against electrochemical gradient
+GO:1903311;regulation of mRNA metabolic process
+GO:0007163;establishment or maintenance of cell polarity
+GO:0040038;polar body extrusion after meiotic divisions
+GO:0030163;protein catabolic process
+GO:0007143;female meiotic nuclear division
+GO:0009994;oocyte differentiation
+GO:0048599;oocyte development
+GO:0051983;regulation of chromosome segregation
+GO:0034728;nucleosome organization
+GO:0051445;regulation of meiotic cell cycle
+GO:0043161;proteasome-mediated ubiquitin-dependent protein catabolic process
+GO:0015991;ATP hydrolysis coupled proton transport
+GO:0090662;ATP hydrolysis coupled transmembrane transport
+GO:0099131;ATP hydrolysis coupled ion transmembrane transport
+GO:0045333;cellular respiration
+GO:0051653;spindle localization
+GO:0051293;establishment of spindle localization
+GO:0048598;embryonic morphogenesis
+GO:0071897;DNA biosynthetic process
+GO:0031331;positive regulation of cellular catabolic process
+GO:0070192;chromosome organization involved in meiotic cell cycle
+GO:0033045;regulation of sister chromatid segregation
+GO:0042255;ribosome assembly
+GO:0019220;regulation of phosphate metabolic process
+GO:0051174;regulation of phosphorus metabolic process
+GO:0009952;anterior/posterior pattern specification
+GO:0034655;nucleobase-containing compound catabolic process
+GO:0045786;negative regulation of cell cycle
+GO:0031327;negative regulation of cellular biosynthetic process
+GO:0045859;regulation of protein kinase activity
+GO:0006457;protein folding
+GO:0009798;axis specification
+GO:2000113;negative regulation of cellular macromolecule biosynthetic process
+GO:0009142;nucleoside triphosphate biosynthetic process
+GO:0048608;reproductive structure development
+GO:0061458;reproductive system development
+GO:0009896;positive regulation of catabolic process
+GO:0006399;tRNA metabolic process
+GO:0009890;negative regulation of biosynthetic process
+GO:0006333;chromatin assembly or disassembly
+GO:0051493;regulation of cytoskeleton organization
+GO:0009201;ribonucleoside triphosphate biosynthetic process
+GO:0008406;gonad development
+GO:0045137;development of primary sexual characteristics
+GO:0044772;mitotic cell cycle phase transition
+GO:0043549;regulation of kinase activity
+GO:0051304;chromosome separation
+GO:2000241;regulation of reproductive process
+GO:0000027;ribosomal large subunit assembly
+GO:0006357;regulation of transcription by RNA polymerase II
+GO:0010558;negative regulation of macromolecule biosynthetic process
+GO:0007052;mitotic spindle organization
+GO:0008356;asymmetric cell division
+GO:0009880;embryonic pattern specification
+GO:0071806;protein transmembrane transport
+GO:0006119;oxidative phosphorylation
+GO:0000245;spliceosomal complex assembly
+GO:0010628;positive regulation of gene expression
+GO:0022411;cellular component disassembly
+GO:0031399;regulation of protein modification process
+GO:0009060;aerobic respiration
+GO:0030010;establishment of cell polarity
+GO:1901987;regulation of cell cycle phase transition
+GO:2001020;regulation of response to DNA damage stimulus
+GO:0019752;carboxylic acid metabolic process
+GO:0001932;regulation of protein phosphorylation
+GO:0006310;DNA recombination
+GO:0009145;purine nucleoside triphosphate biosynthetic process
+GO:0009206;purine ribonucleoside triphosphate biosynthetic process
+GO:0006334;nucleosome assembly
+GO:0033047;regulation of mitotic sister chromatid segregation
+GO:0033044;regulation of chromosome organization
+GO:0048193;Golgi vesicle transport
+GO:0009566;fertilization
+GO:0042325;regulation of phosphorylation
+GO:0044270;cellular nitrogen compound catabolic process
+GO:0032270;positive regulation of cellular protein metabolic process
+GO:0048469;cell maturation
+GO:0043254;regulation of protein complex assembly
+GO:0031497;chromatin assembly
+GO:0045931;positive regulation of mitotic cell cycle
+GO:0065002;intracellular protein transmembrane transport
+GO:0044743;protein transmembrane import into intracellular organelle
+GO:0046700;heterocycle catabolic process
+GO:0019439;aromatic compound catabolic process
+GO:0051338;regulation of transferase activity
+GO:0031329;regulation of cellular catabolic process
+GO:1903827;regulation of cellular protein localization
+GO:0006754;ATP biosynthetic process
+GO:0018205;peptidyl-lysine modification
+GO:0040001;establishment of mitotic spindle localization
+GO:0051247;positive regulation of protein metabolic process
+GO:0051168;nuclear export
+GO:0009891;positive regulation of biosynthetic process
+GO:0031328;positive regulation of cellular biosynthetic process
+GO:0000578;embryonic axis specification
+GO:1902600;proton transmembrane transport
+GO:0040020;regulation of meiotic nuclear division
+GO:0006605;protein targeting
+GO:0061982;meiosis I cell cycle process
+GO:1901361;organic cyclic compound catabolic process
+GO:0006611;protein export from nucleus
+GO:0007389;pattern specification process
+GO:0061024;membrane organization
+GO:0009124;nucleoside monophosphate biosynthetic process
+GO:0050684;regulation of mRNA processing
+GO:0055086;nucleobase-containing small molecule metabolic process
+GO:0007005;mitochondrion organization
+GO:0042773;ATP synthesis coupled electron transport
+GO:0042775;mitochondrial ATP synthesis coupled electron transport
+GO:0070647;protein modification by small protein conjugation or removal
+GO:0006405;RNA export from nucleus
+GO:0021700;developmental maturation
+GO:0031123;RNA 3'-end processing
+GO:1901990;regulation of mitotic cell cycle phase transition
+GO:0009894;regulation of catabolic process
+GO:0070925;organelle assembly
+GO:0032880;regulation of protein localization
+GO:0048513;animal organ development
+GO:0006891;intra-Golgi vesicle-mediated transport
+GO:0002181;cytoplasmic translation
+GO:0007033;vacuole organization
+GO:0001556;oocyte maturation
+GO:0007351;tripartite regional subdivision
+GO:0008595;anterior/posterior axis specification, embryo
+GO:0071166;ribonucleoprotein complex localization
+GO:0071426;ribonucleoprotein complex export from nucleus
+GO:0051231;spindle elongation
+GO:0061983;meiosis II cell cycle process
+GO:0017148;negative regulation of translation
+GO:0034249;negative regulation of cellular amide metabolic process
+GO:0022904;respiratory electron transport chain
+GO:0000724;double-strand break repair via homologous recombination
+GO:0000725;recombinational repair
+GO:0010172;embryonic body morphogenesis
+GO:0009127;purine nucleoside monophosphate biosynthetic process
+GO:0009168;purine ribonucleoside monophosphate biosynthetic process
+GO:0050657;nucleic acid transport
+GO:0050658;RNA transport
+GO:0051236;establishment of RNA localization
+GO:0080135;regulation of cellular response to stress
+GO:1903829;positive regulation of cellular protein localization
+GO:0006839;mitochondrial transport
+GO:0090068;positive regulation of cell cycle process
+GO:0007040;lysosome organization
+GO:0080171;lytic vacuole organization
+GO:1903313;positive regulation of mRNA metabolic process
+GO:0006289;nucleotide-excision repair
+GO:0007338;single fertilization
+GO:0010557;positive regulation of macromolecule biosynthetic process
+GO:0009156;ribonucleoside monophosphate biosynthetic process
+GO:0007097;nuclear migration
+GO:0061014;positive regulation of mRNA catabolic process
+GO:0016570;histone modification
+GO:1990542;mitochondrial transmembrane transport
+GO:0044089;positive regulation of cellular component biogenesis
+GO:0051294;establishment of spindle orientation
+GO:0007548;sex differentiation
+GO:0006352;DNA-templated transcription, initiation
+GO:1901565;organonitrogen compound catabolic process
+GO:0016569;covalent chromatin modification
+GO:0006888;ER to Golgi vesicle-mediated transport
+GO:0018193;peptidyl-amino acid modification
+GO:1905818;regulation of chromosome separation
+GO:0045935;positive regulation of nucleobase-containing compound metabolic process
+GO:0046939;nucleotide phosphorylation
+GO:0045930;negative regulation of mitotic cell cycle
+GO:0007127;meiosis I
+GO:0070507;regulation of microtubule cytoskeleton organization
+GO:0003002;regionalization
+GO:0000381;regulation of alternative mRNA splicing, via spliceosome
+GO:0009411;response to UV
+GO:0051028;mRNA transport
+GO:0017145;stem cell division
+GO:0034329;cell junction assembly
+GO:0051188;cofactor biosynthetic process
+GO:0071900;regulation of protein serine/threonine kinase activity
+GO:0006520;cellular amino acid metabolic process
+GO:0045892;negative regulation of transcription, DNA-templated
+GO:0048024;regulation of mRNA splicing, via spliceosome
+GO:0016050;vesicle organization
+GO:0007034;vacuolar transport
+GO:0000132;establishment of mitotic spindle orientation
+GO:0006099;tricarboxylic acid cycle
+GO:0034330;cell junction organization
+GO:0010638;positive regulation of organelle organization
+GO:0015931;nucleobase-containing compound transport
+GO:0050793;regulation of developmental process
+GO:0000380;alternative mRNA splicing, via spliceosome
+GO:0006626;protein targeting to mitochondrion
+GO:0030261;chromosome condensation
+GO:0044784;metaphase/anaphase transition of cell cycle
+GO:0043436;oxoacid metabolic process
+GO:0006402;mRNA catabolic process
+GO:0051784;negative regulation of nuclear division
+GO:0007350;blastoderm segmentation
+GO:0071695;anatomical structure maturation
+GO:0032446;protein modification by small protein conjugation
+GO:0019693;ribose phosphate metabolic process
+GO:0000281;mitotic cytokinesis
+GO:0006403;RNA localization
+GO:0051130;positive regulation of cellular component organization
+GO:0072330;monocarboxylic acid biosynthetic process
+GO:0051254;positive regulation of RNA metabolic process
+GO:0000075;cell cycle checkpoint
+GO:0009117;nucleotide metabolic process
+GO:0006165;nucleoside diphosphate phosphorylation
+GO:1902679;negative regulation of RNA biosynthetic process
+GO:1903507;negative regulation of nucleic acid-templated transcription
+GO:0045934;negative regulation of nucleobase-containing compound metabolic process
+GO:0032984;protein-containing complex disassembly
+GO:0070585;protein localization to mitochondrion
+GO:0072655;establishment of protein localization to mitochondrion
+GO:0010171;body morphogenesis
+GO:0044087;regulation of cellular component biogenesis
+GO:0051306;mitotic sister chromatid separation
+GO:0032508;DNA duplex unwinding
+GO:0006096;glycolytic process
+GO:0006757;ATP generation from ADP
+GO:0034502;protein localization to chromosome
+GO:0051647;nucleus localization
+GO:0006302;double-strand break repair
+GO:0006753;nucleoside phosphate metabolic process
+GO:0010256;endomembrane system organization
+GO:0016197;endosomal transport
+GO:0072521;purine-containing compound metabolic process
+GO:0006101;citrate metabolic process
+GO:0072350;tricarboxylic acid metabolic process
+GO:0010942;positive regulation of cell death
+GO:0007098;centrosome cycle
+GO:0032392;DNA geometric change
+GO:0044786;cell cycle DNA replication
+GO:0065001;specification of axis polarity
+GO:0009259;ribonucleotide metabolic process
+GO:0051253;negative regulation of RNA metabolic process
+GO:0031324;negative regulation of cellular metabolic process
+GO:0000122;negative regulation of transcription by RNA polymerase II
+GO:0031124;mRNA 3'-end processing
+GO:0042866;pyruvate biosynthetic process
+GO:0006401;RNA catabolic process
+GO:0030865;cortical cytoskeleton organization
+GO:1901991;negative regulation of mitotic cell cycle phase transition
+GO:0008219;cell death
+GO:0035282;segmentation
+GO:0043484;regulation of RNA splicing
+GO:0006163;purine nucleotide metabolic process
+GO:0009150;purine ribonucleotide metabolic process
+GO:0017144;drug metabolic process
+GO:0006120;mitochondrial electron transport, NADH to ubiquinone
+GO:1904951;positive regulation of establishment of protein localization
+GO:0045995;regulation of embryonic development
+GO:0032886;regulation of microtubule-based process
+GO:0031503;protein-containing complex localization
+GO:0043900;regulation of multi-organism process
+GO:0140053;mitochondrial gene expression
+GO:0007093;mitotic cell cycle checkpoint
+GO:1901800;positive regulation of proteasomal protein catabolic process
+GO:0046031;ADP metabolic process
+GO:0051225;spindle assembly
+GO:0070897;transcription preinitiation complex assembly
+GO:1901988;negative regulation of cell cycle phase transition
+GO:0051172;negative regulation of nitrogen compound metabolic process
+GO:1903362;regulation of cellular protein catabolic process
+GO:0051129;negative regulation of cellular component organization
+GO:0061136;regulation of proteasomal protein catabolic process
+GO:1903052;positive regulation of proteolysis involved in cellular protein catabolic process
+GO:0050779;RNA destabilization
+GO:0032543;mitochondrial translation
+GO:0048284;organelle fusion
+GO:0010965;regulation of mitotic sister chromatid separation
+GO:0070972;protein localization to endoplasmic reticulum
+GO:1902099;regulation of metaphase/anaphase transition of cell cycle
+GO:0042326;negative regulation of phosphorylation
+GO:0007018;microtubule-based movement
+GO:0006414;translational elongation
+GO:0061013;regulation of mRNA catabolic process
+GO:1901293;nucleoside phosphate biosynthetic process
+GO:1903364;positive regulation of cellular protein catabolic process
+GO:0051604;protein maturation
+GO:0030029;actin filament-based process
+GO:1903050;regulation of proteolysis involved in cellular protein catabolic process
+GO:0030036;actin cytoskeleton organization
+GO:0022900;electron transport chain
+GO:0001709;cell fate determination
+GO:0010563;negative regulation of phosphorus metabolic process
+GO:0045936;negative regulation of phosphate metabolic process
+GO:0009165;nucleotide biosynthetic process
+GO:0009135;purine nucleoside diphosphate metabolic process
+GO:0009179;purine ribonucleoside diphosphate metabolic process
+GO:0006383;transcription by RNA polymerase III
+GO:0030866;cortical actin cytoskeleton organization
+GO:0012501;programmed cell death
+GO:0031570;DNA integrity checkpoint
+GO:0045132;meiotic chromosome segregation
+GO:0045596;negative regulation of cell differentiation
+GO:0070201;regulation of establishment of protein localization
+GO:0001933;negative regulation of protein phosphorylation
+GO:0031334;positive regulation of protein complex assembly
+GO:2000242;negative regulation of reproductive process
+GO:0031647;regulation of protein stability
+GO:0009887;animal organ morphogenesis
+GO:0060341;regulation of cellular localization
+GO:0043902;positive regulation of multi-organism process
+GO:0008284;positive regulation of cell proliferation
+GO:0046394;carboxylic acid biosynthetic process
+GO:0045893;positive regulation of transcription, DNA-templated
+GO:0009132;nucleoside diphosphate metabolic process
+GO:0045732;positive regulation of protein catabolic process
+GO:0045944;positive regulation of transcription by RNA polymerase II
+GO:0006367;transcription initiation from RNA polymerase II promoter
+GO:0007131;reciprocal meiotic recombination
+GO:0009185;ribonucleoside diphosphate metabolic process
+GO:0019359;nicotinamide nucleotide biosynthetic process
+GO:0019363;pyridine nucleotide biosynthetic process
+GO:0035825;homologous recombination
+GO:0016053;organic acid biosynthetic process
+GO:0008283;cell proliferation
+GO:0006090;pyruvate metabolic process
+GO:0006906;vesicle fusion
+GO:0090174;organelle membrane fusion
+GO:0045167;asymmetric protein localization involved in cell fate determination
+GO:0046605;regulation of centrosome cycle
+GO:0051298;centrosome duplication
+GO:0051258;protein polymerization
+GO:0051446;positive regulation of meiotic cell cycle
+GO:0097193;intrinsic apoptotic signaling pathway
+GO:0072657;protein localization to membrane
+GO:0060627;regulation of vesicle-mediated transport
+GO:0045165;cell fate commitment
+GO:0042176;regulation of protein catabolic process
+GO:0007265;Ras protein signal transduction
+GO:0051494;negative regulation of cytoskeleton organization
+GO:0006473;protein acetylation
+GO:0010639;negative regulation of organelle organization
+GO:0006082;organic acid metabolic process
+GO:0051186;cofactor metabolic process
+GO:0019637;organophosphate metabolic process
+GO:0031023;microtubule organizing center organization
+GO:0051093;negative regulation of developmental process
+GO:0018992;germ-line sex determination
+GO:0060281;regulation of oocyte development
+GO:1905879;regulation of oogenesis
+GO:0046390;ribose phosphate biosynthetic process
+GO:0090305;nucleic acid phosphodiester bond hydrolysis
+GO:0040019;positive regulation of embryonic development
+GO:0043624;cellular protein complex disassembly
+GO:0061025;membrane fusion
+GO:0032956;regulation of actin cytoskeleton organization
+GO:0032970;regulation of actin filament-based process
+GO:0048562;embryonic organ morphogenesis
+GO:0097190;apoptotic signaling pathway
+GO:0009108;coenzyme biosynthetic process
+GO:0072522;purine-containing compound biosynthetic process
+GO:0051495;positive regulation of cytoskeleton organization
+GO:0016567;protein ubiquitination
+GO:0030641;regulation of cellular pH
+GO:0048557;embryonic digestive tract morphogenesis
+GO:0051453;regulation of intracellular pH
+GO:2000026;regulation of multicellular organismal development
+GO:1990778;protein localization to cell periphery
+GO:0006338;chromatin remodeling
+GO:0007091;metaphase/anaphase transition of mitotic cell cycle
+GO:0051123;RNA polymerase II preinitiation complex assembly
+GO:0033157;regulation of intracellular protein transport
+GO:0007530;sex determination
+GO:0072525;pyridine-containing compound biosynthetic process
+GO:1903008;organelle disassembly
+GO:1902680;positive regulation of RNA biosynthetic process
+GO:1903508;positive regulation of nucleic acid-templated transcription
+GO:0048566;embryonic digestive tract development
+GO:0009416;response to light stimulus
+GO:0045862;positive regulation of proteolysis
+GO:0051235;maintenance of location
+GO:0009260;ribonucleotide biosynthetic process
+GO:2000243;positive regulation of reproductive process
+GO:0051347;positive regulation of transferase activity
+GO:0010941;regulation of cell death
+GO:0006885;regulation of pH
+GO:0035418;protein localization to synapse
+GO:0043488;regulation of mRNA stability
+GO:0043628;ncRNA 3'-end processing
+GO:0048278;vesicle docking
+GO:0140056;organelle localization by membrane tethering
+GO:1902117;positive regulation of organelle assembly
+GO:0090407;organophosphate biosynthetic process
+GO:0048568;embryonic organ development
+GO:0006368;transcription elongation from RNA polymerase II promoter
+GO:0009225;nucleotide-sugar metabolic process
+GO:0030728;ovulation
+GO:1902903;regulation of supramolecular fiber organization
+GO:0006915;apoptotic process
+GO:1902532;negative regulation of intracellular signal transduction
+GO:0006890;retrograde vesicle-mediated transport, Golgi to ER
+GO:0035303;regulation of dephosphorylation
+GO:0000077;DNA damage checkpoint
+GO:0050000;chromosome localization
+GO:0016052;carbohydrate catabolic process
+GO:0016999;antibiotic metabolic process
+GO:0048569;post-embryonic animal organ development
+GO:0006479;protein methylation
+GO:0008213;protein alkylation
+GO:0006164;purine nucleotide biosynthetic process
+GO:0022406;membrane docking
+GO:0006733;oxidoreduction coenzyme metabolic process
+GO:0034404;nucleobase-containing small molecule biosynthetic process
+GO:0043068;positive regulation of programmed cell death
+GO:0055067;monovalent inorganic cation homeostasis
+GO:0040025;vulval development
+GO:0043901;negative regulation of multi-organism process
+GO:0006914;autophagy
+GO:0061919;process utilizing autophagic mechanism
+GO:0043487;regulation of RNA stability
+GO:1902905;positive regulation of supramolecular fiber organization
+GO:0009152;purine ribonucleotide biosynthetic process
+GO:0043543;protein acylation
+GO:0006904;vesicle docking involved in exocytosis
+GO:0030071;regulation of mitotic metaphase/anaphase transition
+GO:1901989;positive regulation of cell cycle phase transition
+GO:0009166;nucleotide catabolic process
+GO:0032271;regulation of protein polymerization
+GO:0048546;digestive tract morphogenesis
+GO:0048580;regulation of post-embryonic development
+GO:0061062;regulation of nematode larval development
+GO:0090150;establishment of protein localization to membrane
+GO:0030004;cellular monovalent inorganic cation homeostasis
+GO:0044774;mitotic DNA integrity checkpoint
+GO:1901292;nucleoside phosphate catabolic process
+GO:0040028;regulation of vulval development
+GO:0033673;negative regulation of kinase activity
+GO:0051348;negative regulation of transferase activity
+GO:0097435;supramolecular fiber organization
+GO:0048646;anatomical structure formation involved in morphogenesis
+GO:0019362;pyridine nucleotide metabolic process
+GO:0046496;nicotinamide nucleotide metabolic process
+GO:0006354;DNA-templated transcription, elongation
+GO:0016236;macroautophagy
+GO:0061061;muscle structure development
+GO:0032879;regulation of localization
+GO:0031401;positive regulation of protein modification process
+GO:0009628;response to abiotic stimulus
+GO:0016573;histone acetylation
+GO:0035195;gene silencing by miRNA
+GO:0051785;positive regulation of nuclear division
+GO:0007264;small GTPase mediated signal transduction
+GO:0031400;negative regulation of protein modification process
+GO:0000956;nuclear-transcribed mRNA catabolic process
+GO:0006897;endocytosis
+GO:0032482;Rab protein signal transduction
+GO:0051223;regulation of protein transport
+GO:0031122;cytoplasmic microtubule organization
+GO:0051303;establishment of chromosome localization
+GO:0043414;macromolecule methylation
+GO:0048565;digestive tract development
+GO:0055123;digestive system development
+GO:0006898;receptor-mediated endocytosis
+GO:0035239;tube morphogenesis
+GO:0051052;regulation of DNA metabolic process
+GO:0070646;protein modification by small protein removal
+GO:0000288;nuclear-transcribed mRNA catabolic process, deadenylation-dependent decay
+GO:0006308;DNA catabolic process
+GO:0035304;regulation of protein dephosphorylation
+GO:0051984;positive regulation of chromosome segregation
+GO:0051651;maintenance of location in cell

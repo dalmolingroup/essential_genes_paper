@@ -1,0 +1,247 @@
+ID;Description
+GO:0006412;translation
+GO:0002181;cytoplasmic translation
+GO:0003723;RNA binding
+GO:0003735;structural constituent of ribosome
+GO:0005840;ribosome
+GO:0004674;protein serine/threonine kinase activity
+GO:0006468;protein phosphorylation
+GO:0004672;protein kinase activity
+GO:0004386;helicase activity
+GO:0042254;ribosome biogenesis
+GO:0016301;kinase activity
+GO:0005730;nucleolus
+GO:0016310;phosphorylation
+GO:0022625;cytosolic large ribosomal subunit
+GO:0016887;ATPase activity
+GO:0006364;rRNA processing
+GO:0005525;GTP binding
+GO:0003724;RNA helicase activity
+GO:0003924;GTPase activity
+GO:0019843;rRNA binding
+GO:0004812;aminoacyl-tRNA ligase activity
+GO:0000049;tRNA binding
+GO:0022627;cytosolic small ribosomal subunit
+GO:0006418;tRNA aminoacylation for protein translation
+GO:0003333;amino acid transmembrane transport
+GO:0023052;signaling
+GO:0006470;protein dephosphorylation
+GO:0032508;DNA duplex unwinding
+GO:0015171;amino acid transmembrane transporter activity
+GO:0003676;nucleic acid binding
+GO:0016853;isomerase activity
+GO:0000027;ribosomal large subunit assembly
+GO:0006865;amino acid transport
+GO:0016874;ligase activity
+GO:0004721;phosphoprotein phosphatase activity
+GO:0004722;protein serine/threonine phosphatase activity
+GO:0003678;DNA helicase activity
+GO:0016779;nucleotidyltransferase activity
+GO:0003755;peptidyl-prolyl cis-trans isomerase activity
+GO:0032040;small-subunit processome
+GO:0035556;intracellular signal transduction
+GO:0000413;protein peptidyl-prolyl isomerization
+GO:0015935;small ribosomal subunit
+GO:0044732;mitotic spindle pole body
+GO:0008094;DNA-dependent ATPase activity
+GO:0002182;cytoplasmic translational elongation
+GO:0016192;vesicle-mediated transport
+GO:0006974;cellular response to DNA damage stimulus
+GO:0015934;large ribosomal subunit
+GO:0006886;intracellular protein transport
+GO:0004518;nuclease activity
+GO:0031410;cytoplasmic vesicle
+GO:0042626;ATPase-coupled transmembrane transporter activity
+GO:0006281;DNA repair
+GO:0006457;protein folding
+GO:0000790;nuclear chromatin
+GO:0005886;plasma membrane
+GO:0030117;membrane coat
+GO:0004175;endopeptidase activity
+GO:0010520;regulation of reciprocal meiotic recombination
+GO:0032259;methylation
+GO:0043044;ATP-dependent chromatin remodeling
+GO:0055085;transmembrane transport
+GO:0000463;maturation of LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)
+GO:0031122;cytoplasmic microtubule organization
+GO:0004527;exonuclease activity
+GO:0008080;N-acetyltransferase activity
+GO:0018105;peptidyl-serine phosphorylation
+GO:0008168;methyltransferase activity
+GO:0010498;proteasomal protein catabolic process
+GO:0008033;tRNA processing
+GO:0017137;Rab GTPase binding
+GO:0002183;cytoplasmic translational initiation
+GO:0003677;DNA binding
+GO:0060303;regulation of nucleosome density
+GO:0010972;negative regulation of G2/M transition of mitotic cell cycle
+GO:0016746;transferase activity, transferring acyl groups
+GO:0030687;preribosome, large subunit precursor
+GO:0043161;proteasome-mediated ubiquitin-dependent protein catabolic process
+GO:0005856;cytoskeleton
+GO:0007165;signal transduction
+GO:0000470;maturation of LSU-rRNA
+GO:0006096;glycolytic process
+GO:0010499;proteasomal ubiquitin-independent protein catabolic process
+GO:0000788;nuclear nucleosome
+GO:0043231;intracellular membrane-bounded organelle
+GO:0006888;endoplasmic reticulum to Golgi vesicle-mediated transport
+GO:0061621;canonical glycolysis
+GO:0090630;activation of GTPase activity
+GO:0006413;translational initiation
+GO:0032543;mitochondrial translation
+GO:1902600;proton transmembrane transport
+GO:0006414;translational elongation
+GO:0045454;cell redox homeostasis
+GO:0050790;regulation of catalytic activity
+GO:0000028;ribosomal small subunit assembly
+GO:0006260;DNA replication
+GO:0003746;translation elongation factor activity
+GO:0010389;regulation of G2/M transition of mitotic cell cycle
+GO:0010515;negative regulation of induction of conjugation with cellular fusion
+GO:0000786;nucleosome
+GO:0007131;reciprocal meiotic recombination
+GO:0005839;proteasome core complex
+GO:0061631;ubiquitin conjugating enzyme activity
+GO:0003899;DNA-directed 5'-3' RNA polymerase activity
+GO:0003697;single-stranded DNA binding
+GO:0005938;cell cortex
+GO:0000209;protein polyubiquitination
+GO:0051082;unfolded protein binding
+GO:0045842;positive regulation of mitotic metaphase/anaphase transition
+GO:0016311;dephosphorylation
+GO:0000502;proteasome complex
+GO:0003743;translation initiation factor activity
+GO:0043022;ribosome binding
+GO:0004298;threonine-type endopeptidase activity
+GO:0006298;mismatch repair
+GO:0051085;chaperone cofactor-dependent protein refolding
+GO:0030515;snoRNA binding
+GO:0003824;catalytic activity
+GO:0000054;ribosomal subunit export from nucleus
+GO:0000288;nuclear-transcribed mRNA catabolic process, deadenylation-dependent decay
+GO:0001522;pseudouridine synthesis
+GO:0007076;mitotic chromosome condensation
+GO:0012507;ER to Golgi transport vesicle membrane
+GO:0071470;cellular response to osmotic stress
+GO:0030490;maturation of SSU-rRNA
+GO:0032991;protein-containing complex
+GO:0032153;cell division site
+GO:0022857;transmembrane transporter activity
+GO:0015031;protein transport
+GO:0007049;cell cycle
+GO:0000462;maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)
+GO:0071963;establishment or maintenance of cell polarity regulating cell shape
+GO:0042273;ribosomal large subunit biogenesis
+GO:0005759;mitochondrial matrix
+GO:0005844;polysome
+GO:0010971;positive regulation of G2/M transition of mitotic cell cycle
+GO:0030544;Hsp70 protein binding
+GO:0005874;microtubule
+GO:0006351;transcription, DNA-templated
+GO:0016567;protein ubiquitination
+GO:0004725;protein tyrosine phosphatase activity
+GO:0006271;DNA strand elongation involved in DNA replication
+GO:0032956;regulation of actin cytoskeleton organization
+GO:0035335;peptidyl-tyrosine dephosphorylation
+GO:0050660;flavin adenine dinucleotide binding
+GO:0055114;oxidation-reduction process
+GO:0008408;3'-5' exonuclease activity
+GO:0032446;protein modification by small protein conjugation
+GO:0044572;[4Fe-4S] cluster assembly
+GO:0072659;protein localization to plasma membrane
+GO:0019901;protein kinase binding
+GO:0030488;tRNA methylation
+GO:0010494;cytoplasmic stress granule
+GO:0008270;zinc ion binding
+GO:0006511;ubiquitin-dependent protein catabolic process
+GO:0006325;chromatin organization
+GO:0051536;iron-sulfur cluster binding
+GO:0008360;regulation of cell shape
+GO:0031593;polyubiquitin modification-dependent protein binding
+GO:0043596;nuclear replication fork
+GO:0000932;P-body
+GO:0006508;proteolysis
+GO:0007264;small GTPase mediated signal transduction
+GO:0016791;phosphatase activity
+GO:0030276;clathrin binding
+GO:0000175;3'-5'-exoribonuclease activity
+GO:0072686;mitotic spindle
+GO:0005686;U2 snRNP
+GO:0031934;mating-type region heterochromatin
+GO:0005096;GTPase activator activity
+GO:0005654;nucleoplasm
+GO:0016491;oxidoreductase activity
+GO:0042026;protein refolding
+GO:0046961;proton-transporting ATPase activity, rotational mechanism
+GO:0007015;actin filament organization
+GO:0000226;microtubule cytoskeleton organization
+GO:0006417;regulation of translation
+GO:0006401;RNA catabolic process
+GO:0007035;vacuolar acidification
+GO:0071627;integral component of fungal-type vacuolar membrane
+GO:0031507;heterochromatin assembly
+GO:0046540;U4/U6 x U5 tri-snRNP complex
+GO:0051301;cell division
+GO:0006811;ion transport
+GO:0035861;site of double-strand break
+GO:0090305;nucleic acid phosphodiester bond hydrolysis
+GO:0005656;nuclear pre-replicative complex
+GO:0008233;peptidase activity
+GO:0006334;nucleosome assembly
+GO:0010181;FMN binding
+GO:0051603;proteolysis involved in cellular protein catabolic process
+GO:0030433;ubiquitin-dependent ERAD pathway
+GO:0000727;double-strand break repair via break-induced replication
+GO:0009116;nucleoside metabolic process
+GO:0017148;negative regulation of translation
+GO:0005774;vacuolar membrane
+GO:0009058;biosynthetic process
+GO:0005666;RNA polymerase III complex
+GO:0005732;small nucleolar ribonucleoprotein complex
+GO:0006812;cation transport
+GO:0030686;90S preribosome
+GO:0071011;precatalytic spliceosome
+GO:0000287;magnesium ion binding
+GO:1990023;mitotic spindle midzone
+GO:0000724;double-strand break repair via homologous recombination
+GO:0051286;cell tip
+GO:0000460;maturation of 5.8S rRNA
+GO:0008540;proteasome regulatory particle, base subcomplex
+GO:0016868;intramolecular transferase activity, phosphotransferases
+GO:0140453;protein aggregate center
+GO:0061630;ubiquitin protein ligase activity
+GO:0006887;exocytosis
+GO:0005736;RNA polymerase I complex
+GO:0008643;carbohydrate transport
+GO:0030688;preribosome, small subunit precursor
+GO:0031224;intrinsic component of membrane
+GO:0003682;chromatin binding
+GO:0051285;cell cortex of cell tip
+GO:0003688;DNA replication origin binding
+GO:0031011;Ino80 complex
+GO:0031072;heat shock protein binding
+GO:1990748;cellular detoxification
+GO:0004842;ubiquitin-protein transferase activity
+GO:0051539;4 iron, 4 sulfur cluster binding
+GO:1990707;nuclear subtelomeric heterochromatin
+GO:0000935;division septum
+GO:0003777;microtubule motor activity
+GO:0007031;peroxisome organization
+GO:0015297;antiporter activity
+GO:0030234;enzyme regulator activity
+GO:0030950;establishment or maintenance of actin cytoskeleton polarity
+GO:0061077;chaperone-mediated protein folding
+GO:0070647;protein modification by small protein conjugation or removal
+GO:0000149;SNARE binding
+GO:0071897;DNA biosynthetic process
+GO:0090503;RNA phosphodiester bond hydrolysis, exonucleolytic
+GO:0005682;U5 snRNP
+GO:0016788;hydrolase activity, acting on ester bonds
+GO:0031030;negative regulation of septation initiation signaling
+GO:0070914;UV-damage excision repair
+GO:0071004;U2-type prespliceosome
+GO:0005816;spindle pole body
+GO:0006897;endocytosis
+GO:0005768;endosome
+GO:0008017;microtubule binding

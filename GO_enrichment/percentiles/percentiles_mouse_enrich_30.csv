@@ -1,0 +1,363 @@
+ID;Description
+GO:1901741;positive regulation of myoblast fusion
+GO:1901739;regulation of myoblast fusion
+GO:0060143;positive regulation of syncytium formation by plasma membrane fusion
+GO:0048641;regulation of skeletal muscle tissue development
+GO:0045663;positive regulation of myoblast differentiation
+GO:0051155;positive regulation of striated muscle cell differentiation
+GO:0048643;positive regulation of skeletal muscle tissue development
+GO:0060142;regulation of syncytium formation by plasma membrane fusion
+GO:0045844;positive regulation of striated muscle tissue development
+GO:0048636;positive regulation of muscle organ development
+GO:1901863;positive regulation of muscle tissue development
+GO:0051149;positive regulation of muscle cell differentiation
+GO:0010831;positive regulation of myotube differentiation
+GO:0016202;regulation of striated muscle tissue development
+GO:0048741;skeletal muscle fiber development
+GO:1901861;regulation of muscle tissue development
+GO:0048634;regulation of muscle organ development
+GO:0007517;muscle organ development
+GO:0014904;myotube cell development
+GO:0014706;striated muscle tissue development
+GO:0007520;myoblast fusion
+GO:0060537;muscle tissue development
+GO:0070372;regulation of ERK1 and ERK2 cascade
+GO:0051153;regulation of striated muscle cell differentiation
+GO:0070371;ERK1 and ERK2 cascade
+GO:1901215;negative regulation of neuron death
+GO:0010830;regulation of myotube differentiation
+GO:0045661;regulation of myoblast differentiation
+GO:0030900;forebrain development
+GO:0000768;syncytium formation by plasma membrane fusion
+GO:0140253;cell-cell fusion
+GO:0070374;positive regulation of ERK1 and ERK2 cascade
+GO:0006949;syncytium formation
+GO:0051147;regulation of muscle cell differentiation
+GO:0048747;muscle fiber development
+GO:0043524;negative regulation of neuron apoptotic process
+GO:0035914;skeletal muscle cell differentiation
+GO:0060415;muscle tissue morphogenesis
+GO:0014066;regulation of phosphatidylinositol 3-kinase signaling
+GO:0045445;myoblast differentiation
+GO:0035094;response to nicotine
+GO:0048568;embryonic organ development
+GO:0007519;skeletal muscle tissue development
+GO:0048644;muscle organ morphogenesis
+GO:0009636;response to toxic substance
+GO:0060538;skeletal muscle organ development
+GO:0042060;wound healing
+GO:1901214;regulation of neuron death
+GO:0035282;segmentation
+GO:0003002;regionalization
+GO:0050918;positive chemotaxis
+GO:0003012;muscle system process
+GO:0014065;phosphatidylinositol 3-kinase signaling
+GO:0014902;myotube differentiation
+GO:0035136;forelimb morphogenesis
+GO:0070997;neuron death
+GO:0021537;telencephalon development
+GO:0034330;cell junction organization
+GO:2001056;positive regulation of cysteine-type endopeptidase activity
+GO:0043523;regulation of neuron apoptotic process
+GO:0035924;cellular response to vascular endothelial growth factor stimulus
+GO:0001819;positive regulation of cytokine production
+GO:0045216;cell-cell junction organization
+GO:0048015;phosphatidylinositol-mediated signaling
+GO:0003007;heart morphogenesis
+GO:0048017;inositol lipid-mediated signaling
+GO:0010950;positive regulation of endopeptidase activity
+GO:0051402;neuron apoptotic process
+GO:0001755;neural crest cell migration
+GO:0048008;platelet-derived growth factor receptor signaling pathway
+GO:0007389;pattern specification process
+GO:0010952;positive regulation of peptidase activity
+GO:0060326;cell chemotaxis
+GO:0048871;multicellular organismal homeostasis
+GO:0051146;striated muscle cell differentiation
+GO:0046677;response to antibiotic
+GO:0009611;response to wounding
+GO:0014068;positive regulation of phosphatidylinositol 3-kinase signaling
+GO:0002793;positive regulation of peptide secretion
+GO:0021536;diencephalon development
+GO:0001764;neuron migration
+GO:0007422;peripheral nervous system development
+GO:0055002;striated muscle cell development
+GO:0030534;adult behavior
+GO:0048663;neuron fate commitment
+GO:0055001;muscle cell development
+GO:0001756;somitogenesis
+GO:0070301;cellular response to hydrogen peroxide
+GO:0014032;neural crest cell development
+GO:0010810;regulation of cell-substrate adhesion
+GO:0021954;central nervous system neuron development
+GO:0001503;ossification
+GO:0014031;mesenchymal cell development
+GO:0032755;positive regulation of interleukin-6 production
+GO:0048864;stem cell development
+GO:0014033;neural crest cell differentiation
+GO:0042692;muscle cell differentiation
+GO:0021953;central nervous system neuron differentiation
+GO:2000116;regulation of cysteine-type endopeptidase activity
+GO:0009952;anterior/posterior pattern specification
+GO:0031954;positive regulation of protein autophosphorylation
+GO:2000757;negative regulation of peptidyl-lysine acetylation
+GO:0090257;regulation of muscle system process
+GO:2000300;regulation of synaptic vesicle exocytosis
+GO:0003014;renal system process
+GO:0061053;somite development
+GO:0003181;atrioventricular valve morphogenesis
+GO:0071392;cellular response to estradiol stimulus
+GO:1902803;regulation of synaptic vesicle transport
+GO:0031629;synaptic vesicle fusion to presynaptic active zone membrane
+GO:1901984;negative regulation of protein acetylation
+GO:0006939;smooth muscle contraction
+GO:0050927;positive regulation of positive chemotaxis
+GO:0099500;vesicle fusion to plasma membrane
+GO:1901032;negative regulation of response to reactive oxygen species
+GO:1903206;negative regulation of hydrogen peroxide-induced cell death
+GO:2000778;positive regulation of interleukin-6 secretion
+GO:2001039;negative regulation of cellular response to drug
+GO:0001952;regulation of cell-matrix adhesion
+GO:0003171;atrioventricular valve development
+GO:0050926;regulation of positive chemotaxis
+GO:0045860;positive regulation of protein kinase activity
+GO:0007626;locomotory behavior
+GO:0045055;regulated exocytosis
+GO:0043500;muscle adaptation
+GO:0048738;cardiac muscle tissue development
+GO:0050730;regulation of peptidyl-tyrosine phosphorylation
+GO:0042542;response to hydrogen peroxide
+GO:0043280;positive regulation of cysteine-type endopeptidase activity involved in apoptotic process
+GO:2001023;regulation of response to drug
+GO:0048608;reproductive structure development
+GO:0045666;positive regulation of neuron differentiation
+GO:0010565;regulation of cellular ketone metabolic process
+GO:0007409;axonogenesis
+GO:0061458;reproductive system development
+GO:0021602;cranial nerve morphogenesis
+GO:0061036;positive regulation of cartilage development
+GO:1903532;positive regulation of secretion by cell
+GO:0045165;cell fate commitment
+GO:0010811;positive regulation of cell-substrate adhesion
+GO:0007274;neuromuscular synaptic transmission
+GO:0031338;regulation of vesicle fusion
+GO:0060561;apoptotic process involved in morphogenesis
+GO:0060977;coronary vasculature morphogenesis
+GO:1901890;positive regulation of cell junction assembly
+GO:0007631;feeding behavior
+GO:0033674;positive regulation of kinase activity
+GO:0007271;synaptic transmission, cholinergic
+GO:1902895;positive regulation of pri-miRNA transcription by RNA polymerase II
+GO:0017158;regulation of calcium ion-dependent exocytosis
+GO:0070482;response to oxygen levels
+GO:0061041;regulation of wound healing
+GO:0032735;positive regulation of interleukin-12 production
+GO:0038084;vascular endothelial growth factor signaling pathway
+GO:0046320;regulation of fatty acid oxidation
+GO:1903205;regulation of hydrogen peroxide-induced cell death
+GO:0061564;axon development
+GO:0046928;regulation of neurotransmitter secretion
+GO:0035115;embryonic forelimb morphogenesis
+GO:0051482;positive regulation of cytosolic calcium ion concentration involved in phospholipase C-activating G protein-coupled signaling pathway
+GO:2001038;regulation of cellular response to drug
+GO:0050921;positive regulation of chemotaxis
+GO:0032103;positive regulation of response to external stimulus
+GO:0016573;histone acetylation
+GO:0021884;forebrain neuron development
+GO:0048665;neuron fate specification
+GO:0072604;interleukin-6 secretion
+GO:1902742;apoptotic process involved in development
+GO:0032675;regulation of interleukin-6 production
+GO:0002791;regulation of peptide secretion
+GO:0036474;cell death in response to hydrogen peroxide
+GO:0043403;skeletal muscle tissue regeneration
+GO:0016079;synaptic vesicle exocytosis
+GO:0019233;sensory perception of pain
+GO:0006836;neurotransmitter transport
+GO:0018393;internal peptidyl-lysine acetylation
+GO:0034614;cellular response to reactive oxygen species
+GO:0042063;gliogenesis
+GO:0062013;positive regulation of small molecule metabolic process
+GO:0098693;regulation of synaptic vesicle cycle
+GO:0006475;internal protein amino acid acetylation
+GO:2001251;negative regulation of chromosome organization
+GO:0032635;interleukin-6 production
+GO:0014037;Schwann cell differentiation
+GO:0045923;positive regulation of fatty acid metabolic process
+GO:2001024;negative regulation of response to drug
+GO:0018108;peptidyl-tyrosine phosphorylation
+GO:0003206;cardiac chamber morphogenesis
+GO:0018212;peptidyl-tyrosine modification
+GO:0048562;embryonic organ morphogenesis
+GO:0007204;positive regulation of cytosolic calcium ion concentration
+GO:0045862;positive regulation of proteolysis
+GO:0045834;positive regulation of lipid metabolic process
+GO:0031057;negative regulation of histone modification
+GO:0061028;establishment of endothelial barrier
+GO:0018394;peptidyl-lysine acetylation
+GO:0001709;cell fate determination
+GO:1902893;regulation of pri-miRNA transcription by RNA polymerase II
+GO:0031589;cell-substrate adhesion
+GO:0019216;regulation of lipid metabolic process
+GO:0097237;cellular response to toxic substance
+GO:1901031;regulation of response to reactive oxygen species
+GO:0050900;leukocyte migration
+GO:0007596;blood coagulation
+GO:0071356;cellular response to tumor necrosis factor
+GO:0021543;pallium development
+GO:0031952;regulation of protein autophosphorylation
+GO:0048010;vascular endothelial growth factor receptor signaling pathway
+GO:0052548;regulation of endopeptidase activity
+GO:0007599;hemostasis
+GO:0010828;positive regulation of glucose transmembrane transport
+GO:0071385;cellular response to glucocorticoid stimulus
+GO:0031644;regulation of neurological system process
+GO:0050817;coagulation
+GO:0062012;regulation of small molecule metabolic process
+GO:1903034;regulation of response to wounding
+GO:0003179;heart valve morphogenesis
+GO:0014888;striated muscle adaptation
+GO:0043303;mast cell degranulation
+GO:0018205;peptidyl-lysine modification
+GO:0050878;regulation of body fluid levels
+GO:0043010;camera-type eye development
+GO:0002279;mast cell activation involved in immune response
+GO:0002448;mast cell mediated immunity
+GO:0021545;cranial nerve development
+GO:0071384;cellular response to corticosteroid stimulus
+GO:0051291;protein heterooligomerization
+GO:0035137;hindlimb morphogenesis
+GO:0050678;regulation of epithelial cell proliferation
+GO:0010976;positive regulation of neuron projection development
+GO:0017156;calcium ion regulated exocytosis
+GO:0035107;appendage morphogenesis
+GO:0035108;limb morphogenesis
+GO:0032355;response to estradiol
+GO:0035176;social behavior
+GO:0051703;intraspecies interaction between organisms
+GO:0061614;pri-miRNA transcription by RNA polymerase II
+GO:0034612;response to tumor necrosis factor
+GO:0001954;positive regulation of cell-matrix adhesion
+GO:0032655;regulation of interleukin-12 production
+GO:0045773;positive regulation of axon extension
+GO:1903202;negative regulation of oxidative stress-induced cell death
+GO:0051588;regulation of neurotransmitter transport
+GO:1903305;regulation of regulated secretory pathway
+GO:0090303;positive regulation of wound healing
+GO:1900408;negative regulation of cellular response to oxidative stress
+GO:0035690;cellular response to drug
+GO:0007219;Notch signaling pathway
+GO:0048489;synaptic vesicle transport
+GO:0097480;establishment of synaptic vesicle localization
+GO:0035051;cardiocyte differentiation
+GO:0035065;regulation of histone acetylation
+GO:0042246;tissue regeneration
+GO:0051480;regulation of cytosolic calcium ion concentration
+GO:0032615;interleukin-12 production
+GO:0006473;protein acetylation
+GO:0007249;I-kappaB kinase/NF-kappaB signaling
+GO:0042180;cellular ketone metabolic process
+GO:0001505;regulation of neurotransmitter levels
+GO:0006887;exocytosis
+GO:0007588;excretion
+GO:0043536;positive regulation of blood vessel endothelial cell migration
+GO:1902883;negative regulation of response to oxidative stress
+GO:0007269;neurotransmitter secretion
+GO:0099643;signal release from synapse
+GO:0003170;heart valve development
+GO:0050731;positive regulation of peptidyl-tyrosine phosphorylation
+GO:0097479;synaptic vesicle localization
+GO:0032722;positive regulation of chemokine production
+GO:0071236;cellular response to antibiotic
+GO:0046579;positive regulation of Ras protein signal transduction
+GO:0000302;response to reactive oxygen species
+GO:0003205;cardiac chamber development
+GO:0050679;positive regulation of epithelial cell proliferation
+GO:0001654;eye development
+GO:0150063;visual system development
+GO:0002274;myeloid leukocyte activation
+GO:0030858;positive regulation of epithelial cell differentiation
+GO:0043966;histone H3 acetylation
+GO:1905268;negative regulation of chromatin organization
+GO:0043281;regulation of cysteine-type endopeptidase activity involved in apoptotic process
+GO:0010639;negative regulation of organelle organization
+GO:0048880;sensory system development
+GO:0007160;cell-matrix adhesion
+GO:0043967;histone H4 acetylation
+GO:0048736;appendage development
+GO:0060173;limb development
+GO:0034329;cell junction assembly
+GO:2000756;regulation of peptidyl-lysine acetylation
+GO:0045785;positive regulation of cell adhesion
+GO:0007188;adenylate cyclase-modulating G protein-coupled receptor signaling pathway
+GO:0001885;endothelial cell development
+GO:0001666;response to hypoxia
+GO:0001667;ameboidal-type cell migration
+GO:0052547;regulation of peptidase activity
+GO:0006940;regulation of smooth muscle contraction
+GO:0042108;positive regulation of cytokine biosynthetic process
+GO:0051216;cartilage development
+GO:0061035;regulation of cartilage development
+GO:1903036;positive regulation of response to wounding
+GO:0048639;positive regulation of developmental growth
+GO:0043299;leukocyte degranulation
+GO:0051057;positive regulation of small GTPase mediated signal transduction
+GO:0030595;leukocyte chemotaxis
+GO:0050920;regulation of chemotaxis
+GO:0050673;epithelial cell proliferation
+GO:0032418;lysosome localization
+GO:0045576;mast cell activation
+GO:0048762;mesenchymal cell differentiation
+GO:0001541;ovarian follicle development
+GO:0043547;positive regulation of GTPase activity
+GO:0022029;telencephalon cell migration
+GO:0034764;positive regulation of transmembrane transport
+GO:0050808;synapse organization
+GO:0046578;regulation of Ras protein signal transduction
+GO:0010001;glial cell differentiation
+GO:0021885;forebrain cell migration
+GO:0051705;multi-organism behavior
+GO:0007411;axon guidance
+GO:0048863;stem cell differentiation
+GO:0097485;neuron projection guidance
+GO:0021879;forebrain neuron differentiation
+GO:0031646;positive regulation of neurological system process
+GO:0071347;cellular response to interleukin-1
+GO:1901983;regulation of protein acetylation
+GO:0030278;regulation of ossification
+GO:0043543;protein acylation
+GO:0099504;synaptic vesicle cycle
+GO:0006919;activation of cysteine-type endopeptidase activity involved in apoptotic process
+GO:0030500;regulation of bone mineralization
+GO:1903201;regulation of oxidative stress-induced cell death
+GO:0030193;regulation of blood coagulation
+GO:0055008;cardiac muscle tissue morphogenesis
+GO:0036293;response to decreased oxygen levels
+GO:0033002;muscle cell proliferation
+GO:0051781;positive regulation of cell division
+GO:1900046;regulation of hemostasis
+GO:0007187;G protein-coupled receptor signaling pathway, coupled to cyclic nucleotide second messenger
+GO:0060976;coronary vasculature development
+GO:0017157;regulation of exocytosis
+GO:0021675;nerve development
+GO:0050818;regulation of coagulation
+GO:0031346;positive regulation of cell projection organization
+GO:0002275;myeloid cell activation involved in immune response
+GO:1901888;regulation of cell junction assembly
+GO:0019217;regulation of fatty acid metabolic process
+GO:0045471;response to ethanol
+GO:0006874;cellular calcium ion homeostasis
+GO:0003151;outflow tract morphogenesis
+GO:0010827;regulation of glucose transmembrane transport
+GO:0032642;regulation of chemokine production
+GO:0032147;activation of protein kinase activity
+GO:0008015;blood circulation
+GO:0048732;gland development
+GO:0051656;establishment of organelle localization
+GO:0099003;vesicle-mediated transport in synapse
+GO:0016050;vesicle organization
+GO:0051056;regulation of small GTPase mediated signal transduction
+GO:0021872;forebrain generation of neurons
+GO:0051492;regulation of stress fiber assembly
+GO:0060411;cardiac septum morphogenesis
+GO:1900407;regulation of cellular response to oxidative stress
