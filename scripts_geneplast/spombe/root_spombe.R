@@ -54,7 +54,7 @@ stopCluster(getOption("cluster"))
 res_root_spombe <- groot.get(ogr_spombe, what = "results")
 
 # Phylotree
-groot.plot(ogr_spombe, plot.lcas = T, fname = "scripts_geneplast/spombe/tree_spombe.pdf")
+groot.plot(ogr_spombe, plot.lcas = T, fname = "scripts_geneplast/spombe/tree_spombe.pdf", width = 10, height = 20)
 
 
 # MERGE TABLES OF ROOT INFERENCE AND GENES

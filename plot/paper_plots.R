@@ -87,7 +87,7 @@ plot1 <- ggplot(table, aes(x = organism, y = ancestry, col = factor(exclusive)))
                      labels = c(E = "Exclusive", C = "Shared"), guide = guide_legend("Exclusivity")) +
   guides(colour = guide_legend(override.aes = list(alpha=1, size = 5))) +
   theme_classic() + 
-  #stat_compare_means(method = "wilcox.test", label = "p.signif", label.x = 1.5, label.y = 1.1) +
+  stat_compare_means(method = "wilcox.test", label = "p.signif", label.x = 1.5, label.y = 1.1) +
   labs("", x = "", y = "Ancestry", color = "Exclusivity") +
   theme(axis.text.x = element_text(face = "italic", size = 7),
         axis.title.y = element_text(size = 8),
