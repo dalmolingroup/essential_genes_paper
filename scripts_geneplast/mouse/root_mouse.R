@@ -119,7 +119,7 @@ stopCluster(getOption("cluster"))
 res_root_mouse <- groot.get(ogr_mouse, what = "results")
 
 # Phylotree
-groot.plot(ogr_mouse, plot.lcas = T, fname = "scripts_geneplast/mouse/tree_mouse.pdf")
+groot.plot(ogr_mouse, plot.lcas = T, fname = "scripts_geneplast/mouse/tree_mouse.pdf", width = 10, height = 20)
 
 # MERGE TABLES OF ROOT INFERENCE AND GENES
 res_root_mouse$cog_id <- rownames(res_root_mouse)

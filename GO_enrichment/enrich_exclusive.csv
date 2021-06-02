@@ -1,0 +1,1160 @@
+ID;Description;organism
+GO:0022402;cell cycle process;celegans
+GO:0007059;chromosome segregation;celegans
+GO:0098813;nuclear chromosome segregation;celegans
+GO:0048285;organelle fission;celegans
+GO:0000280;nuclear division;celegans
+GO:0051321;meiotic cell cycle;celegans
+GO:0000278;mitotic cell cycle;celegans
+GO:1903047;mitotic cell cycle process;celegans
+GO:0000819;sister chromatid segregation;celegans
+GO:0140014;mitotic nuclear division;celegans
+GO:0045132;meiotic chromosome segregation;celegans
+GO:0000070;mitotic sister chromatid segregation;celegans
+GO:1903046;meiotic cell cycle process;celegans
+GO:0051276;chromosome organization;celegans
+GO:0140013;meiotic nuclear division;celegans
+GO:0000226;microtubule cytoskeleton organization;celegans
+GO:0070192;chromosome organization involved in meiotic cell cycle;celegans
+GO:0051301;cell division;celegans
+GO:0051304;chromosome separation;celegans
+GO:0009790;embryo development;celegans
+GO:0045143;homologous chromosome segregation;celegans
+GO:0051306;mitotic sister chromatid separation;celegans
+GO:0051726;regulation of cell cycle;celegans
+GO:0007017;microtubule-based process;celegans
+GO:0010564;regulation of cell cycle process;celegans
+GO:0007052;mitotic spindle organization;celegans
+GO:0007010;cytoskeleton organization;celegans
+GO:0009792;embryo development ending in birth or egg hatching;celegans
+GO:0070925;organelle assembly;celegans
+GO:0007051;spindle organization;celegans
+GO:0051303;establishment of chromosome localization;celegans
+GO:0007127;meiosis I;celegans
+GO:0061982;meiosis I cell cycle process;celegans
+GO:1902850;microtubule cytoskeleton organization involved in mitosis;celegans
+GO:0010965;regulation of mitotic sister chromatid separation;celegans
+GO:0006091;generation of precursor metabolites and energy;celegans
+GO:1901988;negative regulation of cell cycle phase transition;celegans
+GO:1905818;regulation of chromosome separation;celegans
+GO:0015980;energy derivation by oxidation of organic compounds;celegans
+GO:0007040;lysosome organization;celegans
+GO:0007091;metaphase/anaphase transition of mitotic cell cycle;celegans
+GO:0031122;cytoplasmic microtubule organization;celegans
+GO:0034502;protein localization to chromosome;celegans
+GO:0080171;lytic vacuole organization;celegans
+GO:0050000;chromosome localization;celegans
+GO:0051783;regulation of nuclear division;celegans
+GO:0034622;cellular protein-containing complex assembly;celegans
+GO:0031023;microtubule organizing center organization;celegans
+GO:0044770;cell cycle phase transition;celegans
+GO:1901987;regulation of cell cycle phase transition;celegans
+GO:0044772;mitotic cell cycle phase transition;celegans
+GO:0033047;regulation of mitotic sister chromatid segregation;celegans
+GO:0065004;protein-DNA complex assembly;celegans
+GO:0051785;positive regulation of nuclear division;celegans
+GO:0090068;positive regulation of cell cycle process;celegans
+GO:0051983;regulation of chromosome segregation;celegans
+GO:1901991;negative regulation of mitotic cell cycle phase transition;celegans
+GO:1901990;regulation of mitotic cell cycle phase transition;celegans
+GO:0061983;meiosis II cell cycle process;celegans
+GO:0044784;metaphase/anaphase transition of cell cycle;celegans
+GO:0051225;spindle assembly;celegans
+GO:0007093;mitotic cell cycle checkpoint;celegans
+GO:0045787;positive regulation of cell cycle;celegans
+GO:0007292;female gamete generation;celegans
+GO:0071824;protein-DNA complex subunit organization;celegans
+GO:0007276;gamete generation;celegans
+GO:0051307;meiotic chromosome separation;celegans
+GO:0030071;regulation of mitotic metaphase/anaphase transition;celegans
+GO:0045930;negative regulation of mitotic cell cycle;celegans
+GO:0065003;protein-containing complex assembly;celegans
+GO:0007131;reciprocal meiotic recombination;celegans
+GO:0035825;homologous recombination;celegans
+GO:0007346;regulation of mitotic cell cycle;celegans
+GO:0033045;regulation of sister chromatid segregation;celegans
+GO:1903829;positive regulation of cellular protein localization;celegans
+GO:0051656;establishment of organelle localization;celegans
+GO:0007088;regulation of mitotic nuclear division;celegans
+GO:0070647;protein modification by small protein conjugation or removal;celegans
+GO:0051640;organelle localization;celegans
+GO:0032446;protein modification by small protein conjugation;celegans
+GO:0007062;sister chromatid cohesion;celegans
+GO:0048469;cell maturation;celegans
+GO:0035282;segmentation;celegans
+GO:0051446;positive regulation of meiotic cell cycle;celegans
+GO:1902099;regulation of metaphase/anaphase transition of cell cycle;celegans
+GO:0007033;vacuole organization;celegans
+GO:0044703;multi-organism reproductive process;celegans
+GO:0070507;regulation of microtubule cytoskeleton organization;celegans
+GO:0048569;post-embryonic animal organ development;drosophila
+GO:0007552;metamorphosis;drosophila
+GO:0035220;wing disc development;drosophila
+GO:0009886;post-embryonic animal morphogenesis;drosophila
+GO:0048707;instar larval or pupal morphogenesis;drosophila
+GO:0009894;regulation of catabolic process;drosophila
+GO:0060562;epithelial tube morphogenesis;drosophila
+GO:0031329;regulation of cellular catabolic process;drosophila
+GO:0048585;negative regulation of response to stimulus;drosophila
+GO:0007560;imaginal disc morphogenesis;drosophila
+GO:0048563;post-embryonic animal organ morphogenesis;drosophila
+GO:0009968;negative regulation of signal transduction;drosophila
+GO:0010648;negative regulation of cell communication;drosophila
+GO:0023057;negative regulation of signaling;drosophila
+GO:0048737;imaginal disc-derived appendage development;drosophila
+GO:0035114;imaginal disc-derived appendage morphogenesis;drosophila
+GO:0035107;appendage morphogenesis;drosophila
+GO:0010647;positive regulation of cell communication;drosophila
+GO:0023056;positive regulation of signaling;drosophila
+GO:0048736;appendage development;drosophila
+GO:2000241;regulation of reproductive process;drosophila
+GO:1902531;regulation of intracellular signal transduction;drosophila
+GO:0045595;regulation of cell differentiation;drosophila
+GO:0090066;regulation of anatomical structure size;drosophila
+GO:0031175;neuron projection development;drosophila
+GO:0009967;positive regulation of signal transduction;drosophila
+GO:0042592;homeostatic process;drosophila
+GO:0061564;axon development;drosophila
+GO:0060284;regulation of cell development;drosophila
+GO:0035120;post-embryonic appendage morphogenesis;drosophila
+GO:0007424;open tracheal system development;drosophila
+GO:0060541;respiratory system development;drosophila
+GO:0007409;axonogenesis;drosophila
+GO:0009880;embryonic pattern specification;drosophila
+GO:0048584;positive regulation of response to stimulus;drosophila
+GO:0007472;wing disc morphogenesis;drosophila
+GO:0033043;regulation of organelle organization;drosophila
+GO:0032879;regulation of localization;drosophila
+GO:0009953;dorsal/ventral pattern formation;drosophila
+GO:0032990;cell part morphogenesis;drosophila
+GO:0007476;imaginal disc-derived wing morphogenesis;drosophila
+GO:0051247;positive regulation of protein metabolic process;drosophila
+GO:0035282;segmentation;drosophila
+GO:0007530;sex determination;drosophila
+GO:0048812;neuron projection morphogenesis;drosophila
+GO:0007169;transmembrane receptor protein tyrosine kinase signaling pathway;drosophila
+GO:0120039;plasma membrane bounded cell projection morphogenesis;drosophila
+GO:0030855;epithelial cell differentiation;drosophila
+GO:0007167;enzyme linked receptor protein signaling pathway;drosophila
+GO:0048858;cell projection morphogenesis;drosophila
+GO:0042330;taxis;drosophila
+GO:0007017;microtubule-based process;drosophila
+GO:0046530;photoreceptor cell differentiation;drosophila
+GO:0060249;anatomical structure homeostasis;drosophila
+GO:0007350;blastoderm segmentation;drosophila
+GO:0007411;axon guidance;drosophila
+GO:0001654;eye development;drosophila
+GO:0048880;sensory system development;drosophila
+GO:0150063;visual system development;drosophila
+GO:1905879;regulation of oogenesis;drosophila
+GO:0048749;compound eye development;drosophila
+GO:0032270;positive regulation of cellular protein metabolic process;drosophila
+GO:0045934;negative regulation of nucleobase-containing compound metabolic process;drosophila
+GO:0009896;positive regulation of catabolic process;drosophila
+GO:0048667;cell morphogenesis involved in neuron differentiation;drosophila
+GO:0043473;pigmentation;drosophila
+GO:0030036;actin cytoskeleton organization;drosophila
+GO:0030029;actin filament-based process;drosophila
+GO:0010608;posttranscriptional regulation of gene expression;drosophila
+GO:0044093;positive regulation of molecular function;drosophila
+GO:0008283;cell proliferation;drosophila
+GO:0097485;neuron projection guidance;drosophila
+GO:1902532;negative regulation of intracellular signal transduction;drosophila
+GO:0042325;regulation of phosphorylation;drosophila
+GO:0007417;central nervous system development;drosophila
+GO:0051253;negative regulation of RNA metabolic process;drosophila
+GO:0007163;establishment or maintenance of cell polarity;drosophila
+GO:0035150;regulation of tube size;drosophila
+GO:0021700;developmental maturation;drosophila
+GO:0009994;oocyte differentiation;drosophila
+GO:0006935;chemotaxis;drosophila
+GO:0006816;calcium ion transport;drosophila
+GO:0042440;pigment metabolic process;drosophila
+GO:0008219;cell death;drosophila
+GO:0002376;immune system process;drosophila
+GO:0031331;positive regulation of cellular catabolic process;drosophila
+GO:0090130;tissue migration;drosophila
+GO:0030951;establishment or maintenance of microtubule cytoskeleton polarity;drosophila
+GO:0061013;regulation of mRNA catabolic process;drosophila
+GO:0065009;regulation of molecular function;drosophila
+GO:0009798;axis specification;drosophila
+GO:0007308;oocyte construction;drosophila
+GO:0007626;locomotory behavior;drosophila
+GO:0048066;developmental pigmentation;drosophila
+GO:0001754;eye photoreceptor cell differentiation;drosophila
+GO:0000226;microtubule cytoskeleton organization;drosophila
+GO:0035152;regulation of tube architecture, open tracheal system;drosophila
+GO:0007005;mitochondrion organization;drosophila
+GO:0007309;oocyte axis specification;drosophila
+GO:0051960;regulation of nervous system development;drosophila
+GO:0043900;regulation of multi-organism process;drosophila
+GO:0051093;negative regulation of developmental process;drosophila
+GO:0001751;compound eye photoreceptor cell differentiation;drosophila
+GO:0035151;regulation of tube size, open tracheal system;drosophila
+GO:0048469;cell maturation;drosophila
+GO:0007267;cell-cell signaling;drosophila
+GO:1902533;positive regulation of intracellular signal transduction;drosophila
+GO:0045935;positive regulation of nucleobase-containing compound metabolic process;drosophila
+GO:0043085;positive regulation of catalytic activity;drosophila
+GO:0009948;anterior/posterior axis specification;drosophila
+GO:0030952;establishment or maintenance of cytoskeleton polarity;drosophila
+GO:0019725;cellular homeostasis;drosophila
+GO:0019220;regulation of phosphate metabolic process;drosophila
+GO:0051174;regulation of phosphorus metabolic process;drosophila
+GO:0048599;oocyte development;drosophila
+GO:0070838;divalent metal ion transport;drosophila
+GO:0072511;divalent inorganic cation transport;drosophila
+GO:0010941;regulation of cell death;drosophila
+GO:0000578;embryonic axis specification;drosophila
+GO:0051240;positive regulation of multicellular organismal process;drosophila
+GO:0050767;regulation of neurogenesis;drosophila
+GO:0048511;rhythmic process;drosophila
+GO:0007450;dorsal/ventral pattern formation, imaginal disc;drosophila
+GO:0007351;tripartite regional subdivision;drosophila
+GO:0008595;anterior/posterior axis specification, embryo;drosophila
+GO:0012501;programmed cell death;drosophila
+GO:0060811;intracellular mRNA localization involved in anterior/posterior axis specification;drosophila
+GO:0048190;wing disc dorsal/ventral pattern formation;drosophila
+GO:0040007;growth;drosophila
+GO:0046578;regulation of Ras protein signal transduction;drosophila
+GO:0045165;cell fate commitment;drosophila
+GO:0002064;epithelial cell development;drosophila
+GO:0045892;negative regulation of transcription, DNA-templated;drosophila
+GO:1902679;negative regulation of RNA biosynthetic process;drosophila
+GO:1903507;negative regulation of nucleic acid-templated transcription;drosophila
+GO:0051656;establishment of organelle localization;drosophila
+GO:0010557;positive regulation of macromolecule biosynthetic process;drosophila
+GO:0033674;positive regulation of kinase activity;drosophila
+GO:0030097;hemopoiesis;drosophila
+GO:0046843;dorsal appendage formation;drosophila
+GO:0044087;regulation of cellular component biogenesis;drosophila
+GO:0006873;cellular ion homeostasis;drosophila
+GO:0008358;maternal determination of anterior/posterior axis, embryo;drosophila
+GO:0006417;regulation of translation;drosophila
+GO:0010720;positive regulation of cell development;drosophila
+GO:0007623;circadian rhythm;drosophila
+GO:0045597;positive regulation of cell differentiation;drosophila
+GO:0051640;organelle localization;drosophila
+GO:0001667;ameboidal-type cell migration;drosophila
+GO:0006875;cellular metal ion homeostasis;drosophila
+GO:0060810;intracellular mRNA localization involved in pattern specification process;drosophila
+GO:0016325;oocyte microtubule cytoskeleton organization;drosophila
+GO:0034248;regulation of cellular amide metabolic process;drosophila
+GO:0042327;positive regulation of phosphorylation;drosophila
+GO:0051493;regulation of cytoskeleton organization;drosophila
+GO:0051254;positive regulation of RNA metabolic process;drosophila
+GO:0055065;metal ion homeostasis;drosophila
+GO:0055082;cellular chemical homeostasis;drosophila
+GO:0033301;cell cycle comprising mitosis without cytokinesis;drosophila
+GO:0070925;organelle assembly;drosophila
+GO:0051674;localization of cell;drosophila
+GO:0009952;anterior/posterior pattern specification;drosophila
+GO:0048592;eye morphogenesis;drosophila
+GO:0090596;sensory organ morphogenesis;drosophila
+GO:0007314;oocyte anterior/posterior axis specification;drosophila
+GO:0007173;epidermal growth factor receptor signaling pathway;drosophila
+GO:0038127;ERBB signaling pathway;drosophila
+GO:0031401;positive regulation of protein modification process;drosophila
+GO:0048870;cell motility;drosophila
+GO:0007317;regulation of pole plasm oskar mRNA localization;drosophila
+GO:0035186;syncytial blastoderm mitotic cell cycle;drosophila
+GO:0060281;regulation of oocyte development;drosophila
+GO:0098771;inorganic ion homeostasis;drosophila
+GO:0120035;regulation of plasma membrane bounded cell projection organization;drosophila
+GO:1903429;regulation of cell maturation;drosophila
+GO:0045860;positive regulation of protein kinase activity;drosophila
+GO:0048069;eye pigmentation;drosophila
+GO:0051094;positive regulation of developmental process;drosophila
+GO:0030003;cellular cation homeostasis;drosophila
+GO:0006897;endocytosis;drosophila
+GO:0007548;sex differentiation;drosophila
+GO:0031344;regulation of cell projection organization;drosophila
+GO:0050801;ion homeostasis;drosophila
+GO:0055080;cation homeostasis;drosophila
+GO:0007447;imaginal disc pattern formation;drosophila
+GO:0016477;cell migration;drosophila
+GO:0051298;centrosome duplication;drosophila
+GO:1905881;positive regulation of oogenesis;drosophila
+GO:0051056;regulation of small GTPase mediated signal transduction;drosophila
+GO:0019094;pole plasm mRNA localization;drosophila
+GO:0090132;epithelium migration;drosophila
+GO:0051130;positive regulation of cellular component organization;drosophila
+GO:0000959;mitochondrial RNA metabolic process;drosophila
+GO:1902875;regulation of embryonic pattern specification;drosophila
+GO:0007315;pole plasm assembly;drosophila
+GO:0002520;immune system development;drosophila
+GO:0048534;hematopoietic or lymphoid organ development;drosophila
+GO:0045664;regulation of neuron differentiation;drosophila
+GO:0006915;apoptotic process;drosophila
+GO:0007028;cytoplasm organization;drosophila
+GO:0007316;pole plasm RNA localization;drosophila
+GO:0035214;eye-antennal disc development;drosophila
+GO:0001894;tissue homeostasis;drosophila
+GO:0042335;cuticle development;drosophila
+GO:0000819;sister chromatid segregation;drosophila
+GO:0002065;columnar/cuboidal epithelial cell differentiation;drosophila
+GO:0000070;mitotic sister chromatid segregation;drosophila
+GO:0098657;import into cell;drosophila
+GO:0072507;divalent inorganic cation homeostasis;drosophila
+GO:0048608;reproductive structure development;drosophila
+GO:0061458;reproductive system development;drosophila
+GO:0072503;cellular divalent inorganic cation homeostasis;drosophila
+GO:0040029;regulation of gene expression, epigenetic;drosophila
+GO:0032147;activation of protein kinase activity;drosophila
+GO:1904580;regulation of intracellular mRNA localization;drosophila
+GO:0022411;cellular component disassembly;drosophila
+GO:0006979;response to oxidative stress;drosophila
+GO:0001745;compound eye morphogenesis;drosophila
+GO:0033044;regulation of chromosome organization;drosophila
+GO:0099111;microtubule-based transport;drosophila
+GO:0035218;leg disc development;drosophila
+GO:0022603;regulation of anatomical structure morphogenesis;drosophila
+GO:0036465;synaptic vesicle recycling;drosophila
+GO:0010562;positive regulation of phosphorus metabolic process;drosophila
+GO:0045937;positive regulation of phosphate metabolic process;drosophila
+GO:0099504;synaptic vesicle cycle;drosophila
+GO:0043067;regulation of programmed cell death;drosophila
+GO:0010631;epithelial cell migration;drosophila
+GO:0198738;cell-cell signaling by wnt;drosophila
+GO:0016579;protein deubiquitination;drosophila
+GO:0035329;hippo signaling;drosophila
+GO:0045448;mitotic cell cycle, embryonic;drosophila
+GO:0042176;regulation of protein catabolic process;drosophila
+GO:0043549;regulation of kinase activity;drosophila
+GO:0051347;positive regulation of transferase activity;drosophila
+GO:0030705;cytoskeleton-dependent intracellular transport;drosophila
+GO:0035222;wing disc pattern formation;drosophila
+GO:0048589;developmental growth;drosophila
+GO:0002066;columnar/cuboidal epithelial cell development;drosophila
+GO:0060341;regulation of cellular localization;drosophila
+GO:0006874;cellular calcium ion homeostasis;drosophila
+GO:0030534;adult behavior;drosophila
+GO:0051310;metaphase plate congression;drosophila
+GO:0008298;intracellular mRNA localization;drosophila
+GO:0001934;positive regulation of protein phosphorylation;drosophila
+GO:0051338;regulation of transferase activity;drosophila
+GO:0033108;mitochondrial respiratory chain complex assembly;drosophila
+GO:0051241;negative regulation of multicellular organismal process;drosophila
+GO:0002164;larval development;drosophila
+GO:0040008;regulation of growth;drosophila
+GO:1903311;regulation of mRNA metabolic process;drosophila
+GO:0008593;regulation of Notch signaling pathway;drosophila
+GO:0021782;glial cell development;drosophila
+GO:0046552;photoreceptor cell fate commitment;drosophila
+GO:0022604;regulation of cell morphogenesis;drosophila
+GO:1901214;regulation of neuron death;drosophila
+GO:0098813;nuclear chromosome segregation;drosophila
+GO:0030707;ovarian follicle cell development;drosophila
+GO:0045732;positive regulation of protein catabolic process;drosophila
+GO:0045746;negative regulation of Notch signaling pathway;drosophila
+GO:0055074;calcium ion homeostasis;drosophila
+GO:0031098;stress-activated protein kinase signaling cascade;drosophila
+GO:0010970;transport along microtubule;drosophila
+GO:0048732;gland development;drosophila
+GO:0010506;regulation of autophagy;drosophila
+GO:0001738;morphogenesis of a polarized epithelium;drosophila
+GO:0007219;Notch signaling pathway;drosophila
+GO:0042981;regulation of apoptotic process;drosophila
+GO:0045451;pole plasm oskar mRNA localization;drosophila
+GO:0018958;phenol-containing compound metabolic process;drosophila
+GO:0010927;cellular component assembly involved in morphogenesis;drosophila
+GO:0030001;metal ion transport;drosophila
+GO:0051049;regulation of transport;drosophila
+GO:0006914;autophagy;drosophila
+GO:0061919;process utilizing autophagic mechanism;drosophila
+GO:1901615;organic hydroxy compound metabolic process;drosophila
+GO:0006638;neutral lipid metabolic process;drosophila
+GO:0006639;acylglycerol metabolic process;drosophila
+GO:0001932;regulation of protein phosphorylation;drosophila
+GO:0010942;positive regulation of cell death;drosophila
+GO:2000243;positive regulation of reproductive process;drosophila
+GO:0031399;regulation of protein modification process;drosophila
+GO:0140014;mitotic nuclear division;drosophila
+GO:0061061;muscle structure development;drosophila
+GO:0045995;regulation of embryonic development;drosophila
+GO:0032535;regulation of cellular component size;drosophila
+GO:0001709;cell fate determination;drosophila
+GO:0042461;photoreceptor cell development;drosophila
+GO:0009101;glycoprotein biosynthetic process;drosophila
+GO:0043547;positive regulation of GTPase activity;drosophila
+GO:0070646;protein modification by small protein removal;drosophila
+GO:0035330;regulation of hippo signaling;drosophila
+GO:0046148;pigment biosynthetic process;drosophila
+GO:0051403;stress-activated MAPK cascade;drosophila
+GO:0050790;regulation of catalytic activity;drosophila
+GO:0048488;synaptic vesicle endocytosis;drosophila
+GO:0070997;neuron death;drosophila
+GO:0140238;presynaptic endocytosis;drosophila
+GO:0030335;positive regulation of cell migration;drosophila
+GO:0007254;JNK cascade;drosophila
+GO:0001736;establishment of planar polarity;drosophila
+GO:0007164;establishment of tissue polarity;drosophila
+GO:0009100;glycoprotein metabolic process;drosophila
+GO:0045893;positive regulation of transcription, DNA-templated;drosophila
+GO:1902680;positive regulation of RNA biosynthetic process;drosophila
+GO:1903508;positive regulation of nucleic acid-templated transcription;drosophila
+GO:0022404;molting cycle process;drosophila
+GO:0048598;embryonic morphogenesis;drosophila
+GO:1902275;regulation of chromatin organization;drosophila
+GO:0043068;positive regulation of programmed cell death;drosophila
+GO:0006726;eye pigment biosynthetic process;drosophila
+GO:0051303;establishment of chromosome localization;drosophila
+GO:0048871;multicellular organismal homeostasis;drosophila
+GO:0048878;chemical homeostasis;drosophila
+GO:0042058;regulation of epidermal growth factor receptor signaling pathway;drosophila
+GO:1901184;regulation of ERBB signaling pathway;drosophila
+GO:0071684;organism emergence from protective structure;drosophila
+GO:0001752;compound eye photoreceptor fate commitment;drosophila
+GO:0045859;regulation of protein kinase activity;drosophila
+GO:0006955;immune response;drosophila
+GO:0070588;calcium ion transmembrane transport;drosophila
+GO:0007059;chromosome segregation;drosophila
+GO:0008037;cell recognition;drosophila
+GO:0120192;tight junction assembly;drosophila
+GO:0120193;tight junction organization;drosophila
+GO:0002683;negative regulation of immune system process;drosophila
+GO:0097435;supramolecular fiber organization;drosophila
+GO:0042706;eye photoreceptor cell fate commitment;drosophila
+GO:0016458;gene silencing;drosophila
+GO:0007549;dosage compensation;drosophila
+GO:0030301;cholesterol transport;drosophila
+GO:0051345;positive regulation of hydrolase activity;drosophila
+GO:0007478;leg disc morphogenesis;drosophila
+GO:0006486;protein glycosylation;drosophila
+GO:0043413;macromolecule glycosylation;drosophila
+GO:0006493;protein O-linked glycosylation;drosophila
+GO:0048806;genitalia development;drosophila
+GO:1903052;positive regulation of proteolysis involved in cellular protein catabolic process;drosophila
+GO:1903688;positive regulation of border follicle cell migration;drosophila
+GO:2000147;positive regulation of cell motility;drosophila
+GO:0042441;eye pigment metabolic process;drosophila
+GO:0043324;pigment metabolic process involved in developmental pigmentation;drosophila
+GO:0043474;pigment metabolic process involved in pigmentation;drosophila
+GO:0055076;transition metal ion homeostasis;drosophila
+GO:0010975;regulation of neuron projection development;drosophila
+GO:0048512;circadian behavior;drosophila
+GO:0032872;regulation of stress-activated MAPK cascade;drosophila
+GO:0070302;regulation of stress-activated protein kinase signaling cascade;drosophila
+GO:0048663;neuron fate commitment;drosophila
+GO:0070085;glycosylation;drosophila
+GO:1905114;cell surface receptor signaling pathway involved in cell-cell signaling;drosophila
+GO:0045087;innate immune response;drosophila
+GO:0051962;positive regulation of nervous system development;drosophila
+GO:1903362;regulation of cellular protein catabolic process;drosophila
+GO:0010634;positive regulation of epithelial cell migration;drosophila
+GO:0030858;positive regulation of epithelial cell differentiation;drosophila
+GO:0035159;regulation of tube length, open tracheal system;drosophila
+GO:1903684;regulation of border follicle cell migration;drosophila
+GO:0023014;signal transduction by protein phosphorylation;drosophila
+GO:0050769;positive regulation of neurogenesis;drosophila
+GO:0007427;epithelial cell migration, open tracheal system;drosophila
+GO:0008088;axo-dendritic transport;drosophila
+GO:0008589;regulation of smoothened signaling pathway;drosophila
+GO:0010001;glial cell differentiation;drosophila
+GO:0010324;membrane invagination;drosophila
+GO:0099024;plasma membrane invagination;drosophila
+GO:0006468;protein phosphorylation;drosophila
+GO:0007622;rhythmic behavior;drosophila
+GO:0035166;post-embryonic hemopoiesis;drosophila
+GO:0035167;larval lymph gland hemopoiesis;drosophila
+GO:0007306;eggshell chorion assembly;drosophila
+GO:0022900;electron transport chain;drosophila
+GO:0007015;actin filament organization;drosophila
+GO:0016055;Wnt signaling pathway;drosophila
+GO:0000422;autophagy of mitochondrion;drosophila
+GO:0042059;negative regulation of epidermal growth factor receptor signaling pathway;drosophila
+GO:0061726;mitochondrion disassembly;drosophila
+GO:1901185;negative regulation of ERBB signaling pathway;drosophila
+GO:1901215;negative regulation of neuron death;drosophila
+GO:1901800;positive regulation of proteasomal protein catabolic process;drosophila
+GO:0080134;regulation of response to stress;drosophila
+GO:0045862;positive regulation of proteolysis;drosophila
+GO:0009306;protein secretion;drosophila
+GO:0060070;canonical Wnt signaling pathway;drosophila
+GO:0007018;microtubule-based movement;drosophila
+GO:0010669;epithelial structure maintenance;drosophila
+GO:0017004;cytochrome complex assembly;drosophila
+GO:0032874;positive regulation of stress-activated MAPK cascade;drosophila
+GO:0070304;positive regulation of stress-activated protein kinase signaling cascade;drosophila
+GO:0007591;molting cycle, chitin-based cuticle;drosophila
+GO:0042303;molting cycle;drosophila
+GO:0019991;septate junction assembly;drosophila
+GO:0010639;negative regulation of organelle organization;drosophila
+GO:0035331;negative regulation of hippo signaling;drosophila
+GO:0043065;positive regulation of apoptotic process;drosophila
+GO:0061326;renal tubule development;drosophila
+GO:0072002;Malpighian tubule development;drosophila
+GO:0010638;positive regulation of organelle organization;drosophila
+GO:0015718;monocarboxylic acid transport;drosophila
+GO:0050000;chromosome localization;drosophila
+GO:0034329;cell junction assembly;drosophila
+GO:1903364;positive regulation of cellular protein catabolic process;drosophila
+GO:0046328;regulation of JNK cascade;drosophila
+GO:0009628;response to abiotic stimulus;drosophila
+GO:0010623;programmed cell death involved in cell development;drosophila
+GO:0070647;protein modification by small protein conjugation or removal;drosophila
+GO:0007304;chorion-containing eggshell formation;drosophila
+GO:0030111;regulation of Wnt signaling pathway;drosophila
+GO:0042127;regulation of cell proliferation;drosophila
+GO:0035215;genital disc development;drosophila
+GO:0045475;locomotor rhythm;drosophila
+GO:0008033;tRNA processing;drosophila
+GO:0042063;gliogenesis;drosophila
+GO:0043902;positive regulation of multi-organism process;drosophila
+GO:0006869;lipid transport;drosophila
+GO:0060828;regulation of canonical Wnt signaling pathway;drosophila
+GO:0007528;neuromuscular junction development;drosophila
+GO:0015918;sterol transport;drosophila
+GO:0018991;oviposition;drosophila
+GO:0140053;mitochondrial gene expression;drosophila
+GO:0008407;chaeta morphogenesis;drosophila
+GO:1903050;regulation of proteolysis involved in cellular protein catabolic process;drosophila
+GO:0006119;oxidative phosphorylation;drosophila
+GO:0008038;neuron recognition;drosophila
+GO:0010959;regulation of metal ion transport;drosophila
+GO:0046661;male sex differentiation;drosophila
+GO:2000060;positive regulation of ubiquitin-dependent protein catabolic process;drosophila
+GO:0050795;regulation of behavior;drosophila
+GO:0001655;urogenital system development;drosophila
+GO:0007274;neuromuscular synaptic transmission;drosophila
+GO:0072001;renal system development;drosophila
+GO:0035112;genitalia morphogenesis;drosophila
+GO:0043408;regulation of MAPK cascade;drosophila
+GO:0007264;small GTPase mediated signal transduction;drosophila
+GO:0030703;eggshell formation;drosophila
+GO:0008258;head involution;drosophila
+GO:0009895;negative regulation of catabolic process;drosophila
+GO:0007098;centrosome cycle;drosophila
+GO:0006342;chromatin silencing;drosophila
+GO:0045814;negative regulation of gene expression, epigenetic;drosophila
+GO:0009611;response to wounding;drosophila
+GO:0007354;zygotic determination of anterior/posterior axis, embryo;drosophila
+GO:0007469;antennal development;drosophila
+GO:0016198;axon choice point recognition;drosophila
+GO:0030856;regulation of epithelial cell differentiation;drosophila
+GO:0048865;stem cell fate commitment;drosophila
+GO:2000058;regulation of ubiquitin-dependent protein catabolic process;drosophila
+GO:0099003;vesicle-mediated transport in synapse;drosophila
+GO:0048285;organelle fission;drosophila
+GO:0000045;autophagosome assembly;drosophila
+GO:0007259;JAK-STAT cascade;drosophila
+GO:0097696;STAT cascade;drosophila
+GO:0051129;negative regulation of cellular component organization;drosophila
+GO:0007474;imaginal disc-derived wing vein specification;drosophila
+GO:0008045;motor neuron axon guidance;drosophila
+GO:0030865;cortical cytoskeleton organization;drosophila
+GO:0007310;oocyte dorsal/ventral axis specification;drosophila
+GO:0010821;regulation of mitochondrion organization;drosophila
+GO:0045879;negative regulation of smoothened signaling pathway;drosophila
+GO:0050808;synapse organization;drosophila
+GO:0006811;ion transport;drosophila
+GO:0032956;regulation of actin cytoskeleton organization;drosophila
+GO:0032970;regulation of actin filament-based process;drosophila
+GO:0007051;spindle organization;drosophila
+GO:0007298;border follicle cell migration;drosophila
+GO:0031935;regulation of chromatin silencing;drosophila
+GO:0009314;response to radiation;drosophila
+GO:0000165;MAPK cascade;drosophila
+GO:0006402;mRNA catabolic process;drosophila
+GO:0007480;imaginal disc-derived leg morphogenesis;drosophila
+GO:0042775;mitochondrial ATP synthesis coupled electron transport;drosophila
+GO:0007484;imaginal disc-derived genitalia development;drosophila
+GO:0009954;proximal/distal pattern formation;drosophila
+GO:0032436;positive regulation of proteasomal ubiquitin-dependent protein catabolic process;drosophila
+GO:0035069;larval midgut histolysis;drosophila
+GO:0010035;response to inorganic substance;drosophila
+GO:0031346;positive regulation of cell projection organization;drosophila
+GO:0051272;positive regulation of cellular component movement;drosophila
+GO:0045596;negative regulation of cell differentiation;drosophila
+GO:0040012;regulation of locomotion;drosophila
+GO:0060548;negative regulation of cell death;drosophila
+GO:0035006;melanization defense response;drosophila
+GO:0051259;protein complex oligomerization;drosophila
+GO:0007265;Ras protein signal transduction;drosophila
+GO:0050776;regulation of immune response;drosophila
+GO:0002682;regulation of immune system process;drosophila
+GO:0044265;cellular macromolecule catabolic process;drosophila
+GO:0016236;macroautophagy;drosophila
+GO:0070507;regulation of microtubule cytoskeleton organization;drosophila
+GO:0000723;telomere maintenance;drosophila
+GO:0032200;telomere organization;drosophila
+GO:0051647;nucleus localization;drosophila
+GO:0034330;cell junction organization;drosophila
+GO:0007297;ovarian follicle cell migration;drosophila
+GO:0032101;regulation of response to external stimulus;drosophila
+GO:0008340;determination of adult lifespan;drosophila
+GO:0046330;positive regulation of JNK cascade;drosophila
+GO:0046916;cellular transition metal ion homeostasis;drosophila
+GO:0090306;spindle assembly involved in meiosis;drosophila
+GO:0043087;regulation of GTPase activity;drosophila
+GO:0010876;lipid localization;drosophila
+GO:0051090;regulation of DNA-binding transcription factor activity;drosophila
+GO:1905037;autophagosome organization;drosophila
+GO:0007099;centriole replication;drosophila
+GO:0036335;intestinal stem cell homeostasis;drosophila
+GO:0006898;receptor-mediated endocytosis;drosophila
+GO:0000280;nuclear division;drosophila
+GO:0042462;eye photoreceptor cell development;drosophila
+GO:0048863;stem cell differentiation;drosophila
+GO:0050777;negative regulation of immune response;drosophila
+GO:0048542;lymph gland development;drosophila
+GO:0006582;melanin metabolic process;drosophila
+GO:0008360;regulation of cell shape;drosophila
+GO:0032006;regulation of TOR signaling;drosophila
+GO:0032886;regulation of microtubule-based process;drosophila
+GO:0008361;regulation of cell size;drosophila
+GO:0060322;head development;drosophila
+GO:0009950;dorsal/ventral axis specification;drosophila
+GO:0010259;multicellular organism aging;drosophila
+GO:0008586;imaginal disc-derived wing vein morphogenesis;drosophila
+GO:1905269;positive regulation of chromatin organization;drosophila
+GO:0043409;negative regulation of MAPK cascade;drosophila
+GO:0007043;cell-cell junction assembly;drosophila
+GO:0031929;TOR signaling;drosophila
+GO:0022904;respiratory electron transport chain;drosophila
+GO:0032386;regulation of intracellular transport;drosophila
+GO:0051054;positive regulation of DNA metabolic process;drosophila
+GO:0098534;centriole assembly;drosophila
+GO:1902115;regulation of organelle assembly;drosophila
+GO:0006812;cation transport;drosophila
+GO:0008344;adult locomotory behavior;drosophila
+GO:0002790;peptide secretion;drosophila
+GO:0042773;ATP synthesis coupled electron transport;drosophila
+GO:0048638;regulation of developmental growth;drosophila
+GO:0044089;positive regulation of cellular component biogenesis;drosophila
+GO:0031330;negative regulation of cellular catabolic process;drosophila
+GO:0099537;trans-synaptic signaling;drosophila
+GO:0007611;learning or memory;drosophila
+GO:0050890;cognition;drosophila
+GO:0042180;cellular ketone metabolic process;drosophila
+GO:0099536;synaptic signaling;drosophila
+GO:0006909;phagocytosis;drosophila
+GO:0007293;germarium-derived egg chamber formation;drosophila
+GO:0022416;chaeta development;drosophila
+GO:0060968;regulation of gene silencing;drosophila
+GO:0031348;negative regulation of defense response;drosophila
+GO:0042181;ketone biosynthetic process;drosophila
+GO:1903008;organelle disassembly;drosophila
+GO:0009991;response to extracellular stimulus;drosophila
+GO:0000041;transition metal ion transport;drosophila
+GO:0010508;positive regulation of autophagy;drosophila
+GO:0031099;regeneration;drosophila
+GO:0048102;autophagic cell death;drosophila
+GO:0005975;carbohydrate metabolic process;drosophila
+GO:0007485;imaginal disc-derived male genitalia development;drosophila
+GO:0035096;larval midgut cell programmed cell death;drosophila
+GO:0051646;mitochondrion localization;drosophila
+GO:0030178;negative regulation of Wnt signaling pathway;drosophila
+GO:0048565;digestive tract development;drosophila
+GO:0055123;digestive system development;drosophila
+GO:0007613;memory;drosophila
+GO:0050804;modulation of chemical synaptic transmission;drosophila
+GO:0099177;regulation of trans-synaptic signaling;drosophila
+GO:0009607;response to biotic stimulus;drosophila
+GO:0043207;response to external biotic stimulus;drosophila
+GO:0051707;response to other organism;drosophila
+GO:0042692;muscle cell differentiation;drosophila
+GO:0061136;regulation of proteasomal protein catabolic process;drosophila
+GO:0007568;aging;drosophila
+GO:0019748;secondary metabolic process;drosophila
+GO:0006952;defense response;drosophila
+GO:0007616;long-term memory;drosophila
+GO:0007391;dorsal closure;drosophila
+GO:0080135;regulation of cellular response to stress;drosophila
+GO:1903047;mitotic cell cycle process;drosophila
+GO:0007224;smoothened signaling pathway;drosophila
+GO:0001775;cell activation;drosophila
+GO:0048872;homeostasis of number of cells;drosophila
+GO:0051261;protein depolymerization;drosophila
+GO:0051494;negative regulation of cytoskeleton organization;drosophila
+GO:0032940;secretion by cell;drosophila
+GO:0048678;response to axon injury;drosophila
+GO:0051146;striated muscle cell differentiation;drosophila
+GO:0043467;regulation of generation of precursor metabolites and energy;drosophila
+GO:0044719;regulation of imaginal disc-derived wing size;drosophila
+GO:0061057;peptidoglycan recognition protein signaling pathway;drosophila
+GO:0051726;regulation of cell cycle;drosophila
+GO:0051186;cofactor metabolic process;drosophila
+GO:0016331;morphogenesis of embryonic epithelium;drosophila
+GO:0051124;synaptic growth at neuromuscular junction;drosophila
+GO:0045216;cell-cell junction organization;drosophila
+GO:0007268;chemical synaptic transmission;drosophila
+GO:0098916;anterograde trans-synaptic signaling;drosophila
+GO:0001704;formation of primary germ layer;drosophila
+GO:0007593;chitin-based cuticle sclerotization;drosophila
+GO:0090090;negative regulation of canonical Wnt signaling pathway;drosophila
+GO:0043297;apical junction assembly;drosophila
+GO:0060033;anatomical structure regression;drosophila
+GO:0010632;regulation of epithelial cell migration;drosophila
+GO:0007431;salivary gland development;drosophila
+GO:0035272;exocrine system development;drosophila
+GO:0030163;protein catabolic process;drosophila
+GO:0043901;negative regulation of multi-organism process;drosophila
+GO:0045088;regulation of innate immune response;drosophila
+GO:0006732;coenzyme metabolic process;drosophila
+GO:0040017;positive regulation of locomotion;drosophila
+GO:0031667;response to nutrient levels;drosophila
+GO:0051098;regulation of binding;drosophila
+GO:0072384;organelle transport along microtubule;drosophila
+GO:0090630;activation of GTPase activity;drosophila
+GO:0097193;intrinsic apoptotic signaling pathway;drosophila
+GO:0007442;hindgut morphogenesis;drosophila
+GO:0061525;hindgut development;drosophila
+GO:0006023;aminoglycan biosynthetic process;drosophila
+GO:0006446;regulation of translational initiation;drosophila
+GO:0008362;chitin-based embryonic cuticle biosynthetic process;drosophila
+GO:0017148;negative regulation of translation;drosophila
+GO:0048067;cuticle pigmentation;drosophila
+GO:0070828;heterochromatin organization;drosophila
+GO:0007435;salivary gland morphogenesis;drosophila
+GO:0022612;gland morphogenesis;drosophila
+GO:1902850;microtubule cytoskeleton organization involved in mitosis;drosophila
+GO:0010256;endomembrane system organization;drosophila
+GO:0043066;negative regulation of apoptotic process;drosophila
+GO:0007420;brain development;drosophila
+GO:0042752;regulation of circadian rhythm;drosophila
+GO:0006403;RNA localization;drosophila
+GO:0031532;actin cytoskeleton reorganization;drosophila
+GO:0032434;regulation of proteasomal ubiquitin-dependent protein catabolic process;drosophila
+GO:0035194;posttranscriptional gene silencing by RNA;drosophila
+GO:2001252;positive regulation of chromosome organization;drosophila
+GO:0051270;regulation of cellular component movement;drosophila
+GO:0040003;chitin-based cuticle development;drosophila
+GO:0007525;somatic muscle development;drosophila
+GO:0009581;detection of external stimulus;drosophila
+GO:0009582;detection of abiotic stimulus;drosophila
+GO:0050807;regulation of synapse organization;drosophila
+GO:0008592;regulation of Toll signaling pathway;drosophila
+GO:0030203;glycosaminoglycan metabolic process;drosophila
+GO:0040001;establishment of mitotic spindle localization;drosophila
+GO:0009126;purine nucleoside monophosphate metabolic process;drosophila
+GO:0009167;purine ribonucleoside monophosphate metabolic process;drosophila
+GO:0031023;microtubule organizing center organization;drosophila
+GO:0042060;wound healing;drosophila
+GO:0045926;negative regulation of growth;drosophila
+GO:0051050;positive regulation of transport;drosophila
+GO:0007449;proximal/distal pattern formation, imaginal disc;drosophila
+GO:0007483;genital disc morphogenesis;drosophila
+GO:0031937;positive regulation of chromatin silencing;drosophila
+GO:0043523;regulation of neuron apoptotic process;drosophila
+GO:0055001;muscle cell development;drosophila
+GO:0070201;regulation of establishment of protein localization;drosophila
+GO:0006091;generation of precursor metabolites and energy;drosophila
+GO:0120031;plasma membrane bounded cell projection assembly;drosophila
+GO:0006641;triglyceride metabolic process;drosophila
+GO:0048085;adult chitin-containing cuticle pigmentation;drosophila
+GO:0006511;ubiquitin-dependent protein catabolic process;drosophila
+GO:0042051;compound eye photoreceptor development;drosophila
+GO:0048546;digestive tract morphogenesis;drosophila
+GO:0008039;synaptic target recognition;drosophila
+GO:0010038;response to metal ion;drosophila
+GO:0000212;meiotic spindle organization;drosophila
+GO:0030177;positive regulation of Wnt signaling pathway;drosophila
+GO:0042742;defense response to bacterium;drosophila
+GO:0007052;mitotic spindle organization;drosophila
+GO:0009719;response to endogenous stimulus;drosophila
+GO:0030031;cell projection assembly;drosophila
+GO:0008293;torso signaling pathway;drosophila
+GO:0051301;cell division;drosophila
+GO:0051961;negative regulation of nervous system development;drosophila
+GO:0001655;urogenital system development;mouse
+GO:0001822;kidney development;mouse
+GO:0072001;renal system development;mouse
+GO:0048732;gland development;mouse
+GO:0034330;cell junction organization;mouse
+GO:0034405;response to fluid shear stress;mouse
+GO:0031954;positive regulation of protein autophosphorylation;mouse
+GO:0060326;cell chemotaxis;mouse
+GO:0007204;positive regulation of cytosolic calcium ion concentration;mouse
+GO:0061326;renal tubule development;mouse
+GO:0051480;regulation of cytosolic calcium ion concentration;mouse
+GO:0060562;epithelial tube morphogenesis;mouse
+GO:0050918;positive chemotaxis;mouse
+GO:0031952;regulation of protein autophosphorylation;mouse
+GO:0070374;positive regulation of ERK1 and ERK2 cascade;mouse
+GO:0050730;regulation of peptidyl-tyrosine phosphorylation;mouse
+GO:0035924;cellular response to vascular endothelial growth factor stimulus;mouse
+GO:0045860;positive regulation of protein kinase activity;mouse
+GO:0061383;trabecula morphogenesis;mouse
+GO:0034614;cellular response to reactive oxygen species;mouse
+GO:0045216;cell-cell junction organization;mouse
+GO:0003007;heart morphogenesis;mouse
+GO:0048608;reproductive structure development;mouse
+GO:0022612;gland morphogenesis;mouse
+GO:0061458;reproductive system development;mouse
+GO:0006874;cellular calcium ion homeostasis;mouse
+GO:0032103;positive regulation of response to external stimulus;mouse
+GO:0033674;positive regulation of kinase activity;mouse
+GO:0048871;multicellular organismal homeostasis;mouse
+GO:0055074;calcium ion homeostasis;mouse
+GO:0010035;response to inorganic substance;mouse
+GO:0072503;cellular divalent inorganic cation homeostasis;mouse
+GO:0018108;peptidyl-tyrosine phosphorylation;mouse
+GO:0018212;peptidyl-tyrosine modification;mouse
+GO:0045428;regulation of nitric oxide biosynthetic process;mouse
+GO:0061035;regulation of cartilage development;mouse
+GO:1901224;positive regulation of NIK/NF-kappaB signaling;mouse
+GO:0002791;regulation of peptide secretion;mouse
+GO:0021536;diencephalon development;mouse
+GO:0050900;leukocyte migration;mouse
+GO:0070372;regulation of ERK1 and ERK2 cascade;mouse
+GO:0016331;morphogenesis of embryonic epithelium;mouse
+GO:0009636;response to toxic substance;mouse
+GO:0048754;branching morphogenesis of an epithelial tube;mouse
+GO:0006809;nitric oxide biosynthetic process;mouse
+GO:0071347;cellular response to interleukin-1;mouse
+GO:0048771;tissue remodeling;mouse
+GO:0055008;cardiac muscle tissue morphogenesis;mouse
+GO:0046209;nitric oxide metabolic process;mouse
+GO:0070371;ERK1 and ERK2 cascade;mouse
+GO:0000302;response to reactive oxygen species;mouse
+GO:1901605;alpha-amino acid metabolic process;mouse
+GO:1901888;regulation of cell junction assembly;mouse
+GO:2001057;reactive nitrogen species metabolic process;mouse
+GO:0034329;cell junction assembly;mouse
+GO:0070301;cellular response to hydrogen peroxide;mouse
+GO:0061333;renal tubule morphogenesis;mouse
+GO:0001505;regulation of neurotransmitter levels;mouse
+GO:0051216;cartilage development;mouse
+GO:0030595;leukocyte chemotaxis;mouse
+GO:0050920;regulation of chemotaxis;mouse
+GO:0060415;muscle tissue morphogenesis;mouse
+GO:0070555;response to interleukin-1;mouse
+GO:0032755;positive regulation of interleukin-6 production;mouse
+GO:0043547;positive regulation of GTPase activity;mouse
+GO:0051090;regulation of DNA-binding transcription factor activity;mouse
+GO:0060249;anatomical structure homeostasis;mouse
+GO:0001946;lymphangiogenesis;mouse
+GO:0051220;cytoplasmic sequestering of protein;mouse
+GO:0072079;nephron tubule formation;mouse
+GO:1901222;regulation of NIK/NF-kappaB signaling;mouse
+GO:0061138;morphogenesis of a branching epithelium;mouse
+GO:0036303;lymph vessel morphogenesis;mouse
+GO:0046849;bone remodeling;mouse
+GO:1903426;regulation of reactive oxygen species biosynthetic process;mouse
+GO:0006979;response to oxidative stress;mouse
+GO:0038061;NIK/NF-kappaB signaling;mouse
+GO:0048644;muscle organ morphogenesis;mouse
+GO:0072080;nephron tubule development;mouse
+GO:0060993;kidney morphogenesis;mouse
+GO:2001233;regulation of apoptotic signaling pathway;mouse
+GO:0090190;positive regulation of branching involved in ureteric bud morphogenesis;mouse
+GO:0042136;neurotransmitter biosynthetic process;mouse
+GO:0001763;morphogenesis of a branching structure;mouse
+GO:0032147;activation of protein kinase activity;mouse
+GO:0031629;synaptic vesicle fusion to presynaptic active zone membrane;mouse
+GO:0061213;positive regulation of mesonephros development;mouse
+GO:0072009;nephron epithelium development;mouse
+GO:2000177;regulation of neural precursor cell proliferation;mouse
+GO:0050927;positive regulation of positive chemotaxis;mouse
+GO:0090189;regulation of branching involved in ureteric bud morphogenesis;mouse
+GO:0099500;vesicle fusion to plasma membrane;mouse
+GO:0001952;regulation of cell-matrix adhesion;mouse
+GO:0048738;cardiac muscle tissue development;mouse
+GO:1903409;reactive oxygen species biosynthetic process;mouse
+GO:0003338;metanephros morphogenesis;mouse
+GO:0050926;regulation of positive chemotaxis;mouse
+GO:0045786;negative regulation of cell cycle;mouse
+GO:0002040;sprouting angiogenesis;mouse
+GO:0043534;blood vessel endothelial cell migration;mouse
+GO:0034599;cellular response to oxidative stress;mouse
+GO:0042542;response to hydrogen peroxide;mouse
+GO:0001945;lymph vessel development;mouse
+GO:0008045;motor neuron axon guidance;mouse
+GO:0061217;regulation of mesonephros development;mouse
+GO:0006520;cellular amino acid metabolic process;mouse
+GO:0001889;liver development;mouse
+GO:0061037;negative regulation of cartilage development;mouse
+GO:0007389;pattern specification process;mouse
+GO:0061008;hepaticobiliary system development;mouse
+GO:0051092;positive regulation of NF-kappaB transcription factor activity;mouse
+GO:0061448;connective tissue development;mouse
+GO:0006471;protein ADP-ribosylation;mouse
+GO:0031338;regulation of vesicle fusion;mouse
+GO:0060977;coronary vasculature morphogenesis;mouse
+GO:1901890;positive regulation of cell junction assembly;mouse
+GO:0009611;response to wounding;mouse
+GO:0051402;neuron apoptotic process;mouse
+GO:0009855;determination of bilateral symmetry;mouse
+GO:2001056;positive regulation of cysteine-type endopeptidase activity;mouse
+GO:0032735;positive regulation of interleukin-12 production;mouse
+GO:0038084;vascular endothelial growth factor signaling pathway;mouse
+GO:1903205;regulation of hydrogen peroxide-induced cell death;mouse
+GO:0009799;specification of symmetry;mouse
+GO:0097193;intrinsic apoptotic signaling pathway;mouse
+GO:0043087;regulation of GTPase activity;mouse
+GO:0000096;sulfur amino acid metabolic process;mouse
+GO:0032205;negative regulation of telomere maintenance;mouse
+GO:0050921;positive regulation of chemotaxis;mouse
+GO:0051482;positive regulation of cytosolic calcium ion concentration involved in phospholipase C-activating G protein-coupled signaling pathway;mouse
+GO:0061384;heart trabecula morphogenesis;mouse
+GO:2001038;regulation of cellular response to drug;mouse
+GO:0032675;regulation of interleukin-6 production;mouse
+GO:0042063;gliogenesis;mouse
+GO:0007435;salivary gland morphogenesis;mouse
+GO:0016233;telomere capping;mouse
+GO:0060674;placenta blood vessel development;mouse
+GO:0046677;response to antibiotic;mouse
+GO:0072006;nephron development;mouse
+GO:0014013;regulation of gliogenesis;mouse
+GO:0030326;embryonic limb morphogenesis;mouse
+GO:0035113;embryonic appendage morphogenesis;mouse
+GO:0072073;kidney epithelium development;mouse
+GO:0036474;cell death in response to hydrogen peroxide;mouse
+GO:1905332;positive regulation of morphogenesis of an epithelium;mouse
+GO:0042133;neurotransmitter metabolic process;mouse
+GO:2001251;negative regulation of chromosome organization;mouse
+GO:0007159;leukocyte cell-cell adhesion;mouse
+GO:0006284;base-excision repair;mouse
+GO:0046627;negative regulation of insulin receptor signaling pathway;mouse
+GO:0032635;interleukin-6 production;mouse
+GO:0002793;positive regulation of peptide secretion;mouse
+GO:0003206;cardiac chamber morphogenesis;mouse
+GO:0010950;positive regulation of endopeptidase activity;mouse
+GO:0021983;pituitary gland development;mouse
+GO:1900077;negative regulation of cellular response to insulin stimulus;mouse
+GO:0032102;negative regulation of response to external stimulus;mouse
+GO:0007431;salivary gland development;mouse
+GO:0009066;aspartate family amino acid metabolic process;mouse
+GO:0051281;positive regulation of release of sequestered calcium ion into cytosol;mouse
+GO:0110111;negative regulation of animal organ morphogenesis;mouse
+GO:0001838;embryonic epithelial tube formation;mouse
+GO:0061028;establishment of endothelial barrier;mouse
+GO:0010952;positive regulation of peptidase activity;mouse
+GO:0097237;cellular response to toxic substance;mouse
+GO:0007596;blood coagulation;mouse
+GO:0090184;positive regulation of kidney development;mouse
+GO:1901031;regulation of response to reactive oxygen species;mouse
+GO:0007599;hemostasis;mouse
+GO:0072175;epithelial tube formation;mouse
+GO:0048010;vascular endothelial growth factor receptor signaling pathway;mouse
+GO:0050817;coagulation;mouse
+GO:0071897;DNA biosynthetic process;mouse
+GO:0050878;regulation of body fluid levels;mouse
+GO:0045429;positive regulation of nitric oxide biosynthetic process;mouse
+GO:1904407;positive regulation of nitric oxide metabolic process;mouse
+GO:0042060;wound healing;mouse
+GO:0001890;placenta development;mouse
+GO:0032330;regulation of chondrocyte differentiation;mouse
+GO:0043524;negative regulation of neuron apoptotic process;mouse
+GO:0007259;JAK-STAT cascade;mouse
+GO:0009612;response to mechanical stimulus;mouse
+GO:0035107;appendage morphogenesis;mouse
+GO:0035108;limb morphogenesis;mouse
+GO:0014014;negative regulation of gliogenesis;mouse
+GO:0035148;tube formation;mouse
+GO:0035690;cellular response to drug;mouse
+GO:0097696;STAT cascade;mouse
+GO:0061351;neural precursor cell proliferation;mouse
+GO:0001954;positive regulation of cell-matrix adhesion;mouse
+GO:0030514;negative regulation of BMP signaling pathway;mouse
+GO:0032655;regulation of interleukin-12 production;mouse
+GO:0045766;positive regulation of angiogenesis;mouse
+GO:0030850;prostate gland development;mouse
+GO:0055010;ventricular cardiac muscle tissue morphogenesis;mouse
+GO:0001503;ossification;mouse
+GO:0022408;negative regulation of cell-cell adhesion;mouse
+GO:0035272;exocrine system development;mouse
+GO:0007249;I-kappaB kinase/NF-kappaB signaling;mouse
+GO:0120032;regulation of plasma membrane bounded cell projection assembly;mouse
+GO:0060491;regulation of cell projection assembly;mouse
+GO:0002042;cell migration involved in sprouting angiogenesis;mouse
+GO:0032615;interleukin-12 production;mouse
+GO:0050922;negative regulation of chemotaxis;mouse
+GO:0043536;positive regulation of blood vessel endothelial cell migration;mouse
+GO:0051893;regulation of focal adhesion assembly;mouse
+GO:0090109;regulation of cell-substrate junction assembly;mouse
+GO:0050731;positive regulation of peptidyl-tyrosine phosphorylation;mouse
+GO:0022407;regulation of cell-cell adhesion;mouse
+GO:0030900;forebrain development;mouse
+GO:0071236;cellular response to antibiotic;mouse
+GO:2000377;regulation of reactive oxygen species metabolic process;mouse
+GO:0050982;detection of mechanical stimulus;mouse
+GO:0090183;regulation of kidney development;mouse
+GO:0003205;cardiac chamber development;mouse
+GO:0043542;endothelial cell migration;mouse
+GO:0010524;positive regulation of calcium ion transport into cytosol;mouse
+GO:0046850;regulation of bone remodeling;mouse
+GO:1901607;alpha-amino acid biosynthetic process;mouse
+GO:1903428;positive regulation of reactive oxygen species biosynthetic process;mouse
+GO:0010639;negative regulation of organelle organization;mouse
+GO:0070997;neuron death;mouse
+GO:0048008;platelet-derived growth factor receptor signaling pathway;mouse
+GO:0007160;cell-matrix adhesion;mouse
+GO:0097529;myeloid leukocyte migration;mouse
+GO:1904018;positive regulation of vasculature development;mouse
+GO:0048736;appendage development;mouse
+GO:0060173;limb development;mouse
+GO:0045668;negative regulation of osteoblast differentiation;mouse
+GO:0045785;positive regulation of cell adhesion;mouse
+GO:0003229;ventricular cardiac muscle tissue development;mouse
+GO:0008652;cellular amino acid biosynthetic process;mouse
+GO:0060393;regulation of pathway-restricted SMAD protein phosphorylation;mouse
+GO:1903391;regulation of adherens junction organization;mouse
+GO:0007188;adenylate cyclase-modulating G protein-coupled receptor signaling pathway;mouse
+GO:0010810;regulation of cell-substrate adhesion;mouse
+GO:0001658;branching involved in ureteric bud morphogenesis;mouse
+GO:0001885;endothelial cell development;mouse
+GO:2001244;positive regulation of intrinsic apoptotic signaling pathway;mouse
+GO:0042108;positive regulation of cytokine biosynthetic process;mouse
+GO:0046626;regulation of insulin receptor signaling pathway;mouse
+GO:0060389;pathway-restricted SMAD protein phosphorylation;mouse
+GO:0035265;organ growth;mouse
+GO:0014068;positive regulation of phosphatidylinositol 3-kinase signaling;mouse
+GO:2000179;positive regulation of neural precursor cell proliferation;mouse
+GO:0007517;muscle organ development;mouse
+GO:0060688;regulation of morphogenesis of a branching structure;mouse
+GO:0048762;mesenchymal cell differentiation;mouse
+GO:0001819;positive regulation of cytokine production;mouse
+GO:0051052;regulation of DNA metabolic process;mouse
+GO:0043406;positive regulation of MAP kinase activity;mouse
+GO:0060675;ureteric bud morphogenesis;mouse
+GO:2000116;regulation of cysteine-type endopeptidase activity;mouse
+GO:0010001;glial cell differentiation;mouse
+GO:0045453;bone resorption;mouse
+GO:0072171;mesonephric tubule morphogenesis;mouse
+GO:2001234;negative regulation of apoptotic signaling pathway;mouse
+GO:0014706;striated muscle tissue development;mouse
+GO:0030278;regulation of ossification;mouse
+GO:0007045;cell-substrate adherens junction assembly;mouse
+GO:0007422;peripheral nervous system development;mouse
+GO:0048041;focal adhesion assembly;mouse
+GO:0048844;artery morphogenesis;mouse
+GO:0006281;DNA repair;mouse
+GO:0001894;tissue homeostasis;mouse
+GO:0006919;activation of cysteine-type endopeptidase activity involved in apoptotic process;mouse
+GO:0030500;regulation of bone mineralization;mouse
+GO:1900076;regulation of cellular response to insulin stimulus;mouse
+GO:1903201;regulation of oxidative stress-induced cell death;mouse
+GO:0033002;muscle cell proliferation;mouse
+GO:0007187;G protein-coupled receptor signaling pathway, coupled to cyclic nucleotide second messenger;mouse
+GO:0030193;regulation of blood coagulation;mouse
+GO:1904427;positive regulation of calcium ion transmembrane transport;mouse
+GO:0045930;negative regulation of mitotic cell cycle;mouse
+GO:1901215;negative regulation of neuron death;mouse
+GO:0051279;regulation of release of sequestered calcium ion into cytosol;mouse
+GO:0051781;positive regulation of cell division;mouse
+GO:1900046;regulation of hemostasis;mouse
+GO:0046777;protein autophosphorylation;mouse
+GO:0051091;positive regulation of DNA-binding transcription factor activity;mouse
+GO:0048708;astrocyte differentiation;mouse
+GO:0060976;coronary vasculature development;mouse
+GO:0051054;positive regulation of DNA metabolic process;mouse
+GO:0003208;cardiac ventricle morphogenesis;mouse
+GO:0072078;nephron tubule morphogenesis;mouse
+GO:0050708;regulation of protein secretion;mouse
+GO:0060537;muscle tissue development;mouse
+GO:0050818;regulation of coagulation;mouse
+GO:0008015;blood circulation;mouse
+GO:0032204;regulation of telomere maintenance;mouse
+GO:0034333;adherens junction assembly;mouse
+GO:0072088;nephron epithelium morphogenesis;mouse
+GO:0072028;nephron morphogenesis;mouse
+GO:0003151;outflow tract morphogenesis;mouse
+GO:0007044;cell-substrate junction assembly;mouse
+GO:0034103;regulation of tissue remodeling;mouse
+GO:0016050;vesicle organization;mouse
+GO:0003013;circulatory system process;mouse
+GO:0014015;positive regulation of gliogenesis;mouse
+GO:0034502;protein localization to chromosome;mouse
+GO:0042475;odontogenesis of dentin-containing tooth;mouse
+GO:0008608;attachment of spindle microtubules to kinetochore;yeast
+GO:0051303;establishment of chromosome localization;yeast
+GO:0010564;regulation of cell cycle process;yeast
+GO:0046785;microtubule polymerization;yeast
+GO:0070507;regulation of microtubule cytoskeleton organization;yeast
+GO:0007059;chromosome segregation;yeast
+GO:0032273;positive regulation of protein polymerization;yeast
+GO:0032886;regulation of microtubule-based process;yeast
+GO:0033043;regulation of organelle organization;yeast
+GO:0031109;microtubule polymerization or depolymerization;yeast
+GO:0034502;protein localization to chromosome;yeast
+GO:1902905;positive regulation of supramolecular fiber organization;yeast
+GO:0050000;chromosome localization;yeast
+GO:0032271;regulation of protein polymerization;yeast
+GO:0140014;mitotic nuclear division;yeast
+GO:0098813;nuclear chromosome segregation;yeast
+GO:0051726;regulation of cell cycle;yeast
+GO:1902903;regulation of supramolecular fiber organization;yeast
+GO:0051301;cell division;yeast
+GO:0051495;positive regulation of cytoskeleton organization;yeast
+GO:0031334;positive regulation of protein complex assembly;yeast
+GO:0051128;regulation of cellular component organization;yeast
+GO:0090068;positive regulation of cell cycle process;yeast
+GO:0000070;mitotic sister chromatid segregation;yeast
+GO:0051258;protein polymerization;yeast
+GO:0051983;regulation of chromosome segregation;yeast
+GO:0044089;positive regulation of cellular component biogenesis;yeast
+GO:1903047;mitotic cell cycle process;yeast
+GO:0045787;positive regulation of cell cycle;yeast
+GO:0000819;sister chromatid segregation;yeast
+GO:0006506;GPI anchor biosynthetic process;spombe
+GO:0051301;cell division;spombe
+GO:0005816;spindle pole body;spombe
+GO:0000002;mitochondrial genome maintenance;spombe
+GO:0009073;aromatic amino acid family biosynthetic process;spombe
+GO:0005789;endoplasmic reticulum membrane;spombe
+GO:0006694;steroid biosynthetic process;spombe
+GO:0000070;mitotic sister chromatid segregation;spombe
+GO:0000777;condensed chromosome kinetochore;spombe
+GO:0031511;Mis6-Sim4 complex;spombe
+GO:0000776;kinetochore;spombe
+GO:0000778;condensed nuclear chromosome kinetochore;spombe
+GO:0030176;integral component of endoplasmic reticulum membrane;spombe
+GO:0032543;mitochondrial translation;spombe
+GO:0007049;cell cycle;spombe
+GO:0016829;lyase activity;spombe
+GO:0008652;cellular amino acid biosynthetic process;spombe
+GO:0016126;sterol biosynthetic process;spombe
+GO:0000775;chromosome, centromeric region;spombe
+GO:0006696;ergosterol biosynthetic process;spombe
+GO:0006629;lipid metabolic process;spombe
+GO:0000779;condensed chromosome, centromeric region;spombe
+GO:0008202;steroid metabolic process;spombe
+GO:0005762;mitochondrial large ribosomal subunit;spombe
+GO:0000941;condensed nuclear chromosome inner kinetochore;spombe
+GO:0061641;CENP-A containing chromatin organization;spombe
+GO:0042147;retrograde transport, endosome to Golgi;spombe
+GO:0015914;phospholipid transport;spombe
+GO:0051123;RNA polymerase II preinitiation complex assembly;spombe
+GO:0006891;intra-Golgi vesicle-mediated transport;spombe
+GO:0016853;isomerase activity;spombe
+GO:0008299;isoprenoid biosynthetic process;spombe
+GO:1990456;mitochondrion-endoplasmic reticulum membrane tethering;spombe
+GO:0051455;monopolar spindle attachment to meiosis I kinetochore;spombe
+GO:0005694;chromosome;spombe
+GO:0006896;Golgi to vacuole transport;spombe
+GO:0051382;kinetochore assembly;spombe
+GO:0008152;metabolic process;spombe
+GO:0007005;mitochondrion organization;spombe
+GO:0030148;sphingolipid biosynthetic process;spombe
+GO:0090501;RNA phosphodiester bond hydrolysis;spombe
+GO:0006360;transcription by RNA polymerase I;spombe
+GO:0016226;iron-sulfur cluster assembly;spombe
+GO:0005741;mitochondrial outer membrane;spombe
+GO:0005856;cytoskeleton;spombe
+GO:0005669;transcription factor TFIID complex;spombe
+GO:0005759;mitochondrial matrix;spombe
+GO:0015031;protein transport;spombe
+GO:0006383;transcription by RNA polymerase III;spombe
+GO:0000995;RNA polymerase III general transcription initiation factor activity;spombe
+GO:0006665;sphingolipid metabolic process;spombe
+GO:0044572;[4Fe-4S] cluster assembly;spombe
+GO:0106035;protein maturation by [4Fe-4S] cluster transfer;spombe
+GO:0005763;mitochondrial small ribosomal subunit;spombe
+GO:0046982;protein heterodimerization activity;spombe
+GO:0003712;transcription coregulator activity;spombe
+GO:0009272;fungal-type cell wall biogenesis;spombe
+GO:0060261;positive regulation of transcription initiation from RNA polymerase II promoter;spombe
+GO:0044732;mitotic spindle pole body;spombe
+GO:0016251;RNA polymerase II general transcription initiation factor activity;spombe
+GO:0071555;cell wall organization;spombe
+GO:0016592;mediator complex;spombe
+GO:0003824;catalytic activity;spombe
+GO:0006886;intracellular protein transport;spombe
+GO:0008033;tRNA processing;spombe
+GO:0030173;integral component of Golgi membrane;spombe
+GO:0006367;transcription initiation from RNA polymerase II promoter;spombe
+GO:0006406;mRNA export from nucleus;spombe
+GO:0007059;chromosome segregation;spombe
+GO:0045292;mRNA cis splicing, via spliceosome;spombe

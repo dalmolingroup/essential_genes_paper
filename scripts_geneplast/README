@@ -1,5 +1,5 @@
 scripts_geneplast directory has R scripts for root inference analysis using geneplast (http://bioconductor.org/packages/release/bioc/html/geneplast.html). 
 
-It has 5 directories, 4 of them holding the geneplast scripts for each organism and the geneplast_objects directory, which holds the geneplast data (COGs and evolutionary tree) for analysis. 
+It has 5 directories, 5 of them holding the geneplast scripts for each organism and the geneplast_objects directory, which holds the geneplast data (COGs and evolutionary tree) for analysis. 
 
 It has the table_all_org.RData file, which summarises the rooting analysis from all four organisms. 

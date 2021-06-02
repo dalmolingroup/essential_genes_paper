@@ -1,0 +1,527 @@
+ID;Description
+GO:0007369;gastrulation
+GO:0030324;lung development
+GO:0030323;respiratory tube development
+GO:0060541;respiratory system development
+GO:0060840;artery development
+GO:0048844;artery morphogenesis
+GO:0007498;mesoderm development
+GO:0003007;heart morphogenesis
+GO:0001655;urogenital system development
+GO:0003205;cardiac chamber development
+GO:0003206;cardiac chamber morphogenesis
+GO:0060562;epithelial tube morphogenesis
+GO:0043010;camera-type eye development
+GO:0002262;myeloid cell homeostasis
+GO:0009791;post-embryonic development
+GO:0072001;renal system development
+GO:0034101;erythrocyte homeostasis
+GO:0003002;regionalization
+GO:0045786;negative regulation of cell cycle
+GO:0048872;homeostasis of number of cells
+GO:0051090;regulation of DNA-binding transcription factor activity
+GO:0001654;eye development
+GO:0150063;visual system development
+GO:0007389;pattern specification process
+GO:0048880;sensory system development
+GO:0060485;mesenchyme development
+GO:0003208;cardiac ventricle morphogenesis
+GO:0001701;in utero embryonic development
+GO:0010632;regulation of epithelial cell migration
+GO:0090130;tissue migration
+GO:0010948;negative regulation of cell cycle process
+GO:0007368;determination of left/right symmetry
+GO:0030218;erythrocyte differentiation
+GO:0009855;determination of bilateral symmetry
+GO:0009799;specification of symmetry
+GO:0043542;endothelial cell migration
+GO:1903706;regulation of hemopoiesis
+GO:0001707;mesoderm formation
+GO:0003231;cardiac ventricle development
+GO:1903708;positive regulation of hemopoiesis
+GO:0048332;mesoderm morphogenesis
+GO:0010594;regulation of endothelial cell migration
+GO:0007346;regulation of mitotic cell cycle
+GO:0007517;muscle organ development
+GO:0001822;kidney development
+GO:0010631;epithelial cell migration
+GO:0090132;epithelium migration
+GO:0014706;striated muscle tissue development
+GO:0009952;anterior/posterior pattern specification
+GO:0055008;cardiac muscle tissue morphogenesis
+GO:0048565;digestive tract development
+GO:0045930;negative regulation of mitotic cell cycle
+GO:0060537;muscle tissue development
+GO:0035050;embryonic heart tube development
+GO:1901343;negative regulation of vasculature development
+GO:0022407;regulation of cell-cell adhesion
+GO:0048732;gland development
+GO:0048754;branching morphogenesis of an epithelial tube
+GO:0003151;outflow tract morphogenesis
+GO:0030099;myeloid cell differentiation
+GO:0071459;protein localization to chromosome, centromeric region
+GO:0055123;digestive system development
+GO:0048738;cardiac muscle tissue development
+GO:0001656;metanephros development
+GO:2000677;regulation of transcription regulatory region DNA binding
+GO:0001667;ameboidal-type cell migration
+GO:0048568;embryonic organ development
+GO:0060415;muscle tissue morphogenesis
+GO:0001974;blood vessel remodeling
+GO:2000679;positive regulation of transcription regulatory region DNA binding
+GO:0001704;formation of primary germ layer
+GO:0055010;ventricular cardiac muscle tissue morphogenesis
+GO:1903671;negative regulation of sprouting angiogenesis
+GO:0002042;cell migration involved in sprouting angiogenesis
+GO:0048644;muscle organ morphogenesis
+GO:0002011;morphogenesis of an epithelial sheet
+GO:0043473;pigmentation
+GO:0048608;reproductive structure development
+GO:0061458;reproductive system development
+GO:0061138;morphogenesis of a branching epithelium
+GO:0003229;ventricular cardiac muscle tissue development
+GO:0035904;aorta development
+GO:1902807;negative regulation of cell cycle G1/S phase transition
+GO:1901988;negative regulation of cell cycle phase transition
+GO:0048863;stem cell differentiation
+GO:0043388;positive regulation of DNA binding
+GO:0072009;nephron epithelium development
+GO:0060425;lung morphogenesis
+GO:0016525;negative regulation of angiogenesis
+GO:0044770;cell cycle phase transition
+GO:0033002;muscle cell proliferation
+GO:2000181;negative regulation of blood vessel morphogenesis
+GO:0048566;embryonic digestive tract development
+GO:0002040;sprouting angiogenesis
+GO:1903670;regulation of sprouting angiogenesis
+GO:0051091;positive regulation of DNA-binding transcription factor activity
+GO:0001763;morphogenesis of a branching structure
+GO:0061564;axon development
+GO:0035909;aorta morphogenesis
+GO:0001702;gastrulation with mouth forming second
+GO:0050673;epithelial cell proliferation
+GO:0051101;regulation of DNA binding
+GO:1901342;regulation of vasculature development
+GO:0048771;tissue remodeling
+GO:0090049;regulation of cell migration involved in sprouting angiogenesis
+GO:0060976;coronary vasculature development
+GO:0045995;regulation of embryonic development
+GO:0030336;negative regulation of cell migration
+GO:0043154;negative regulation of cysteine-type endopeptidase activity involved in apoptotic process
+GO:0044772;mitotic cell cycle phase transition
+GO:1901605;alpha-amino acid metabolic process
+GO:0043281;regulation of cysteine-type endopeptidase activity involved in apoptotic process
+GO:2000826;regulation of heart morphogenesis
+GO:0050678;regulation of epithelial cell proliferation
+GO:0014032;neural crest cell development
+GO:2000117;negative regulation of cysteine-type endopeptidase activity
+GO:2000146;negative regulation of cell motility
+GO:1903037;regulation of leukocyte cell-cell adhesion
+GO:0010634;positive regulation of epithelial cell migration
+GO:0072006;nephron development
+GO:1901991;negative regulation of mitotic cell cycle phase transition
+GO:0072073;kidney epithelium development
+GO:1901987;regulation of cell cycle phase transition
+GO:0014031;mesenchymal cell development
+GO:0032526;response to retinoic acid
+GO:0003179;heart valve morphogenesis
+GO:0045637;regulation of myeloid cell differentiation
+GO:0001503;ossification
+GO:0048864;stem cell development
+GO:0048762;mesenchymal cell differentiation
+GO:0014033;neural crest cell differentiation
+GO:0010595;positive regulation of endothelial cell migration
+GO:2000116;regulation of cysteine-type endopeptidase activity
+GO:0045639;positive regulation of myeloid cell differentiation
+GO:0045765;regulation of angiogenesis
+GO:0010035;response to inorganic substance
+GO:0048066;developmental pigmentation
+GO:0001946;lymphangiogenesis
+GO:0061162;establishment of monopolar cell polarity
+GO:0021700;developmental maturation
+GO:0042035;regulation of cytokine biosynthetic process
+GO:0051271;negative regulation of cellular component movement
+GO:0035272;exocrine system development
+GO:0007159;leukocyte cell-cell adhesion
+GO:0032682;negative regulation of chemokine production
+GO:0036303;lymph vessel morphogenesis
+GO:0048569;post-embryonic animal organ development
+GO:0061339;establishment or maintenance of monopolar cell polarity
+GO:0048562;embryonic organ morphogenesis
+GO:0034405;response to fluid shear stress
+GO:0019751;polyol metabolic process
+GO:0001823;mesonephros development
+GO:0003170;heart valve development
+GO:0001947;heart looping
+GO:0032835;glomerulus development
+GO:2000134;negative regulation of G1/S transition of mitotic cell cycle
+GO:0001818;negative regulation of cytokine production
+GO:0048286;lung alveolus development
+GO:0040013;negative regulation of locomotion
+GO:0060038;cardiac muscle cell proliferation
+GO:0042089;cytokine biosynthetic process
+GO:0043534;blood vessel endothelial cell migration
+GO:0007219;Notch signaling pathway
+GO:1901990;regulation of mitotic cell cycle phase transition
+GO:0071695;anatomical structure maturation
+GO:0022408;negative regulation of cell-cell adhesion
+GO:0042107;cytokine metabolic process
+GO:0003143;embryonic heart tube morphogenesis
+GO:0009064;glutamine family amino acid metabolic process
+GO:0061371;determination of heart left/right asymmetry
+GO:1902806;regulation of cell cycle G1/S phase transition
+GO:0006520;cellular amino acid metabolic process
+GO:0007178;transmembrane receptor protein serine/threonine kinase signaling pathway
+GO:0001945;lymph vessel development
+GO:0006623;protein targeting to vacuole
+GO:0010633;negative regulation of epithelial cell migration
+GO:0007409;axonogenesis
+GO:0042036;negative regulation of cytokine biosynthetic process
+GO:0060218;hematopoietic stem cell differentiation
+GO:1905314;semi-lunar valve development
+GO:0140014;mitotic nuclear division
+GO:0001101;response to acid chemical
+GO:0061448;connective tissue development
+GO:0007162;negative regulation of cell adhesion
+GO:0003279;cardiac septum development
+GO:0006829;zinc ion transport
+GO:0019884;antigen processing and presentation of exogenous antigen
+GO:0048736;appendage development
+GO:0060173;limb development
+GO:0072593;reactive oxygen species metabolic process
+GO:0007093;mitotic cell cycle checkpoint
+GO:0043537;negative regulation of blood vessel endothelial cell migration
+GO:0001738;morphogenesis of a polarized epithelium
+GO:0014855;striated muscle cell proliferation
+GO:0060487;lung epithelial cell differentiation
+GO:0048871;multicellular organismal homeostasis
+GO:0032088;negative regulation of NF-kappaB transcription factor activity
+GO:0051783;regulation of nuclear division
+GO:0009411;response to UV
+GO:0060479;lung cell differentiation
+GO:0030900;forebrain development
+GO:0042110;T cell activation
+GO:0051186;cofactor metabolic process
+GO:0003209;cardiac atrium morphogenesis
+GO:0061462;protein localization to lysosome
+GO:0097366;response to bronchodilator
+GO:0060249;anatomical structure homeostasis
+GO:0050863;regulation of T cell activation
+GO:0060441;epithelial tube branching involved in lung morphogenesis
+GO:0034614;cellular response to reactive oxygen species
+GO:0071241;cellular response to inorganic substance
+GO:0050931;pigment cell differentiation
+GO:0061384;heart trabecula morphogenesis
+GO:0001756;somitogenesis
+GO:0033045;regulation of sister chromatid segregation
+GO:0045785;positive regulation of cell adhesion
+GO:0034502;protein localization to chromosome
+GO:0007435;salivary gland morphogenesis
+GO:0030501;positive regulation of bone mineralization
+GO:0007411;axon guidance
+GO:0097485;neuron projection guidance
+GO:0010717;regulation of epithelial to mesenchymal transition
+GO:0060411;cardiac septum morphogenesis
+GO:0003230;cardiac atrium development
+GO:0048821;erythrocyte development
+GO:0072666;establishment of protein localization to vacuole
+GO:0090257;regulation of muscle system process
+GO:0006813;potassium ion transport
+GO:0043535;regulation of blood vessel endothelial cell migration
+GO:0000280;nuclear division
+GO:0016055;Wnt signaling pathway
+GO:0071900;regulation of protein serine/threonine kinase activity
+GO:0045444;fat cell differentiation
+GO:0007431;salivary gland development
+GO:0010470;regulation of gastrulation
+GO:0110111;negative regulation of animal organ morphogenesis
+GO:0198738;cell-cell signaling by wnt
+GO:0043433;negative regulation of DNA-binding transcription factor activity
+GO:0052548;regulation of endopeptidase activity
+GO:0007179;transforming growth factor beta receptor signaling pathway
+GO:0048660;regulation of smooth muscle cell proliferation
+GO:0001569;branching involved in blood vessel morphogenesis
+GO:0032924;activin receptor signaling pathway
+GO:1902107;positive regulation of leukocyte differentiation
+GO:0006260;DNA replication
+GO:0009636;response to toxic substance
+GO:0035088;establishment or maintenance of apical/basal cell polarity
+GO:0050891;multicellular organismal water homeostasis
+GO:0061245;establishment or maintenance of bipolar cell polarity
+GO:0000082;G1/S transition of mitotic cell cycle
+GO:0072080;nephron tubule development
+GO:0045778;positive regulation of ossification
+GO:0048659;smooth muscle cell proliferation
+GO:0008089;anterograde axonal transport
+GO:0033013;tetrapyrrole metabolic process
+GO:0047496;vesicle transport along microtubule
+GO:0048010;vascular endothelial growth factor receptor signaling pathway
+GO:0070169;positive regulation of biomineral tissue development
+GO:0006281;DNA repair
+GO:0055017;cardiac muscle tissue growth
+GO:0042326;negative regulation of phosphorylation
+GO:0033044;regulation of chromosome organization
+GO:0003197;endocardial cushion development
+GO:0031103;axon regeneration
+GO:0032715;negative regulation of interleukin-6 production
+GO:0033046;negative regulation of sister chromatid segregation
+GO:0045429;positive regulation of nitric oxide biosynthetic process
+GO:1904407;positive regulation of nitric oxide metabolic process
+GO:0061053;somite development
+GO:0001657;ureteric bud development
+GO:0061326;renal tubule development
+GO:0072163;mesonephric epithelium development
+GO:0072164;mesonephric tubule development
+GO:0006479;protein methylation
+GO:0008213;protein alkylation
+GO:0071300;cellular response to retinoic acid
+GO:0043266;regulation of potassium ion transport
+GO:0051983;regulation of chromosome segregation
+GO:0000075;cell cycle checkpoint
+GO:0007088;regulation of mitotic nuclear division
+GO:0010951;negative regulation of endopeptidase activity
+GO:0019882;antigen processing and presentation
+GO:0010596;negative regulation of endothelial cell migration
+GO:0030104;water homeostasis
+GO:0045646;regulation of erythrocyte differentiation
+GO:0046638;positive regulation of alpha-beta T cell differentiation
+GO:0045787;positive regulation of cell cycle
+GO:2000045;regulation of G1/S transition of mitotic cell cycle
+GO:0044843;cell cycle G1/S phase transition
+GO:0051985;negative regulation of chromosome segregation
+GO:0060428;lung epithelium development
+GO:0099518;vesicle cytoskeletal trafficking
+GO:0010038;response to metal ion
+GO:0030217;T cell differentiation
+GO:0016331;morphogenesis of embryonic epithelium
+GO:0048285;organelle fission
+GO:0060761;negative regulation of response to cytokine stimulus
+GO:0061614;pri-miRNA transcription by RNA polymerase II
+GO:0072132;mesenchyme morphogenesis
+GO:0090100;positive regulation of transmembrane receptor protein serine/threonine kinase signaling pathway
+GO:0035282;segmentation
+GO:0060419;heart growth
+GO:0002833;positive regulation of response to biotic stimulus
+GO:0045599;negative regulation of fat cell differentiation
+GO:0072665;protein localization to vacuole
+GO:0060070;canonical Wnt signaling pathway
+GO:0007618;mating
+GO:0030071;regulation of mitotic metaphase/anaphase transition
+GO:0061383;trabecula morphogenesis
+GO:0098930;axonal transport
+GO:0042476;odontogenesis
+GO:1903409;reactive oxygen species biosynthetic process
+GO:0016051;carbohydrate biosynthetic process
+GO:0044262;cellular carbohydrate metabolic process
+GO:0002704;negative regulation of leukocyte mediated immunity
+GO:0030199;collagen fibril organization
+GO:0071229;cellular response to acid chemical
+GO:0009611;response to wounding
+GO:0021915;neural tube development
+GO:0097479;synaptic vesicle localization
+GO:0046620;regulation of organ growth
+GO:0048469;cell maturation
+GO:0007062;sister chromatid cohesion
+GO:0003158;endothelium development
+GO:0031102;neuron projection regeneration
+GO:1902099;regulation of metaphase/anaphase transition of cell cycle
+GO:0003012;muscle system process
+GO:0000302;response to reactive oxygen species
+GO:0001889;liver development
+GO:0008584;male gonad development
+GO:0050679;positive regulation of epithelial cell proliferation
+GO:0007091;metaphase/anaphase transition of mitotic cell cycle
+GO:1901016;regulation of potassium ion transmembrane transporter activity
+GO:0046546;development of primary male sexual characteristics
+GO:0007548;sex differentiation
+GO:0006066;alcohol metabolic process
+GO:0071214;cellular response to abiotic stimulus
+GO:0104004;cellular response to environmental stimulus
+GO:1902105;regulation of leukocyte differentiation
+GO:0010965;regulation of mitotic sister chromatid separation
+GO:0061008;hepaticobiliary system development
+GO:0071560;cellular response to transforming growth factor beta stimulus
+GO:0060986;endocrine hormone secretion
+GO:1903428;positive regulation of reactive oxygen species biosynthetic process
+GO:0032103;positive regulation of response to external stimulus
+GO:0043062;extracellular structure organization
+GO:0009314;response to radiation
+GO:0044784;metaphase/anaphase transition of cell cycle
+GO:0030522;intracellular receptor signaling pathway
+GO:0070206;protein trimerization
+GO:0097006;regulation of plasma lipoprotein particle levels
+GO:2000736;regulation of stem cell differentiation
+GO:0051099;positive regulation of binding
+GO:0071559;response to transforming growth factor beta
+GO:0008361;regulation of cell size
+GO:0048678;response to axon injury
+GO:0051306;mitotic sister chromatid separation
+GO:0007163;establishment or maintenance of cell polarity
+GO:0001936;regulation of endothelial cell proliferation
+GO:0001933;negative regulation of protein phosphorylation
+GO:1903038;negative regulation of leukocyte cell-cell adhesion
+GO:0052547;regulation of peptidase activity
+GO:2000242;negative regulation of reproductive process
+GO:1905818;regulation of chromosome separation
+GO:0001837;epithelial to mesenchymal transition
+GO:0044282;small molecule catabolic process
+GO:0008406;gonad development
+GO:0030239;myofibril assembly
+GO:0001508;action potential
+GO:0031099;regeneration
+GO:0045598;regulation of fat cell differentiation
+GO:0000079;regulation of cyclin-dependent protein serine/threonine kinase activity
+GO:0045428;regulation of nitric oxide biosynthetic process
+GO:0045137;development of primary sexual characteristics
+GO:0030010;establishment of cell polarity
+GO:0032495;response to muramyl dipeptide
+GO:0045408;regulation of interleukin-6 biosynthetic process
+GO:0050765;negative regulation of phagocytosis
+GO:0071157;negative regulation of cell cycle arrest
+GO:1990182;exosomal secretion
+GO:0046635;positive regulation of alpha-beta T cell activation
+GO:0006081;cellular aldehyde metabolic process
+GO:0046637;regulation of alpha-beta T cell differentiation
+GO:0007050;cell cycle arrest
+GO:0016571;histone methylation
+GO:0009410;response to xenobiotic stimulus
+GO:0003283;atrial septum development
+GO:0031290;retinal ganglion cell axon guidance
+GO:0042226;interleukin-6 biosynthetic process
+GO:0051023;regulation of immunoglobulin secretion
+GO:0097734;extracellular exosome biogenesis
+GO:0032387;negative regulation of intracellular transport
+GO:0033047;regulation of mitotic sister chromatid segregation
+GO:0045669;positive regulation of osteoblast differentiation
+GO:0048706;embryonic skeletal system development
+GO:0032675;regulation of interleukin-6 production
+GO:0006094;gluconeogenesis
+GO:1904029;regulation of cyclin-dependent protein kinase activity
+GO:0031589;cell-substrate adhesion
+GO:0001935;endothelial cell proliferation
+GO:0008088;axo-dendritic transport
+GO:0007063;regulation of sister chromatid cohesion
+GO:0048339;paraxial mesoderm development
+GO:0060438;trachea development
+GO:0060749;mammary gland alveolus development
+GO:0061377;mammary gland lobule development
+GO:0001894;tissue homeostasis
+GO:0048545;response to steroid hormone
+GO:0030326;embryonic limb morphogenesis
+GO:0035113;embryonic appendage morphogenesis
+GO:0019319;hexose biosynthetic process
+GO:0021766;hippocampus development
+GO:0051145;smooth muscle cell differentiation
+GO:0030856;regulation of epithelial cell differentiation
+GO:0042133;neurotransmitter metabolic process
+GO:2001251;negative regulation of chromosome organization
+GO:0034383;low-density lipoprotein particle clearance
+GO:0042044;fluid transport
+GO:0048333;mesodermal cell differentiation
+GO:0051457;maintenance of protein location in nucleus
+GO:0140112;extracellular vesicle biogenesis
+GO:0022409;positive regulation of cell-cell adhesion
+GO:0006809;nitric oxide biosynthetic process
+GO:0022612;gland morphogenesis
+GO:0032635;interleukin-6 production
+GO:0045580;regulation of T cell differentiation
+GO:0030500;regulation of bone mineralization
+GO:0061515;myeloid cell development
+GO:0070373;negative regulation of ERK1 and ERK2 cascade
+GO:0072384;organelle transport along microtubule
+GO:0006937;regulation of muscle contraction
+GO:0001829;trophectodermal cell differentiation
+GO:0003181;atrioventricular valve morphogenesis
+GO:0006882;cellular zinc ion homeostasis
+GO:0009065;glutamine family amino acid catabolic process
+GO:0034114;regulation of heterotypic cell-cell adhesion
+GO:0046688;response to copper ion
+GO:0071248;cellular response to metal ion
+GO:0050878;regulation of body fluid levels
+GO:0046661;male sex differentiation
+GO:0046209;nitric oxide metabolic process
+GO:0010466;negative regulation of peptidase activity
+GO:0002244;hematopoietic progenitor cell differentiation
+GO:0007569;cell aging
+GO:0045648;positive regulation of erythrocyte differentiation
+GO:0046823;negative regulation of nucleocytoplasmic transport
+GO:0055069;zinc ion homeostasis
+GO:0072012;glomerulus vasculature development
+GO:1901018;positive regulation of potassium ion transmembrane transporter activity
+GO:2000738;positive regulation of stem cell differentiation
+GO:0033143;regulation of intracellular steroid hormone receptor signaling pathway
+GO:0050805;negative regulation of synaptic transmission
+GO:1901992;positive regulation of mitotic cell cycle phase transition
+GO:1901615;organic hydroxy compound metabolic process
+GO:0046364;monosaccharide biosynthetic process
+GO:0002683;negative regulation of immune system process
+GO:0015672;monovalent inorganic cation transport
+GO:1903707;negative regulation of hemopoiesis
+GO:0007620;copulation
+GO:0030318;melanocyte differentiation
+GO:0055003;cardiac myofibril assembly
+GO:0061437;renal system vasculature development
+GO:0061440;kidney vasculature development
+GO:0097237;cellular response to toxic substance
+GO:0008593;regulation of Notch signaling pathway
+GO:0021537;telencephalon development
+GO:0030198;extracellular matrix organization
+GO:2001057;reactive nitrogen species metabolic process
+GO:0002724;regulation of T cell cytokine production
+GO:0003171;atrioventricular valve development
+GO:0010971;positive regulation of G2/M transition of mitotic cell cycle
+GO:0032925;regulation of activin receptor signaling pathway
+GO:0036297;interstrand cross-link repair
+GO:0048305;immunoglobulin secretion
+GO:0061311;cell surface receptor signaling pathway involved in heart development
+GO:1901652;response to peptide
+GO:0032642;regulation of chemokine production
+GO:0070301;cellular response to hydrogen peroxide
+GO:1901379;regulation of potassium ion transmembrane transport
+GO:0008015;blood circulation
+GO:0060041;retina development in camera-type eye
+GO:0050821;protein stabilization
+GO:0071897;DNA biosynthetic process
+GO:0042475;odontogenesis of dentin-containing tooth
+GO:0045931;positive regulation of mitotic cell cycle
+GO:0010719;negative regulation of epithelial to mesenchymal transition
+GO:0060445;branching involved in salivary gland morphogenesis
+GO:0061298;retina vasculature development in camera-type eye
+GO:1903034;regulation of response to wounding
+GO:0035690;cellular response to drug
+GO:0030509;BMP signaling pathway
+GO:0003013;circulatory system process
+GO:0034599;cellular response to oxidative stress
+GO:0003148;outflow tract septum morphogenesis
+GO:0048384;retinoic acid receptor signaling pathway
+GO:0000041;transition metal ion transport
+GO:0032602;chemokine production
+GO:0071383;cellular response to steroid hormone stimulus
+GO:0033077;T cell differentiation in thymus
+GO:0002902;regulation of B cell apoptotic process
+GO:0008608;attachment of spindle microtubules to kinetochore
+GO:0033273;response to vitamin
+GO:0048679;regulation of axon regeneration
+GO:1902751;positive regulation of cell cycle G2/M phase transition
+GO:2000272;negative regulation of signaling receptor activity
+GO:0009063;cellular amino acid catabolic process
+GO:0050764;regulation of phagocytosis
+GO:0001505;regulation of neurotransmitter levels
+GO:0071407;cellular response to organic cyclic compound
+GO:0043409;negative regulation of MAPK cascade
+GO:0070167;regulation of biomineral tissue development
+GO:0033081;regulation of T cell differentiation in thymus
+GO:0090162;establishment of epithelial cell polarity
+GO:1901989;positive regulation of cell cycle phase transition
+GO:0035107;appendage morphogenesis
+GO:0035108;limb morphogenesis
+GO:0007041;lysosomal transport
+GO:0072594;establishment of protein localization to organelle
+GO:0001964;startle response
+GO:0006536;glutamate metabolic process
+GO:0006884;cell volume homeostasis
+GO:0042558;pteridine-containing compound metabolic process
+GO:0060561;apoptotic process involved in morphogenesis
+GO:0006892;post-Golgi vesicle-mediated transport
+GO:0071772;response to BMP
+GO:0071773;cellular response to BMP stimulus

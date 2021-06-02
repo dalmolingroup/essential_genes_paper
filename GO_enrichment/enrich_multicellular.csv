@@ -1,0 +1,76 @@
+go_id,Term
+GO:0001667,ameboidal-type cell migration
+GO:0001704,formation of primary germ layer
+GO:0001707,mesoderm formation
+GO:0001708,cell fate specification
+GO:0001933,negative regulation of protein phosphorylation
+GO:0003012,muscle system process
+GO:0006936,muscle contraction
+GO:0016055,Wnt signaling pathway
+GO:0044772,mitotic cell cycle phase transition
+GO:0007219,Notch signaling pathway
+GO:0007346,regulation of mitotic cell cycle
+GO:0007369,gastrulation
+GO:0007411,axon guidance
+GO:0007498,mesoderm development
+GO:0007517,muscle organ development
+GO:0007548,sex differentiation
+GO:0007631,feeding behavior
+GO:0008406,gonad development
+GO:0008544,epidermis development
+GO:0009611,response to wounding
+GO:0010721,negative regulation of cell development
+GO:0010948,negative regulation of cell cycle process
+GO:0030198,extracellular matrix organization
+GO:0030866,cortical actin cytoskeleton organization
+GO:0032103,positive regulation of response to external stimulus
+GO:0044770,cell cycle phase transition
+GO:0034329,cell junction assembly
+GO:0034330,cell junction organization
+GO:0035264,multicellular organism growth
+GO:0040018,positive regulation of multicellular organism growth
+GO:0042303,molting cycle
+GO:0042326,negative regulation of phosphorylation
+GO:0043062,extracellular structure organization
+GO:0043900,regulation of multi-organism process
+GO:0045137,development of primary sexual characteristics
+GO:0045165,cell fate commitment
+GO:0045666,positive regulation of neuron differentiation
+GO:0045786,negative regulation of cell cycle
+GO:0045927,positive regulation of growth
+GO:0045930,negative regulation of mitotic cell cycle
+GO:0045995,regulation of embryonic development
+GO:0046661,male sex differentiation
+GO:0048332,mesoderm morphogenesis
+GO:0048333,mesodermal cell differentiation
+GO:0048546,digestive tract morphogenesis
+GO:0048565,digestive tract development
+GO:0048568,embryonic organ development
+GO:0048608,reproductive structure development
+GO:0048638,regulation of developmental growth
+GO:0048639,positive regulation of developmental growth
+GO:0048678,response to axon injury
+GO:0050795,regulation of behavior
+GO:0051648,vesicle localization
+GO:0051650,establishment of vesicle localization
+GO:0051656,establishment of organelle localization
+GO:0051983,regulation of chromosome segregation
+GO:0055123,digestive system development
+GO:0060795,cell fate commitment involved in formation of primary germ layer
+GO:0061458,reproductive system development
+GO:0061564,axon development
+GO:0070371,ERK1 and ERK2 cascade
+GO:0070372,regulation of ERK1 and ERK2 cascade
+GO:0070374,positive regulation of ERK1 and ERK2 cascade
+GO:0071695,anatomical structure maturation
+GO:0099003,vesicle-mediated transport in synapse
+GO:0198738,cell-cell signaling by wnt
+GO:1901987,regulation of cell cycle phase transition
+GO:1901988,negative regulation of cell cycle phase transition
+GO:1901990,regulation of mitotic cell cycle phase transition
+GO:1901991,negative regulation of mitotic cell cycle phase transition
+GO:1903034,regulation of response to wounding
+GO:1903532,positive regulation of secretion by cell
+GO:2000027,regulation of animal organ morphogenesis
+GO:2000241,regulation of reproductive process
+GO:2000243,positive regulation of reproductive process

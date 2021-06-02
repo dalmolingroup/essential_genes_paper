@@ -67,11 +67,11 @@ options(cluster=makeCluster(3, "SOCK"))
 ogr_yeast <- groot(ogr_yeast, nPermutations = 10000, verbose = FALSE)
 stopCluster(getOption("cluster"))
 
-# grootResggsignif
+# groot
 res_root_yeast <- groot.get(ogr_yeast, what = "results")
 
 # Phylotree
-groot.plot(ogr_yeast, plot.lcas = T, "scripts_geneplast/yeast/tree_yeast.pdf")
+groot.plot(ogr_yeast, plot.lcas = T, fname = "scripts_geneplast/yeast/tree_yeast.pdf", height = 20, width = 10)
 
 # MERGE TABLES OF ROOT INFERENCE AND GENES
 res_root_yeast$cog_id <- rownames(res_root_yeast)
